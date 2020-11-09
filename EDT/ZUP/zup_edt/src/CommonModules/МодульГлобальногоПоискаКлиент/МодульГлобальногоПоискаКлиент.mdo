@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e777b74d-6934-411c-abb9-ab3a29964bbf">
+  <name>МодульГлобальногоПоискаКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модуль глобального поиска клиент</value>
+  </synonym>
+  <comment>АПК:73 общее слово &quot;Модуль&quot; использовано, потому что существует метод глобального контекста ГлобальныйПоиск</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

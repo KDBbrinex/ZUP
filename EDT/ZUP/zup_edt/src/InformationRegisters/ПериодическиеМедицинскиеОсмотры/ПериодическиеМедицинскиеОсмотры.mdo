@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b06ef2e-bd5d-4a00-9afa-5e9f700fe4b4">
+  <producedTypes>
+    <selectionType typeId="923755f9-0c48-4375-b6bd-ae1f5a7359e0" valueTypeId="3e40be04-4879-4395-ae06-31d423fc6bff"/>
+    <listType typeId="994457e9-aa83-47be-9a87-c9bbd4f086c9" valueTypeId="6eacebea-e139-4882-94dc-6bebd18e08b4"/>
+    <managerType typeId="8190f475-3a85-46c9-b568-538ae0b7589e" valueTypeId="df5aee00-1ae6-4c4a-9184-ee3b9d04dd01"/>
+    <recordSetType typeId="3840f067-fd43-49f1-a651-c3ef6e33dfbf" valueTypeId="4b63a863-da00-498e-b855-de7e1b3c554f"/>
+    <recordKeyType typeId="e0a8a668-0c6a-4165-9c81-22dabc45c22a" valueTypeId="9edd1750-fc04-4363-bd99-fd70dcb3794d"/>
+    <recordType typeId="07b967a3-6ee3-4fb5-b531-735f91d9d5db" valueTypeId="39c36dc3-ba74-46a7-bbd1-6e812880840f"/>
+    <recordManagerType typeId="6a29e35b-e475-4ddb-8d99-468a52a77fb0" valueTypeId="0089f9fe-6cfb-45fe-ae65-5b5662f9b727"/>
+  </producedTypes>
+  <name>ПериодическиеМедицинскиеОсмотры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодические медицинские осмотры</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b5ed6163-75a3-4529-b211-8494f19e8a3f">
+    <name>РезультатОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатыМедицинскогоОсмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21454297-57f1-40db-ab95-563fd69a75fc">
+    <name>ДатаПройденногоОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата пройденного осмотра</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="0f5a1af7-aca1-410f-8868-1615d704290b">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НаправлениеНаМедицинскийОсмотр</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d59afa51-b5fb-4c3d-ba99-e24fd9170686">
+    <name>Заключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаключениеМедицинскогоОсмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ff55d0a2-1754-4cd3-b81c-4471687337e6">
+    <name>ДатаСледующегоОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата следующего осмотра</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7edd2000-52b4-4c96-adbb-78e314a411d0">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="305d8c8c-e743-49eb-ae09-76f2dda2b609">
+    <name>Позиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3c0aff90-1677-47d6-b391-25484ce40b77">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

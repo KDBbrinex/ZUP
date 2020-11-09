@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311589be-f825-466e-9fd8-529870c8b42d">
+  <producedTypes>
+    <containerType typeId="09d07687-2919-4297-a1ea-0e748ed08db5" valueTypeId="e4fa7b49-e562-49e8-ad52-150f8a771cdb"/>
+  </producedTypes>
+  <name>ПредметУведомленийСсылка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет уведомлений ссылка</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.Кандидаты</types>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>DocumentRef.ЗаявкаНаОтпуск</types>
+    <types>DocumentRef.ПриемНаРаботу</types>
+    <types>DocumentRef.ГрафикОтпусков</types>
+    <types>DocumentRef.ПриемНаРаботуСписком</types>
+  </type>
+</mdclass:DefinedType>

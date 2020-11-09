@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f399f59-fda7-49ef-a8b8-2cf60d47e732">
+  <name>СинхронизацияDAV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация DAV</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияDAV</content>
+  <content>CommonPicture.iCloudLogo</content>
+  <content>InformationRegister.НастройкиСинхронизацииDAV</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

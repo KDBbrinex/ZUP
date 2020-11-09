@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23b58e9e-8f9a-4e3c-ba45-a3c8fb349f99">
+  <producedTypes>
+    <containerType typeId="cb76d662-06f0-44da-a185-9ebc2068e4ad" valueTypeId="4e5e7746-a26c-41e0-a36d-41a43903fbda"/>
+  </producedTypes>
+  <name>ПредметУведомленийОбИзмененияхДокументОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет уведомлений об изменениях документ объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.ЗаявкаНаОтпуск</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a87d11a9-edf6-415c-a42b-8c41b2bd005d">
+  <name>ИспользоватьСогласованиеВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать согласование вакансий</value>
+  </synonym>
+  <location>InformationRegister.НастройкиПодбораПерсонала.Resource.ИспользоватьСогласованиеВакансий</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.СогласованиеВакансий.Command.СогласованиеВакансий</content>
+  <content>InformationRegister.СогласованиеВакансий.Command.Согласовать</content>
+  <content>InformationRegister.СогласованиеВакансий.Command.Отклонить</content>
+  <content>InformationRegister.СогласованиеВакансий.Command.ОтменитьРешение</content>
+</mdclass:FunctionalOption>

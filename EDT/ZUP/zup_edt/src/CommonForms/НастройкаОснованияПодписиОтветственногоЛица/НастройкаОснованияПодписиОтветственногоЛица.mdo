@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da4c2f55-7aca-4653-8165-b8458ea0538d">
+  <name>НастройкаОснованияПодписиОтветственногоЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка основания подписи ответственного лица</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

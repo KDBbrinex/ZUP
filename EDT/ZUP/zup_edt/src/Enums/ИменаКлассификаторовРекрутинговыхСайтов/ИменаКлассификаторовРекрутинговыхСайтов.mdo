@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48fee3c3-72b9-4dd3-a4ff-592bc199c4e0">
+  <producedTypes>
+    <refType typeId="8d2dcc4f-6489-4337-b1ac-6990c3757d3f" valueTypeId="37f4734f-c28b-418f-8d1b-44e51d4bb544"/>
+    <listType typeId="4729d450-fcc5-4941-99b3-cabe0315738d" valueTypeId="256ab7ff-6706-41b3-a2d3-87f6a326f90e"/>
+    <managerType typeId="a8e70a73-2c1f-4ca8-aeb8-4627e23d00b7" valueTypeId="0cf39660-691e-44cc-a5b7-eab242d5b19c"/>
+  </producedTypes>
+  <name>ИменаКлассификаторовРекрутинговыхСайтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена классификаторов рекрутинговых сайтов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="999ab63d-2b9c-45d5-b5e6-eda3b8cf3586">
+    <name>currency_list</name>
+    <synonym>
+      <key>ru</key>
+      <value>currency_list</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4ee278a-c3ec-4895-9ad5-aa6992975c0b">
+    <name>education_vacancy</name>
+    <synonym>
+      <key>ru</key>
+      <value>education_vacancy</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37f85fd2-bb08-471c-a760-ac464481006b">
+    <name>geo</name>
+    <synonym>
+      <key>ru</key>
+      <value>geo</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9dd48aaa-e497-4335-ac59-1c7acf3eb5c0">
+    <name>payment_per_month</name>
+    <synonym>
+      <key>ru</key>
+      <value>payment_per_month</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1600ce1-8ab3-4771-b545-9c9a9db91dcf">
+    <name>payment_type_alias</name>
+    <synonym>
+      <key>ru</key>
+      <value>payment_type_alias</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53af7a61-ce35-4482-ab5c-4c8cfa11ef2a">
+    <name>periods</name>
+    <synonym>
+      <key>ru</key>
+      <value>periods</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe504460-bceb-4932-9c09-d9939e6ca098">
+    <name>rubrics</name>
+    <synonym>
+      <key>ru</key>
+      <value>rubrics</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86a8622d-d556-4f6c-947f-00e6e032e8bf">
+    <name>scheduler</name>
+    <synonym>
+      <key>ru</key>
+      <value>scheduler</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73f88643-f019-43f4-98f1-470ae88a6a7e">
+    <name>specialities</name>
+    <synonym>
+      <key>ru</key>
+      <value>specialities</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01e9f67d-84cc-49ad-92d6-d0106b3abc45">
+    <name>workingTypes</name>
+    <synonym>
+      <key>ru</key>
+      <value>workingTypes</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d81f8988-d205-4059-bcfc-916b2ecd890d">
+    <name>workLength</name>
+    <synonym>
+      <key>ru</key>
+      <value>workLength</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb1656a6-6cec-4821-980d-c4eebdab58ff">
+    <name>education_resume</name>
+    <synonym>
+      <key>ru</key>
+      <value>education_resume</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68c13508-6558-4e35-b878-71166cb4e1d9">
+    <name>sex</name>
+    <synonym>
+      <key>ru</key>
+      <value>sex</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

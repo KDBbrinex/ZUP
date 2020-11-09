@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef15d5f6-5b4e-4642-a447-f006fd87a247">
+  <name>кдОбменУТЗУППередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кд обмен УТЗУППеред удалением</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ФизическиеЛица</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.кдИнтеграцияЗУП_УТ.кдОбменУТЗУППередУдалениемПередУдалением</handler>
+</mdclass:EventSubscription>

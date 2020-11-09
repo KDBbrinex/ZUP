@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="863ed569-1ddc-4eb7-a0e8-fe945b4bb45a">
+  <producedTypes>
+    <containerType typeId="035076c2-4eae-498a-a437-ff682b31cdfd" valueTypeId="3ddce7c8-bfb7-4e0f-bb99-3c55b246b1f4"/>
+  </producedTypes>
+  <name>КадровыйДокументПоРешениюОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый документ по решению объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ВосстановлениеВДолжности</types>
+    <types>DocumentObject.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.УвольнениеСписком</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.ОтпускПоУходуЗаРебенком</types>
+  </type>
+</mdclass:DefinedType>

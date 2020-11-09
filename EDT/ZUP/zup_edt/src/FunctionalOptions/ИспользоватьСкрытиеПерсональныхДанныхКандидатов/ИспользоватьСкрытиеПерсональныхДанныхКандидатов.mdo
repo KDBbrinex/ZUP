@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a762fbec-213d-4909-9004-58eeb47f12cb">
+  <name>ИспользоватьСкрытиеПерсональныхДанныхКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать скрытие персональных данных кандидатов</value>
+  </synonym>
+  <location>InformationRegister.НастройкиПодбораПерсонала.Resource.ИспользоватьСкрытиеПерсональныхДанныхКандидатов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

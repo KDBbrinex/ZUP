@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0aa8ee7-3402-42ea-b35a-2228043b4b41">
+  <name>ЧтениеБронированияКомандировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение бронирования командировок</value>
+  </synonym>
+</mdclass:Role>

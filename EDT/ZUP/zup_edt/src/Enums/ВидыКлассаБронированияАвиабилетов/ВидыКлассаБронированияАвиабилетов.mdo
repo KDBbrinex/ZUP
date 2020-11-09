@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fffdd16-e25b-425b-a1d9-bd900ba4a082">
+  <producedTypes>
+    <refType typeId="c88028ac-6a77-4003-b6b5-00195e116786" valueTypeId="0e958a97-0765-4cdf-80df-e4eb1574453e"/>
+    <listType typeId="69bcf483-a4d6-4f60-96d7-ef4753fb499a" valueTypeId="c4114672-8f41-4e44-8793-f5292d704642"/>
+    <managerType typeId="f3af5d0c-1cf0-4265-a228-885daeb67e30" valueTypeId="ab36cb3e-d4e7-483e-8c72-d40fb0bc1515"/>
+  </producedTypes>
+  <name>ВидыКлассаБронированияАвиабилетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды класса бронирования авиабилетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e0fe13bf-0b7b-4950-afc4-14736fd6d60d">
+    <name>Эконом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эконом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="236eafed-311d-485c-b632-aaaa70cb1aa9">
+    <name>Бизнес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d8a8dca-4c2a-493c-bc79-9b1755c42cfb">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

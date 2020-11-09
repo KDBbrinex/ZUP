@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eec4b103-dd08-4b35-ad34-34d6c875a816">
+  <name>ЧтениеПериодовОтсутствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение периодов отсутствия сотрудников</value>
+  </synonym>
+</mdclass:Role>

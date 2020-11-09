@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="729c36f7-9e2c-49cb-a1ec-83a1cda02dc4">
+  <name>РазборРезюме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбор резюме</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаКандидатовИзФайлов</content>
+  <parentSubsystem>Subsystem.ПодборПерсонала</parentSubsystem>
+</mdclass:Subsystem>

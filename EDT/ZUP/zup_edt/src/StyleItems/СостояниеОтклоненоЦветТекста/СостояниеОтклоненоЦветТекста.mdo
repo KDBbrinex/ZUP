@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dc89b48-be1c-40fc-962a-e9f9c3d3b37e">
+  <name>СостояниеОтклоненоЦветТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние отклонено цвет текста</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>192</red>
+      <green>192</green>
+      <blue>192</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

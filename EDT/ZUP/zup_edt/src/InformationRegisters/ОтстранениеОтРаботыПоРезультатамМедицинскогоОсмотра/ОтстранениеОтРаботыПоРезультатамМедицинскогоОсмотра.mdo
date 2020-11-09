@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55b90301-2478-4a76-8bd9-213664faff4b">
+  <producedTypes>
+    <selectionType typeId="8902ec1d-ccc6-49c4-b3b9-8ae64f39acff" valueTypeId="8c554193-14e0-4714-810d-c7760584f83c"/>
+    <listType typeId="d929e445-3436-4322-a51c-78e841d75947" valueTypeId="427d8780-30da-4737-a6e0-06761fdd0781"/>
+    <managerType typeId="bdab9525-8f22-4d3c-b8b6-b426f7956157" valueTypeId="c42a7e79-8c8f-4190-934b-d7184729ccbd"/>
+    <recordSetType typeId="4448b2df-261a-4b52-bb05-512b13a5b633" valueTypeId="c22e5a5a-824e-4a45-ab60-f44d4673008c"/>
+    <recordKeyType typeId="202929ed-abc0-478b-b78e-5f85f7e7bb22" valueTypeId="9c20cb08-aadd-4070-a2dc-837b5af52b3f"/>
+    <recordType typeId="92d032bc-a19c-4591-b967-aa5398bd3682" valueTypeId="19959c2f-1e3a-4013-8966-9ebc680e5f4a"/>
+    <recordManagerType typeId="3fe23d34-9bbd-4151-9349-cdcdc377f784" valueTypeId="68fd5f2c-5648-4f0d-b49b-279ca841008b"/>
+  </producedTypes>
+  <name>ОтстранениеОтРаботыПоРезультатамМедицинскогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отстранение от работы по результатам медицинского осмотра</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c6603f0f-97be-4109-81b1-e9b824e0adae">
+    <name>ЗаключениеМедицинскогоОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заключение медицинского осмотра</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаключениеМедицинскогоОсмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fef46e10-95b4-4ab8-83f2-a02b3e1eed9c">
+    <name>ДокументОтстранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ отстранения</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КадровыйПеревод</types>
+      <types>DocumentRef.Увольнение</types>
+      <types>DocumentRef.РешениеОКадровомПереводе</types>
+      <types>DocumentRef.РешениеОбУвольнении</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b376768c-c0fd-4b29-abd7-f8e046963d81">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c428efaf-f2d4-4150-b026-e463bbee6c0e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

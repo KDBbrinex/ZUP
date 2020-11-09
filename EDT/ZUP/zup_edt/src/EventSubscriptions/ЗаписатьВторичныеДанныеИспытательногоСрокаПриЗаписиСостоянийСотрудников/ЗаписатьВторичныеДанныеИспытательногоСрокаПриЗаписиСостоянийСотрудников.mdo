@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9f65297-c24f-4fbc-bdc3-030625cbb690">
+  <name>ЗаписатьВторичныеДанныеИспытательногоСрокаПриЗаписиСостоянийСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать вторичные данные испытательного срока при записи состояний сотрудников</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ДанныеСостоянийСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ИспытательныйСрокСотрудниковСобытия.ЗаписатьВторичныеДанныеИспытательногоСрокаПриЗаписиСостоянийСотрудников</handler>
+</mdclass:EventSubscription>

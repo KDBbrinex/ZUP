@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91fd5039-3cce-44b8-aba0-a3c427c4d548">
+  <name>СоздатьУведомленияПоИзменениямОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать уведомления по изменениям объектов</value>
+  </synonym>
+  <methodName>CommonModule.УведомленияСобытия.СоздатьУведомленияПоИзменениямОбъектов</methodName>
+  <key>424bfc47-1e79-491f-a26b-7fdb7f7189a2</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

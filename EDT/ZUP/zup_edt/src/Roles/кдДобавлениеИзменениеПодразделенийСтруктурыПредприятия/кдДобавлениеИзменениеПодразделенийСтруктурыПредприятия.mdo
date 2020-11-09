@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f944e2de-85e7-43f1-8748-3f976213d7b9">
+  <name>кдДобавлениеИзменениеПодразделенийСтруктурыПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КД) Добавление изменение подразделений и структуры предприятия</value>
+  </synonym>
+  <comment>ИТ0002875</comment>
+</mdclass:Role>

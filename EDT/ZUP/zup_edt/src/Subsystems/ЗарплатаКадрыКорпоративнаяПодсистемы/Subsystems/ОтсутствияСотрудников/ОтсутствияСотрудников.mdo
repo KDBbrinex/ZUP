@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5f467a3-051b-4f1d-84ab-0a2ed2ebf6cf">
+  <name>ОтсутствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсутствия сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОтсутствияСотрудников</content>
+  <content>Enum.ВидыПериодовОтсутствияСотрудников</content>
+  <content>Document.ПериодыОтсутствияСотрудников</content>
+  <content>InformationRegister.ПериодыОтсутствияСотрудников</content>
+  <content>DataProcessor.РегистрацияОтсутствийСотрудников</content>
+  <content>CommonForm.ВыборПериодаОтсутствияСотрудников</content>
+  <content>CommonModule.ОтсутствияСотрудниковКлиент</content>
+  <content>CommonModule.ОтсутствияСотрудниковКлиентСервер</content>
+  <content>Role.ДобавлениеИзменениеПериодовОтсутствияСотрудников</content>
+  <content>Role.ЧтениеПериодовОтсутствияСотрудников</content>
+  <content>Catalog.ПериодыОтсутствияСотрудниковПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25e70a94-c9d4-45b8-9bed-d76003eb899e">
+  <name>кдСлужебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кд служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExchangePlan.кдОбменЗУПДОК</content>
+  <content>Catalog.кдСтруктураПредприятия</content>
+  <content>Constant.кдИнтеграцияУТ10</content>
+  <content>InformationRegister.кдИнтеграцияЗУП_УТ</content>
+  <content>Catalog.кдФайлы</content>
+  <content>Catalog.кдРезультаты</content>
+  <content>ExchangePlan.ИнтеграцияЗУП_УТ</content>
+  <content>InformationRegister.кдРезультатыИнтеграцииЗУП_УТ</content>
+</mdclass:Subsystem>

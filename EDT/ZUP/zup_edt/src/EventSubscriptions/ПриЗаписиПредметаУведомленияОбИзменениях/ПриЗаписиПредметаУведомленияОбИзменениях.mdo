@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a3ba4bd-ffb2-4699-b7aa-d9357bccace3">
+  <name>ПриЗаписиПредметаУведомленияОбИзменениях</name>
+  <synonym>
+    <key>ru</key>
+    <value>При записи предмета уведомления об изменениях</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПредметУведомленийОбИзмененияхОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.УведомленияСобытия.ПриЗаписиСправочникаПредметаУведомленияОбИзменениях</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dea56cdd-7787-4da6-9a5d-d6f8d32335a9">
+  <name>СинхронизацияДанныхЗарплатаКадрыВзаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных зарплата кадры взаимодействия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияДанныхЗарплатаКадрыВзаимодействия</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыПриложения</parentSubsystem>
+</mdclass:Subsystem>

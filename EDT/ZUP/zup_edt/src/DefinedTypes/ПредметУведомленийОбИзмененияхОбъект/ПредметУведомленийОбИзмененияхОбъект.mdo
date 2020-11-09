@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="919c8efc-137d-4170-b5e3-126581d77f64">
+  <producedTypes>
+    <containerType typeId="c6392f56-cb37-4ba1-841c-751e5da60b4f" valueTypeId="e45c4a32-a231-448a-a923-390e49fc5901"/>
+  </producedTypes>
+  <name>ПредметУведомленийОбИзмененияхОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет уведомлений об изменениях объект</value>
+  </synonym>
+  <type>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+  </type>
+</mdclass:DefinedType>

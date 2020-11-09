@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6d2a73a-be91-4dc6-b552-6c3a72496508">
+  <name>кдОбменДокЗУППередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КД) Обмен док ЗУППеред удалением</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВидыИспользованияРабочегоВремени</types>
+    <types>CatalogObject.ГрафикиРаботыСотрудников</types>
+    <types>CatalogObject.РежимыРаботыСотрудников</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Должности</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Сотрудники</types>
+    <types>CatalogObject.ПроизводственныеКалендари</types>
+    <types>CatalogObject.СменыРаботыСотрудников</types>
+    <types>CatalogObject.ПодразделенияОрганизаций</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.кдПодпискиНаСобытия.кдОбменДокЗУППередУдалениемПередУдалением</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f539ee0-5272-41a2-becd-6a5a77ad9b00">
+  <name>ЗаполнитьНаборЗначенийДоступаВзаимодействияСПредметомКандидатом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить набор значений доступа взаимодействия с предметом кандидатом</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ПредметыПапкиВзаимодействий</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПодборПерсоналаСобытия.ЗаполнитьНаборЗначенийДоступаСПредметомКандидатом</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc9ee488-1939-4ac3-8a64-2633de99d61e">
+  <producedTypes>
+    <containerType typeId="2e03af79-e3ce-4593-a393-dd46f8a7f326" valueTypeId="c9de731c-54cd-4929-ac57-2bb7cf381b9e"/>
+  </producedTypes>
+  <name>ВакансияСогласованияОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансия согласования объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ЗаявкаНаПодборПерсонала</types>
+    <types>CatalogObject.Вакансии</types>
+  </type>
+</mdclass:DefinedType>

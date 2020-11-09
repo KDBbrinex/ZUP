@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5458d695-ca32-43ba-aed1-45a54eb794d2">
+  <name>ОбновитьДанныеСогласованияВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить данные согласования вакансий</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ВакансияСогласованияОбъект</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СогласованиеВакансийСобытия.ОбновитьДанныеСогласованияВакансийПриЗаписи</handler>
+</mdclass:EventSubscription>

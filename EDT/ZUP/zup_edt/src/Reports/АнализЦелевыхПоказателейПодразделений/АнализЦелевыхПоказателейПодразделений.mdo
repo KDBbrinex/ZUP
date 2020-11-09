@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8588cbba-a480-408e-82b4-51cb66319999">
+  <producedTypes>
+    <objectType typeId="26e0d319-bb9a-4880-b7c4-e63ece4675d3" valueTypeId="34382f9e-865b-4f76-bc36-b7e5f02cdfba"/>
+    <managerType typeId="536d7998-9c1c-4152-b9e8-d76907bacaa2" valueTypeId="3708c1ad-49b2-453e-af48-577603c4adc6"/>
+  </producedTypes>
+  <name>АнализЦелевыхПоказателейПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ целевых показателей подразделений</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.АнализЦелевыхПоказателейПодразделений.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="20bad2cb-8c42-43f5-9be5-c73c598e9193">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

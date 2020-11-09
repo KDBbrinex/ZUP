@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="382f9850-e2e7-4a68-ac15-0899b10aca86">
+  <name>ПоездкаОтмененаЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поездка отменена цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.FireBrick</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

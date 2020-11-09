@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ea0b096-5207-47bc-8d16-9294cc4ac567">
+  <name>ИспользоватьГоризонтГодДляПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать горизонт год для показателей эффективности</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКлючевыхПоказателейЭффективности.Resource.ИспользоватьГоризонтГод</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

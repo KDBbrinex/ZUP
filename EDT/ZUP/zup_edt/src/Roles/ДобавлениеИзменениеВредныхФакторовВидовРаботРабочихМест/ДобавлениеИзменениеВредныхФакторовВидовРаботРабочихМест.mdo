@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a35f1380-0ee9-40df-a5fc-7f39ed49c11f">
+  <name>ДобавлениеИзменениеВредныхФакторовВидовРаботРабочихМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение вредных факторов и видов работ рабочих мест</value>
+  </synonym>
+</mdclass:Role>

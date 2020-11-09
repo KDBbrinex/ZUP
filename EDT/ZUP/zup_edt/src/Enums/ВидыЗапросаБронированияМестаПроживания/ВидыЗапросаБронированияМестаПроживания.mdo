@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59e50a61-addd-46b8-8af3-9e3847f566f1">
+  <producedTypes>
+    <refType typeId="ad213e31-9a7d-455b-ad3a-c2a41ca03b3c" valueTypeId="cb09c12b-291f-4fc8-a6f9-4fc3f831e36d"/>
+    <listType typeId="e3062f8d-cde3-4b24-990e-29ebb439994c" valueTypeId="853b33f1-90fd-4b27-b96b-d4dffee5cecf"/>
+    <managerType typeId="eecb3cf0-d3c7-482c-aafe-884b248b40ab" valueTypeId="e78edcc6-0025-4634-a11f-1cfc9416aea8"/>
+  </producedTypes>
+  <name>ВидыЗапросаБронированияМестаПроживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды запроса бронирования места проживания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91984c48-1bf9-43cb-85d8-bf3ab89964b4">
+    <name>Гостиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гостиница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d8abc77-b0b3-4942-a9a0-100f547e9f9a">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

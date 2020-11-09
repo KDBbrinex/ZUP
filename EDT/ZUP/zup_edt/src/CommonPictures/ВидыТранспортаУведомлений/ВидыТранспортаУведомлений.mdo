@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f38d7a13-2ba4-4f2f-b5ad-b043f60fb576">
+  <name>ВидыТранспортаУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта уведомлений</value>
+  </synonym>
+</mdclass:CommonPicture>

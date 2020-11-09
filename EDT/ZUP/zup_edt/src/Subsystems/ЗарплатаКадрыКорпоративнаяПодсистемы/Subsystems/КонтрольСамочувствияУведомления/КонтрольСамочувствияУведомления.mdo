@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f5fb175-a843-456c-8e89-b07ccba21d11">
+  <name>КонтрольСамочувствияУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль самочувствия уведомления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КонтрольСамочувствияУведомления</content>
+  <content>Catalog.ГрафикУчетаСамочувствияСотрудников</content>
+  <content>Role.ДобавлениеИзменениеГрафиковУчетаСамочувствия</content>
+  <content>DataProcessor.НастройкиКонтроляСамочувствияСотрудников</content>
+  <content>Role.ЧтениеГрафиковУчетаСамочувствия</content>
+  <content>Role.ИспользованиеОбработкиНастройкиКонтроляСамочувствияСотрудников</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

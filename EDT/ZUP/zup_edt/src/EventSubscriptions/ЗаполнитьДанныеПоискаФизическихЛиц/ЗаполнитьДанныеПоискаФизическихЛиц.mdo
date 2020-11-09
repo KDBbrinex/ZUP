@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3720b03a-2b49-453e-9b98-daa1a351bbb3">
+  <name>ЗаполнитьДанныеПоискаФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить данные поиска физических лиц</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ФизическиеЛица</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ПоискФизическихЛицСобытия.ЗаполнитьДанныеПоискаФизическихЛицПриЗаписи</handler>
+</mdclass:EventSubscription>

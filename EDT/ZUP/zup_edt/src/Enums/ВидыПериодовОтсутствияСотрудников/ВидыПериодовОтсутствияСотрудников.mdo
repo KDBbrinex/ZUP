@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d492ed08-c320-448e-9f75-3782ff166455">
+  <producedTypes>
+    <refType typeId="bbc49161-f6e6-4d59-bbe8-6715cfedf603" valueTypeId="6fa58b32-51be-490d-a2b9-6dae485a53cf"/>
+    <listType typeId="c8478caa-97bb-4ecd-9a92-b08f7a7fe521" valueTypeId="0615499e-c8e6-49b8-b86d-32808efbb34a"/>
+    <managerType typeId="169ce93f-a63f-4e7d-96f6-733ceb0cba2d" valueTypeId="bb6847f9-7526-4e9a-97fc-c19d4fcde7b6"/>
+  </producedTypes>
+  <name>ВидыПериодовОтсутствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды периодов отсутствия сотрудников</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d23e85e9-4919-44a1-862d-b712a2d8e263">
+    <name>Больничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30d66486-0e0e-4e67-bf82-a0fa7c4a51e6">
+    <name>ПричинаНеИзвестна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина не известна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f217a85-8e9d-42b9-a2f7-60b29a27d924">
+    <name>Прогул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогул</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eeee2ce-8add-487e-b532-b400bb2615d5">
+    <name>Простой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b22abf7b-43ae-4308-82dc-0ba6c9f09fe9">
+    <name>Отгул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгул</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eac61bd6-befc-4a49-969d-3b01bc2a3e92">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32e73d95-96f3-4d8b-af01-f9f0c5d72c97">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

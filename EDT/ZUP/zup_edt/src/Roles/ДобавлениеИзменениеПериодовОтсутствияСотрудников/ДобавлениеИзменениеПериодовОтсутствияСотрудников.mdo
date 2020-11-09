@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41a94600-cae6-43c9-99fc-607f9986f650">
+  <name>ДобавлениеИзменениеПериодовОтсутствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение периодов отсутствия сотрудников</value>
+  </synonym>
+</mdclass:Role>

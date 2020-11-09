@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece2210b-012f-4690-88b9-6aeafad3c04d">
+  <name>кдОбменУТЗУППередЗаписьюРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кд обмен УТЗУППеред записью регистра</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ФИОФизическихЛиц</types>
+    <types>InformationRegisterRecordSet.ДокументыФизическихЛиц</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.кдИнтеграцияЗУП_УТ.кдОбменУТЗУППередЗаписьюРегистраПередЗаписью</handler>
+</mdclass:EventSubscription>

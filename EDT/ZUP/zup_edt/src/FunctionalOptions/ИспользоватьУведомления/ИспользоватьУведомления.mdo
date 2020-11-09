@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c710a1e2-3a9b-4827-8b72-d7763fdeaca6">
+  <name>ИспользоватьУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать уведомления</value>
+  </synonym>
+  <location>Constant.ИспользоватьУведомления</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.РассылкиУведомлений</content>
+  <content>InformationRegister.Уведомления</content>
+  <content>InformationRegister.ПредметыУведомленийОбИзменениях</content>
+  <content>Catalog.ВидыУведомлений</content>
+</mdclass:FunctionalOption>

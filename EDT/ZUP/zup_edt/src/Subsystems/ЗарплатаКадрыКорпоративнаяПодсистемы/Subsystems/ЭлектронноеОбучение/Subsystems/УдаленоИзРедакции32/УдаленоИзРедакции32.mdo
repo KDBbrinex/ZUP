@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cfef382-4042-48c5-ab46-acd331c26f8b">
+  <name>УдаленоИзРедакции32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалено из редакции 3.2</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.УдалитьГиперссылкиЭлектронныхКурсов</content>
+  <content>Catalog.УдалитьЗависимыеНаборыЭлементовЭлектронныхКурсов</content>
+  <content>Catalog.УдалитьКомментарииКЭлектроннымТестам</content>
+  <content>Catalog.УдалитьПрисоединенныеЭлементыЭлектронныхКурсов</content>
+  <content>Catalog.УдалитьСложностиЭлектронныхТестов</content>
+  <content>Catalog.УдалитьТекстыЭлектронныхКурсов</content>
+  <content>Document.УдалитьЭлектронноеТестирование</content>
+  <content>InformationRegister.УдалитьАктивностиУчащихсяЭлектронныхКурсов</content>
+  <content>InformationRegister.УдалитьВыделенныеЭлементыЭлектронныхКурсов</content>
+  <content>InformationRegister.УдалитьДанныеТестовыхВопросов</content>
+  <content>InformationRegister.УдалитьДанныеЭлементовЭлектронныхКурсов</content>
+  <content>InformationRegister.УдалитьТекстовыеДанныеЭлектронныхКурсов</content>
+  <content>InformationRegister.УдалитьОпубликованныеЭлектронныеКурсы</content>
+  <content>InformationRegister.УдалитьИсторияРазработкиЭлектронныхКурсов</content>
+  <content>Enum.УдалитьТипыПубликацийЭлектронныхКурсов</content>
+  <content>Enum.УдалитьТипыЭлектронныхУчебныхМатериалов</content>
+  <content>Enum.УдалитьДействияНадЭлектроннымиКурсами</content>
+  <content>Enum.УдалитьВариантыОткрытияГиперссылокЭлектронныхКурсов</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ЭлектронноеОбучение</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33cd22fe-9162-4621-8b37-48e425366c7c">
+  <name>ИспользоватьСЭДОФСС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать СЭДО ФСС</value>
+  </synonym>
+  <location>InformationRegister.НастройкиСЭДОФСС.Resource.ПолучатьСостоянияЭЛН</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.СогласиеНаУведомлениеОбЭЛН</content>
+  <content>Document.ОтзывСогласияНаУведомлениеОбЭЛН</content>
+  <content>InformationRegister.ПодпискиНаУведомленияОбЭЛН</content>
+  <content>InformationRegister.СогласияНаУведомленияОбЭЛН</content>
+  <content>InformationRegister.СообщенияФССОбИзмененииСостоянийЭЛН</content>
+</mdclass:FunctionalOption>

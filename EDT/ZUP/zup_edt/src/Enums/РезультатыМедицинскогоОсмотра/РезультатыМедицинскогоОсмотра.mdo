@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88cde817-dd3d-440f-aa7e-0ba9016c11ad">
+  <producedTypes>
+    <refType typeId="4d7c77f9-1b7c-49c9-82c6-229ff5c13955" valueTypeId="046706de-0c15-4c56-8251-6ca87dbd597d"/>
+    <listType typeId="345e8738-4237-4c9c-b4f5-34f85e1b1207" valueTypeId="41dbbd47-31f0-4629-b963-198948678691"/>
+    <managerType typeId="876f66d1-5ef1-41d9-8d6e-6c3b4415e9a6" valueTypeId="750276b7-62bb-4a70-b4f1-b602b72db06a"/>
+  </producedTypes>
+  <name>РезультатыМедицинскогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты медицинского осмотра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06c6a6bd-eee8-4895-a42d-668281232312">
+    <name>НеИмеетПротивопоказаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не имеет противопоказаний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49e60a41-a018-4b1b-aa7e-1542d85caafe">
+    <name>ИмеетПротивопоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имеет противопоказания</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11651ac4-db32-4395-9dbf-b9e159e00108">
+  <producedTypes>
+    <managerType typeId="9154db8b-660e-4656-b19a-75d97105a099" valueTypeId="59eafa36-baf1-46d3-8fb8-44ab0ba9e547"/>
+    <valueManagerType typeId="f9246cdc-e3a2-454e-9ab3-fa95900a5618" valueTypeId="243eb768-a68f-4d0b-9dad-1180c915a7d4"/>
+    <valueKeyType typeId="9776734c-e5db-5e42-87bf-12d65cf2feea" valueTypeId="d8895a20-b0fa-5002-9c56-a310816e934b"/>
+  </producedTypes>
+  <name>ИспользоватьСамообслуживаниеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать самообслуживание сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

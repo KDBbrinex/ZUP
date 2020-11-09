@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5f219e-1bfa-4331-9625-9105ee21b8d5">
+  <producedTypes>
+    <managerType typeId="3cc6d963-ea06-4cd2-8236-12b5cd9c4d9c" valueTypeId="7a0bb755-8135-4430-a259-6e9efe1ff742"/>
+    <valueManagerType typeId="8e4279bd-7b71-4ec7-b14a-e2a8ff3758cd" valueTypeId="002e4fb1-a82f-4212-ab9a-3ec5db0b2e11"/>
+    <valueKeyType typeId="e72a8851-5f32-5988-9cbd-19d58ef791fe" valueTypeId="90c0434e-44ac-5956-b750-2eb6c983ea5f"/>
+  </producedTypes>
+  <name>ЗапрещатьВходВПрограммуУволеннымСотрудникамАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрещать вход в программу уволенным сотрудникам автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

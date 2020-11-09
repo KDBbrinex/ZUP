@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df8aed10-92e1-456d-a1b9-6e1ed19cd56a">
+  <name>ГлобальныйПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Глобальный поиск</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МодульГлобальногоПоискаКлиент</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

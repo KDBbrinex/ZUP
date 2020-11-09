@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7382c137-5a20-48e5-9c59-e6729fe80212">
+  <producedTypes>
+    <selectionType typeId="77238882-8bcd-43ec-ad1c-4cf7ba104a90" valueTypeId="0c7b0533-f52c-4865-90df-407b195d14df"/>
+    <listType typeId="c926cd60-7c3b-4869-8983-ab9be540807f" valueTypeId="6a72ce74-9634-49a0-b258-1edca9db9794"/>
+    <managerType typeId="2ce466a6-4308-46ca-8938-9244d63378f7" valueTypeId="5d6296e9-608b-4fa2-b426-b75b391d8b01"/>
+    <recordSetType typeId="b8fed780-ae17-487b-935f-d47ffe868639" valueTypeId="99781ee4-6fad-4188-b04e-e8372a455fb9"/>
+    <recordKeyType typeId="84f15081-b46d-4345-a1d0-15afe67456d9" valueTypeId="10ced877-3660-4b88-9ad1-a9b9990615a0"/>
+    <recordType typeId="5363eabe-80d4-4a00-a051-7546db9549d0" valueTypeId="46b63e93-c125-4556-8308-18899e6317f9"/>
+    <recordManagerType typeId="5c75fc6e-6f1e-4c92-a31b-3bd771cba259" valueTypeId="80631c56-2ee6-4cf1-867e-190322cf3102"/>
+  </producedTypes>
+  <name>НастройкиПодбораПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подбора персонала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Хранение настроек подсистемы «Подбор персонала»</value>
+  </explanation>
+  <resources uuid="cc387e0d-1c3c-48c9-b52a-852f40ca1d0b">
+    <name>УдалитьИспользоватьПодборПерсонала</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) использовать подбор персонала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет использование функциональности, связанной с подбором персонала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8eb3ed10-22c4-4653-859a-e21247b5ad62">
+    <name>ИспользоватьСогласованиеВакансий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать согласование вакансий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет доступность механизма согласования вакансий и заявок на подбор персонала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8646d859-1b60-4340-8944-bda92030a3f3">
+    <name>ИспользоватьЗаявкиНаПодборПерсонала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать заявки на подбор персонала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет доступность документа «Заявка на подбор персонала»</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cbf09e61-9c39-4693-9d2b-e867f6d0918d">
+    <name>ОткрытиеВакансииТребуетСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие вакансии требует согласования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет необходимость использования заявок на подбор персонала для создания вакансии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4fada702-f666-47bd-8936-569fcdb1cc4b">
+    <name>ИспользоватьПоискКандидатовНаИнтернетСайтах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать поиск кандидатов на интернет сайтах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет использование поиска кандидатов на внешних рекрутинговых ресурсах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8fefc3d8-6d44-4222-aee0-4cfa599833af">
+    <name>ИспользоватьОценкуЭффективностиИсточниковИнформацииОКандидатах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать оценку эффективности источников информации о кандидатах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет необходимость заполнения данных для анализа эффективности источников подбора персонала</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0eee4aa2-d929-4925-94ac-6367a2f3e32d">
+    <name>ИспользоватьСкрытиеПерсональныхДанныхКандидатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать скрытие персональных данных кандидатов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="51472608-919a-48f4-8ef4-9cc476dbfcb9">
+    <name>ПроверятьКандидатовЗадержавшихсяНаОдномЭтапе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять кандидатов задержавшихся на одном этапе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d9831ca5-2f8b-4222-a799-4c84d0e98dba">
+    <name>ДнейДоСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней до сообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>30</value>
+    </fillValue>
+  </resources>
+  <resources uuid="25c5e540-8786-4717-8ec1-b20d39827acd">
+    <name>ДнейДоОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней до отклонения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>60</value>
+    </fillValue>
+  </resources>
+  <resources uuid="0b3a07c0-e2c1-478f-b580-c068e3bd637b">
+    <name>ПричинаАвтоматическогоОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина автоматического отклонения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПричиныОтклоненияКандидатов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="620655fb-f3d8-4ee1-ac2e-3e44f937144b">
+    <name>ПериодРаботыСВакансией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период работы с вакансией</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="59c6ce7e-4b4d-44dd-9236-edbf94753b4f">
+    <name>ЕдиницаИзмеренияПериодаРаботыСВакансией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения периода работы с вакансией</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f52715a2-5a76-47e5-b5fa-7f92a188f099">
+  <name>ОтпускаУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуска уведомления</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

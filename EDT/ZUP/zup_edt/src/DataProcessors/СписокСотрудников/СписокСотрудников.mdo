@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7af0430f-37a7-4853-8150-86243a06ca6a">
+  <producedTypes>
+    <objectType typeId="74696065-37fb-48c9-a2c7-6f97de0586e5" valueTypeId="f2a98645-643c-4177-8393-93da8b2c1be9"/>
+    <managerType typeId="613ef673-9afe-47c5-9a80-9b7e726d23c3" valueTypeId="6f73d1c7-b495-4a75-937a-a81e9876ee5e"/>
+  </producedTypes>
+  <name>СписокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СписокСотрудников.Form.ФормаСпискаСотрудников</defaultForm>
+  <forms uuid="c2b3d41b-358e-435a-86b5-5aa45033729a">
+    <name>ФормаСпискаСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="dde36678-e844-491f-b0cf-13924ad193a3">
+    <name>ПолучениеКадровыхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение кадровых данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

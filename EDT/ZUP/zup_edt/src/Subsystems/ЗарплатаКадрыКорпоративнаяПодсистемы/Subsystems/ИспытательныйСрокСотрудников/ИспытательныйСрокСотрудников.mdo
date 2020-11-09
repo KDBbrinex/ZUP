@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a3eb82c-de27-4815-b4b4-b1e759c64c11">
+  <name>ИспытательныйСрокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытательный срок сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.ПродлениеИспытательногоСрока</content>
+  <content>Document.ЗавершениеИспытательногоСрока</content>
+  <content>InformationRegister.ДанныеИспытательногоСрокаСотрудников</content>
+  <content>InformationRegister.ИспытательныйСрокСотрудников</content>
+  <content>CommonModule.ИспытательныйСрокСотрудников</content>
+  <content>Role.ДобавлениеИзменениеИспытательногоСрокаСотрудников</content>
+  <content>Role.ЧтениеИспытательногоСрокаСотрудников</content>
+  <content>Report.ИспытательныйСрокСотрудников</content>
+  <content>EventSubscription.ЗаписатьВторичныеДанныеИспытательногоСрокаПриЗаписиКадровойИстории</content>
+  <content>CommonModule.ИспытательныйСрокСотрудниковСобытия</content>
+  <content>EventSubscription.ЗаписатьВторичныеДанныеИспытательногоСрокаПриЗаписиСостоянийСотрудников</content>
+  <content>EventSubscription.ЗаписатьВторичныеДанныеИспытательногоСрокаПриПроведенииДокумента</content>
+  <content>EventSubscription.ЗаписатьВторичныеДанныеИспытательногоСрокаПриОтменеПроведенияДокумента</content>
+  <content>DefinedType.ОснованиеИзмененияИспытательногоСрокаОбъект</content>
+  <content>EventSubscription.ИнициализироватьИсточникиВторичныхДанныхИспытательногоСрока</content>
+  <content>EventSubscription.ЗаписатьВторичныеДанныеИспытательногоСрокаПриЗаписиНабора</content>
+  <content>InformationRegister.ДанныеИспытательногоСрокаСотрудниковИспр</content>
+  <content>Catalog.ЗавершениеИспытательногоСрокаПрисоединенныеФайлы</content>
+  <content>Catalog.ПродлениеИспытательногоСрокаПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

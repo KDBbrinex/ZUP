@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="404d113a-75fe-47fc-adc7-f75e227f39c8">
+  <name>РезультатыРассылкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты рассылки документов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РезультатыРассылкиДокументов</content>
+  <content>Role.ЧтениеРезультатовРассылкиДокументов</content>
+  <content>CommonModule.РезультатыРассылкиДокументовКлиент</content>
+  <content>InformationRegister.РезультатыРассылкиДокументов</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.РассылкаДокументов</parentSubsystem>
+</mdclass:Subsystem>

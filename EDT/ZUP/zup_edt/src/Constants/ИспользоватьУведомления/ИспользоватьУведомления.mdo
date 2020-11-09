@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4974fbe4-e76d-403c-a93e-53a8e7a679f6">
+  <producedTypes>
+    <managerType typeId="cd216db7-d693-4380-8b61-75c2ec36de61" valueTypeId="993ec580-18e2-4ca4-af84-b275db334112"/>
+    <valueManagerType typeId="47853a61-a3bd-42b4-8cb5-63692663daca" valueTypeId="f293cc63-3b34-44a2-b296-90fbf8384b6b"/>
+    <valueKeyType typeId="f2676015-e97e-5d45-a82e-b95002873e1e" valueTypeId="cf66803c-f3c6-5d65-b83f-24df50017ea5"/>
+  </producedTypes>
+  <name>ИспользоватьУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать уведомления</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

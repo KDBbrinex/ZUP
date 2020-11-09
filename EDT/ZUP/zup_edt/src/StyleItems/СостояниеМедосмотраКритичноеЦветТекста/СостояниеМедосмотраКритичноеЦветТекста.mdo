@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7700962-01c0-48d8-b8fc-beed36f6fd01">
+  <name>СостояниеМедосмотраКритичноеЦветТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние медосмотра критичное цвет текста</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>178</red>
+      <green>34</green>
+      <blue>34</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

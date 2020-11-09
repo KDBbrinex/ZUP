@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1987141-4e8f-4dc1-91e9-9ff4123a4253">
+  <producedTypes>
+    <selectionType typeId="1efc31af-c980-47b8-a046-6f03685277af" valueTypeId="9d90fd42-70e4-46e0-aa1e-05f0ae954e43"/>
+    <listType typeId="5c93c8c2-c044-4824-98e8-9382f18c9511" valueTypeId="73cdeae5-238a-4341-b983-41b75501c82d"/>
+    <managerType typeId="3b03cc1c-803e-4dac-b6b1-17caae0ab0f6" valueTypeId="8c2c4521-a660-43fd-bdc8-9e50f879b2f6"/>
+    <recordSetType typeId="1b6fab3a-114e-4b4e-b4ad-35752e07e968" valueTypeId="457ccbfd-422d-4ec1-ace3-2304669bf0ac"/>
+    <recordKeyType typeId="b07e09a9-eca5-4788-8fae-232a4a65ac21" valueTypeId="4e8bbdf9-27f6-4773-b764-b53c309499fa"/>
+    <recordType typeId="e207a9b0-181d-4b06-b148-2bc2e9c9a157" valueTypeId="2693c1f5-363c-4349-bde2-6a637bdec154"/>
+    <recordManagerType typeId="fa7cc064-0142-4520-881e-49457a818567" valueTypeId="8d84ce77-c852-4e33-8dc4-b0ddde2c32e0"/>
+  </producedTypes>
+  <name>КомандировкиВСистемеБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Командировки в системе бронирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9c43fc00-954d-47a3-9c9e-ca718498d34c">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bc4e83b8-ca2a-431c-9002-c1a82286d59c">
+    <name>ИдентификаторПоездки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор поездки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>16</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4d4603f2-e793-4440-8d83-6d1ad757f4bd">
+    <name>СистемаБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система бронирования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СистемыБронированияКомандировок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e895aa20-1e76-4e17-8535-daa7360cf9d6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="71b281ca-5b66-4ace-a138-0c4667126f68">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КомандировкиСотрудников</types>
+      <types>DocumentRef.Командировка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de53eef1-c94a-4849-9172-78576d6d0d0b">
+  <name>ОбновитьСведенияОСогласияхНаУведомленияОбЭЛНПриЗаписиУвольнений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить сведения о согласиях на уведомления об ЭЛН при записи увольнений</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УвольнениеСписком</types>
+    <types>DocumentObject.Увольнение</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.СЭДОФСС.ОбновитьСведенияОСогласияхНаУведомленияОбЭЛНПриЗаписиУвольнений</handler>
+</mdclass:EventSubscription>

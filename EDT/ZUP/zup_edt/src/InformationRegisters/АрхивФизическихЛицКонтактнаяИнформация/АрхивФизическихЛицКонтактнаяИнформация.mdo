@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df7168aa-555f-436b-a11d-6e3ce2b7a399">
+  <producedTypes>
+    <selectionType typeId="e2b9bec9-a364-4c27-85a8-691f9440c4d0" valueTypeId="c1b851d1-9e8f-4b1c-9c65-15bb29e20098"/>
+    <listType typeId="e2a071fe-3a0e-4c3a-97a7-0a28ffde9c6c" valueTypeId="e85fb7eb-f61c-41d1-81ad-650dbd521cfe"/>
+    <managerType typeId="118183f8-2201-4de1-b3aa-145cc92e319e" valueTypeId="174e9ded-b32e-4b2e-971a-5cad82eb6633"/>
+    <recordSetType typeId="fe1d1b08-96a5-47c1-9430-baf129ff2514" valueTypeId="0b2d9539-89ee-4afa-a96d-2a2570529d32"/>
+    <recordKeyType typeId="46a6927c-0460-42f0-86d5-ade2ce69de5f" valueTypeId="bc64164c-e224-46da-b670-14fc154e7072"/>
+    <recordType typeId="e2adf1eb-0140-4583-a931-b8d99e033f4b" valueTypeId="5eece55f-9a7e-450f-b5c7-51885a1c0372"/>
+    <recordManagerType typeId="186c077d-f4ca-470b-a5a5-9e1cc9eef682" valueTypeId="3aa5b120-a89c-4008-bf2c-f7305e2a4e49"/>
+  </producedTypes>
+  <name>АрхивФизическихЛицКонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Архив физических лиц контактная информация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aa0e1608-ee41-44da-8a0e-9b6e57ae87c8">
+    <name>ПредставлениеКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление контактной информации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="8ff05924-81d9-4002-a939-0e7b0d2ab506">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="561180b8-a7eb-45ef-bd7d-d77fcf6c576a">
+    <name>ВидКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контактной информации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ef513fd-642a-4b75-9231-a1a419985865">
+  <name>ПодписиДокументовОснованияПолномочий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписи документов основания полномочий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonForm.НастройкаОснованияПодписиОтветственногоЛица</content>
+  <content>CommonModule.ПодписиДокументовОснованияПолномочий</content>
+  <content>CommonModule.ПодписиДокументовОснованияПолномочийКлиент</content>
+  <content>Role.ДобавлениеИзменениеОснованийПолномочийОтветственныхЛицРасширенная</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

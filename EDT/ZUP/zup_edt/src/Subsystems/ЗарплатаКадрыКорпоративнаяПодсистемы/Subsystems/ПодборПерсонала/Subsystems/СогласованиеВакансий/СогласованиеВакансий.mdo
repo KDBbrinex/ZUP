@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0b8d379-9fed-4312-80f5-e34c8d4b06c7">
+  <name>СогласованиеВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование вакансий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СогласованиеВакансий</content>
+  <content>Role.СогласованиеЗаявокНаПодборПерсонала</content>
+  <content>FunctionalOption.ИспользоватьСогласованиеВакансий</content>
+  <content>EventSubscription.ОбновитьДанныеСогласованияВакансий</content>
+  <content>DefinedType.ВакансияСогласования</content>
+  <content>CommonPicture.СостоянияСогласования</content>
+  <content>CommonModule.СогласованиеВакансий</content>
+  <content>Role.ЧтениеСогласованияВакансий</content>
+  <content>StyleItem.СостояниеОтклоненоЦветТекста</content>
+  <content>CommonModule.СогласованиеВакансийСобытия</content>
+  <content>DefinedType.ВакансияСогласованияОбъект</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ПодборПерсонала</parentSubsystem>
+</mdclass:Subsystem>

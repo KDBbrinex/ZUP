@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b727e04-00a6-460f-ae43-d87f20001ee2">
+  <name>МедицинскиеОсмотры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские осмотры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.ИспользоватьМедицинскиеОсмотры</content>
+  <content>Catalog.ВредныеОпасныеПроизводственныеФакторы</content>
+  <content>Catalog.ВидыРаботМедицинскихОсмотров</content>
+  <content>CommonModule.МедицинскиеОсмотры</content>
+  <content>FunctionalOption.ИспользоватьМедицинскиеОсмотры</content>
+  <content>InformationRegister.ВредныеФакторыПозицииШтатногоРасписания</content>
+  <content>InformationRegister.ВидыРаботМедицинскихОсмотровПозицииШтатногоРасписания</content>
+  <content>CommonModule.МедицинскиеОсмотрыФормы</content>
+  <content>InformationRegister.ПериодичностьМедицинскихОсмотровПозицииШтатногоРасписания</content>
+  <content>CommonModule.МедицинскиеОсмотрыВызовСервера</content>
+  <content>InformationRegister.МедицинскиеОсмотры</content>
+  <content>Enum.РезультатыМедицинскогоОсмотра</content>
+  <content>Enum.ТипыМедицинскогоОсмотра</content>
+  <content>Document.НаправлениеНаМедицинскийОсмотр</content>
+  <content>InformationRegister.МедицинскиеОсмотрыПоВреднымФакторам</content>
+  <content>InformationRegister.МедицинскиеОсмотрыПоВидамРабот</content>
+  <content>StyleItem.СостояниеМедосмотраБлагоприятноеЦветТекста</content>
+  <content>StyleItem.СостояниеМедосмотраКритичноеЦветТекста</content>
+  <content>DataProcessor.МедицинскиеОсмотры</content>
+  <content>Document.ЗаключениеМедицинскогоОсмотра</content>
+  <content>InformationRegister.ПериодическиеМедицинскиеОсмотры</content>
+  <content>InformationRegister.ОбновлениеПериодическихМедицинскихОсмотров</content>
+  <content>ScheduledJob.ОбновлениеПериодическихМедицинскихОсмотров</content>
+  <content>InformationRegister.ВыданныеНаправленияНаМедицинскийОсмотр</content>
+  <content>CommonModule.МедицинскиеОсмотрыКлиентСервер</content>
+  <content>CommonModule.МедицинскиеОсмотрыФормыКлиент</content>
+  <content>Role.ИспользованиеМедицинскиеОсмотры</content>
+  <content>Role.ЧтениеРезультатовМедицинскихОсмотров</content>
+  <content>Role.ЧтениеВредныхФакторовВидовРаботРабочихМест</content>
+  <content>Role.ДобавлениеИзменениеЗаключенийМедицинскогоОсмотра</content>
+  <content>Role.ДобавлениеИзменениеНаправленийНаМедицинскийОсмотр</content>
+  <content>Role.ДобавлениеИзменениеВредныхФакторовВидовРаботРабочихМест</content>
+  <content>Role.НастройкаКлассификаторовВредныхФакторовВидовРабот</content>
+  <content>Report.МедицинскиеОсмотры</content>
+  <content>InformationRegister.ОтстранениеОтРаботыПоРезультатамМедицинскогоОсмотра</content>
+  <content>Catalog.ЗаключениеМедицинскогоОсмотраПрисоединенныеФайлы</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеКадровойИсторииДляМедосмотров</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеФизическогоЛицаДляМедосмотров</content>
+  <content>Catalog.НаправлениеНаМедицинскийОсмотрПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ОхранаТруда</parentSubsystem>
+</mdclass:Subsystem>

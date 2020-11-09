@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31158116-000b-4f4b-ac30-ddb236a3a368">
+  <name>ИспользоватьГоризонтКварталДляПоказателейЭффективности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать горизонт квартал для показателей эффективности</value>
+  </synonym>
+  <location>InformationRegister.НастройкиКлючевыхПоказателейЭффективности.Resource.ИспользоватьГоризонтКвартал</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

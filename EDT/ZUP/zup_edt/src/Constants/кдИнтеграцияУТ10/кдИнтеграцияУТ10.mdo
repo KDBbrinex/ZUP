@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65fb0bc4-bcad-4836-901d-e53389bd981e">
+  <producedTypes>
+    <managerType typeId="74134449-55b4-4111-b6ab-e9404fd799c9" valueTypeId="33a4587e-4d8b-44f0-9cb5-9ac9a1ec0c45"/>
+    <valueManagerType typeId="2e58e778-83a5-4884-afe0-8ee5de8f27d6" valueTypeId="f5e2efba-6fc7-4cdd-a0ea-64c4c4b3b240"/>
+    <valueKeyType typeId="af45a516-512a-40b2-a655-d6e690acd0c5" valueTypeId="c8c8f7dc-fbdf-4f40-8282-ea4cde1d9529"/>
+  </producedTypes>
+  <name>кдИнтеграцияУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КД) Интеграция УТ10</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

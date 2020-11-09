@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37a78a1d-f13c-427d-8a1d-c9a007da353d">
+  <name>Отпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуска</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОтпускаУведомления</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.КадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

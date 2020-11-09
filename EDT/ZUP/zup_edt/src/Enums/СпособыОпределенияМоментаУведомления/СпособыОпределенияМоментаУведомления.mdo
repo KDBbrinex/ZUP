@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e85c4e34-1e16-43b8-9edd-831bb01f6957">
+  <producedTypes>
+    <refType typeId="7cdb622e-4f23-42ae-8468-6a8b79fd9668" valueTypeId="62d87224-656b-4d82-aeaf-6b0da0091ae5"/>
+    <listType typeId="f12d9ac5-59b6-47b8-85e3-7dbb98c60ce2" valueTypeId="0fdc5ffc-6453-4390-88be-204c47babf07"/>
+    <managerType typeId="48609ae9-390e-4036-b8c0-7a8c2172f798" valueTypeId="42c431e6-84f8-4068-b4e5-6bb7f3b6348d"/>
+  </producedTypes>
+  <name>СпособыОпределенияМоментаУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы определения момента уведомления</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35a3e3c5-7290-4a2c-93f3-a62e63e2aaaf">
+    <name>ДоСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>До события</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfebad6d-ff31-405b-a7ce-2ca809be6eb9">
+    <name>ОдновременноССобытием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одновременно с событием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bda55eb3-9746-476b-be03-3d4af4fdd110">
+    <name>ПослеСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>После события</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

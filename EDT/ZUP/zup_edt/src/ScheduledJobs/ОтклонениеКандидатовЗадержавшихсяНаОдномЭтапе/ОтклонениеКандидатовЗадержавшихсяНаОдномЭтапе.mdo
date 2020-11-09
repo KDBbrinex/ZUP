@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67fe22ff-fc50-45cc-b567-f53e543f20a5">
+  <name>ОтклонениеКандидатовЗадержавшихсяНаОдномЭтапе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение кандидатов задержавшихся на одном этапе</value>
+  </synonym>
+  <methodName>CommonModule.ПодборПерсонала.ОтклонитьКандидатовЗадержавшихсяНаОдномЭтапе</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

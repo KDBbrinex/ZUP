@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20dc576b-8017-47c4-8e51-b91701b64c37">
+  <name>ПроверитьЗаявкуНаБронированиеКомандировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить заявку на бронирование командировки</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаявкаНаКомандировку</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.БронированиеКомандировок.ПроверитьЗаявкуНаБронированиеКомандировкиОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

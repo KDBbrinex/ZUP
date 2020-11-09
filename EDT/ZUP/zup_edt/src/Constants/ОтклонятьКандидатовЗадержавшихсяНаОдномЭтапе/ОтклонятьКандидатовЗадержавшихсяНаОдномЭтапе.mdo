@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f81ead0-9a5b-4f8c-b9a6-23f0fa0a8856">
+  <producedTypes>
+    <managerType typeId="3a036e6c-2fee-4f17-9faf-adfa66adba7e" valueTypeId="90f4406a-c342-4b5f-8c71-4f7f438d120b"/>
+    <valueManagerType typeId="68728bdf-8b92-4881-8d89-7770efc272e5" valueTypeId="3be0c673-5a83-41c4-a0e8-b7b9117c0d3f"/>
+    <valueKeyType typeId="74103c0b-2f49-47a6-ba66-a33d5adfe248" valueTypeId="709d3090-d8d2-4841-adda-40abb3e95796"/>
+  </producedTypes>
+  <name>ОтклонятьКандидатовЗадержавшихсяНаОдномЭтапе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонять кандидатов задержавшихся на одном этапе</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

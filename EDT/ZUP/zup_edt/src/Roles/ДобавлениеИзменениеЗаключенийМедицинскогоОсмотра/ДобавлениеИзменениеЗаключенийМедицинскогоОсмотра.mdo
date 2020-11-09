@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bfa4e34-90bf-4f0c-ae4e-19cd29ac3002">
+  <name>ДобавлениеИзменениеЗаключенийМедицинскогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение заключений медицинского осмотра</value>
+  </synonym>
+</mdclass:Role>

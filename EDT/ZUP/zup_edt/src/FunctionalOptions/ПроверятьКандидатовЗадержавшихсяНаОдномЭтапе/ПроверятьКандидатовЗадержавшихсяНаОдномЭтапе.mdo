@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba90a6e-e8b2-40c5-9582-fc0b52fa108c">
+  <name>ПроверятьКандидатовЗадержавшихсяНаОдномЭтапе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять кандидатов задержавшихся на одном этапе</value>
+  </synonym>
+  <location>InformationRegister.НастройкиПодбораПерсонала.Resource.ПроверятьКандидатовЗадержавшихсяНаОдномЭтапе</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЭтапыРаботыСКандидатами.Attribute.ПроверятьКандидатовНаЗадержку</content>
+  <content>Catalog.ЭтапыРаботыСКандидатами.Attribute.ДнейДоСообщения</content>
+  <content>Enum.СпособыОпределенияЗадержкиКандидатов</content>
+</mdclass:FunctionalOption>

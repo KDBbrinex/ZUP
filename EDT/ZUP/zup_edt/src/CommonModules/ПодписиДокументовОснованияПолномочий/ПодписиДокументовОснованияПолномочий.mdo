@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66935927-dfe3-466f-b911-5cddc9d3b46f">
+  <name>ПодписиДокументовОснованияПолномочий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписи документов основания полномочий</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

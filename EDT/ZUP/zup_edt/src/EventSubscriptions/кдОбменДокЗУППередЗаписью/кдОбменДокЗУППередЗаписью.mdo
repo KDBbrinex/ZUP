@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ada997c2-eb6a-4742-a3d9-a47da31e6a9e">
+  <name>кдОбменДокЗУППередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КД) Обмен док ЗУППеред записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ВидыИспользованияРабочегоВремени</types>
+    <types>CatalogObject.ГрафикиРаботыСотрудников</types>
+    <types>CatalogObject.РежимыРаботыСотрудников</types>
+    <types>CatalogObject.ФизическиеЛица</types>
+    <types>CatalogObject.Должности</types>
+    <types>CatalogObject.Организации</types>
+    <types>CatalogObject.Сотрудники</types>
+    <types>CatalogObject.ПроизводственныеКалендари</types>
+    <types>CatalogObject.СменыРаботыСотрудников</types>
+    <types>CatalogObject.ПодразделенияОрганизаций</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.кдПодпискиНаСобытия.кдОбменДокЗУППередЗаписьюПередЗаписью</handler>
+</mdclass:EventSubscription>

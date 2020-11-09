@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="774009f9-9c6e-4a39-9426-f15ab2ffd5c9">
+  <producedTypes>
+    <selectionType typeId="6e49087e-e714-43ef-b59b-7fb129907e00" valueTypeId="182cb3c3-51ed-4ec6-8ac1-efca82a486d5"/>
+    <listType typeId="51158054-f609-4314-80e4-2670901baf9e" valueTypeId="50ca7860-14c1-4621-b635-3740c590d744"/>
+    <managerType typeId="5c3490dd-527b-4e0d-9598-f3bf8c56ba71" valueTypeId="d249c572-9864-4589-ae87-09610afd2b6a"/>
+    <recordSetType typeId="1f095457-c332-44f5-b735-18e6c9ec7211" valueTypeId="1d359dc5-5d23-42ca-8493-1521e8afeeac"/>
+    <recordKeyType typeId="9c10dc3c-9439-43e4-90e4-53f37b2c1699" valueTypeId="6ced0e6a-5619-4a90-9be6-726daa85b0cc"/>
+    <recordType typeId="1e4e4747-4e6b-4df3-b0b7-2c3f3e9e023b" valueTypeId="49b8362f-ba99-4768-9446-7a78edd54e63"/>
+    <recordManagerType typeId="c20f1fc9-f1b3-45a7-8fc9-5cdfd87c33c8" valueTypeId="f4de1174-bc25-4aba-8db1-bb3e6c19ba17"/>
+  </producedTypes>
+  <name>СогласованиеВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование вакансий</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.СогласованиеВакансий.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="86a11a8a-5f23-4c32-8913-85de1d39e335">
+    <name>СостояниеСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СостоянияСогласования.EnumValue.Рассматривается</value>
+    </fillValue>
+  </resources>
+  <resources uuid="56aa5222-0c49-4a74-9881-1f345a801e19">
+    <name>Рассмотрел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассмотрел</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за принятие решения по вакансии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a59af166-d685-45df-b604-b75617e13311">
+    <name>ДатаРассмотрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рассмотрения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата принятия решения по вакансии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="7fd68d09-d9fa-4b18-92f3-401bdc267d83">
+    <name>Позиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должностная позиция, на которую требуется сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bfb3e31-fa66-4131-99cf-ba4feed7d053">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, к которому относится вакансия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfd8b7d3-2619-4da6-9e16-524477c02370">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность, на которую требуется отобрать кандидата</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="297c11fb-0ef3-4fd2-987e-5c15e88c72fe">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за работу с вакансией</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bfc5162-0314-4344-9192-429f30bbe97b">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Приоритет</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет важность закрытия вакансии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.Приоритет.EnumValue.Средний</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="9def9d7b-edfb-4e0f-9fbb-55af8ef65bc5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="56fab3d0-7f07-48c2-9762-b9711559da81">
+    <name>ПометкаУдаления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пометка удаления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="638ac36b-67af-4d7d-a328-5f7a5d254642">
+    <name>Проведен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8abcd919-1242-490a-afcc-308fd4e322a0">
+    <name>НоваяПозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая позиция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлено, то набор осуществляется на новую, пока не введенную в штатное расписание, позицию</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6c1a99d5-1377-4bbf-b65e-9cb8208253ad">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="303dce0d-0226-484f-90b0-4a44c2db3898">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВакансияСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="13e9d5a3-06f2-48ad-b725-a9202b7a7186">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3ed8ecae-5b49-4070-9c21-e5e251c20046">
+    <name>СогласованиеВакансий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование вакансий</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Согласование вакансий и заявок на подбор персонала</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="66f78dd5-527c-45d5-862c-ccd895985393">
+    <name>Согласовать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DefinedType.ВакансияСогласования</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Согласовать подбор персонала по вакансии или заявке</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="88ea970d-3225-43eb-b7de-5c576e51c8c4">
+    <name>Отклонить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DefinedType.ВакансияСогласования</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <modifiesData>true</modifiesData>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отклонить подбор</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="df2ce80e-38cc-48f5-b4a3-3d4098a53155">
+    <name>ОтменитьРешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить решение</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DefinedType.ВакансияСогласования</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отменяет согласование (или отклонение). Заявка (или вакансия) возвращается в состояние рассмотрения.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

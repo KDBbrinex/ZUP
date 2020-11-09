@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f06e734-7ad6-4faf-95eb-c93fe6de5dac">
+  <producedTypes>
+    <managerType typeId="a7ea9cbe-1ce0-460a-a59b-2e2661da57f5" valueTypeId="829cc18f-6a47-4547-a80a-52369b364f67"/>
+    <valueManagerType typeId="d0f6be08-d652-4623-858f-d898f954ca07" valueTypeId="b2b5b809-f778-48dc-af1e-8098f3d8fd08"/>
+    <valueKeyType typeId="7a52ce5c-a76b-5091-87a5-9a3f3e9e3ecf" valueTypeId="08dbc3ff-5f23-5bda-87d8-164a13f6e534"/>
+  </producedTypes>
+  <name>ИспользоватьУниверсальнуюФормуСпискаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать универсальную форму списка сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="631b15ad-6e9f-4e2e-91f4-56a055ec02f6">
+  <producedTypes>
+    <selectionType typeId="be50fd10-94ac-453f-aeac-3e6770b4281c" valueTypeId="a544753f-ac78-4090-abe8-8ffded1931b4"/>
+    <listType typeId="a4ba1a53-b620-4f20-b302-a4db55ee1979" valueTypeId="f2fa1235-12b6-4b36-958b-98545721f10a"/>
+    <managerType typeId="8607a398-bf69-47a3-aa8a-63a1b1a4ab01" valueTypeId="79095b00-6fc9-4106-b42f-fac2cf2e34f5"/>
+    <recordSetType typeId="5d53a7ec-b9e5-4c42-bcbe-e735c651c2b2" valueTypeId="9e0e0adc-6a80-408f-9a02-687a5ed33d51"/>
+    <recordKeyType typeId="0037606e-6e4c-4579-b859-8b840d3b9234" valueTypeId="a56e52f8-f26b-4cd5-b4c9-6b15f2d83722"/>
+    <recordType typeId="4ba2f420-2714-4763-9405-1b59acef6bdd" valueTypeId="9bcf6e47-adc5-4fb2-b489-835c2f190961"/>
+    <recordManagerType typeId="dadbfff7-7849-43da-b23d-dbcf64ee8832" valueTypeId="7295236a-0cba-4a06-9a3a-2b5dc739cb3e"/>
+  </producedTypes>
+  <name>ВидыРаботМедицинскихОсмотровПозицииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды работ медицинских осмотров позиции штатного расписания</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды работ, при выполнении которых требуется прохождение медицинских осмотров, выполняемые сотрудниками, работающими на позиции</value>
+  </listPresentation>
+  <dimensions uuid="0def4ff5-60b3-4487-aca0-70f4c98ae435">
+    <name>Позиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="02c53b33-7718-4a3b-85df-93edef7cdd4f">
+    <name>ВидРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид работ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыРаботМедицинскихОсмотров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

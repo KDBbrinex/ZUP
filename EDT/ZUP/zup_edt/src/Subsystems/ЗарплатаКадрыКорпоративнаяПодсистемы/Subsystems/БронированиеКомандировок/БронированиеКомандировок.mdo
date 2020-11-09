@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5430e0c3-d019-46a8-a44f-f0ffb00869a2">
+  <name>БронированиеКомандировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование командировок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.БронированиеКомандировок</content>
+  <content>DataProcessor.ЗагрузкаКомандировокИзСистемыБронирования</content>
+  <content>Enum.СистемыБронированияКомандировок</content>
+  <content>Enum.ВидыКлассаБронированияАвиабилетов</content>
+  <content>Enum.ВидыТранспортаБронированияБилетов</content>
+  <content>Enum.ВидыУслугБронированияКомандировок</content>
+  <content>InformationRegister.БронированиеКомандировок</content>
+  <content>Enum.СостоянияБронированияКомандировки</content>
+  <content>InformationRegister.ВерсияЗаказаБронированияКомандировки</content>
+  <content>FunctionalOption.ИспользоватьБронированиеКомандировок</content>
+  <content>Constant.ИспользоватьБронированиеКомандировок</content>
+  <content>Role.ЧтениеБронированияКомандировок</content>
+  <content>InformationRegister.КомандировкиВСистемеБронирования</content>
+  <content>Role.ИспользованиеОбработкиЗагрузкаКомандировокИзСистемыБронирования</content>
+  <content>CommonForm.ПараметрыДоступаКСервисамБронирования</content>
+  <content>ScheduledJob.ОтправкаЗаявокБронированияКомандировок</content>
+  <content>Role.ДобавлениеИзменениеБронированияКомандировок</content>
+  <content>CommonPicture.ВидыУслугБронированияКомандировок</content>
+  <content>EventSubscription.ПроверитьЗаявкуНаБронированиеКомандировки</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеЗаявкиНаБронированиеКомандировки</content>
+  <content>Enum.ВидыЗапросаБронированияМестаПроживания</content>
+  <content>ScheduledJob.ПолучениеСостоянияБронированияКомандировок</content>
+  <content>CommonModule.БронированиеКомандировокКлиентСервер</content>
+  <content>StyleItem.ПодсказкаСозданияНовойКомандировкиЦвет</content>
+  <content>StyleItem.ПоездкаОтмененаЦвет</content>
+  <content>StyleItem.ОшибкиБронированияКомандировокТекстЦвет</content>
+  <content>StyleItem.ОшибкиБронированияКомандировокФонЦвет</content>
+  <subsystems>ИнтеграцияSmartway</subsystems>
+  <subsystems>РегулярнаяОтправкаСотрудников</subsystems>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

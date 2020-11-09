@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da6861fe-7f63-45cc-880a-06dad7e490b9">
+  <producedTypes>
+    <objectType typeId="00bcdc0d-ebcd-45f4-81f5-370816d361b7" valueTypeId="1b7194a8-8f69-43c8-8073-b5aeb49856b8"/>
+    <managerType typeId="239f15e0-929b-4d60-8929-6ae1ae141e77" valueTypeId="303c0f17-fa86-45fc-84e0-365e7abb3214"/>
+  </producedTypes>
+  <name>НастройкаДоступаКРекрутинговымСайтам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка доступа к рекрутинговым сайтам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаДоступаКРекрутинговымСайтам.Form.ФормаНастройкиДоступа</defaultForm>
+  <forms uuid="e00537b9-52ad-484b-862a-d1f0b71d0768">
+    <name>ФормаНастройкиДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки доступа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

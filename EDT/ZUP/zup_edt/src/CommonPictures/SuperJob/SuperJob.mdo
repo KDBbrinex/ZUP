@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd659a20-6d3c-4ab4-abf7-e78c01069284">
+  <name>SuperJob</name>
+  <synonym>
+    <key>ru</key>
+    <value>Super job</value>
+  </synonym>
+</mdclass:CommonPicture>

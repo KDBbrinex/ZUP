@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b8433a9-3302-44a9-b533-21e393a6c28d">
+  <name>ИспользоватьМедицинскиеОсмотры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать медицинские осмотры</value>
+  </synonym>
+  <location>Constant.ИспользоватьМедицинскиеОсмотры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ОхранаТруда.Subsystem.МедицинскиеОсмотры</content>
+  <content>Catalog.ВидыРаботМедицинскихОсмотров</content>
+  <content>Catalog.ВредныеОпасныеПроизводственныеФакторы</content>
+  <content>Document.НаправлениеНаМедицинскийОсмотр</content>
+  <content>DataProcessor.МедицинскиеОсмотры</content>
+  <content>Document.ЗаключениеМедицинскогоОсмотра</content>
+  <content>Subsystem.ОхранаТруда</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34252ba7-5d32-420d-ba36-9240f5106e75">
+  <producedTypes>
+    <objectType typeId="3ef310ad-8b12-4cf9-898a-30f236a56cdc" valueTypeId="eb5ff34d-2fb6-4e8e-b797-14607ec06478"/>
+    <managerType typeId="78b6f834-4763-47e2-ad7d-25347f09cf5b" valueTypeId="dea3a978-3a57-43cf-bf9a-d8395ac37be0"/>
+  </producedTypes>
+  <name>ЗагрузкаКомандировокИзСистемыБронирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка командировок из системы бронирования</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаКомандировокИзСистемыБронирования.Form.ЗагрузкаКомандировок</defaultForm>
+  <forms uuid="4098aa69-da7a-4db8-8cb6-95049254aaa5">
+    <name>ЗагрузкаКомандировок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка командировок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e027302-f7c2-46ad-9135-5a8ff884e174">
+    <name>ПодборСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3c60483b-3a75-4f3f-93d5-30c2189fea09">
+    <name>ЗагрузитьИзСистемыБронирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузить из системы бронирования</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполняет загрузку командировок по данным системы бронирования</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

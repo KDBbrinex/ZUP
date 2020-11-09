@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="301a9fc3-289c-4b56-aaad-b0458542148f">
+  <name>ИспользоватьБронированиеКомандировок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать бронирование командировок</value>
+  </synonym>
+  <location>Constant.ИспользоватьБронированиеКомандировок</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.БронированиеКомандировок</content>
+  <content>InformationRegister.ВерсияЗаказаБронированияКомандировки</content>
+  <content>InformationRegister.КомандировкиВСистемеБронирования</content>
+  <content>DataProcessor.ЗагрузкаКомандировокИзСистемыБронирования</content>
+  <content>DataProcessor.ЗагрузкаКомандировокИзСистемыБронирования.Command.ЗагрузитьИзСистемыБронирования</content>
+  <content>CommonForm.ПараметрыДоступаКРекрутинговымСайтам</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.Организация</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.БронироватьБилеты</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ВидТранспорта</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.КлассПерелета</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ГородВылета</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ГородВылетаПредставление</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ГородПрилета</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ГородПрилетаПредставление</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.СтанцияОтправления</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.СтанцияОтправленияПредставление</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.СтанцияПрибытия</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.СтанцияПрибытияПредставление</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ДатаОтправленияТуда</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ДатаОтправленияОбратно</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.БилетВОдинКонец</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.БронироватьПроживание</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.МестоПроживания</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.МестоПроживанияПредставление</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ДатаЗаездаПроживания</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ДатаВыездаПроживания</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ФамилияВПаспорте</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ИмяВПаспорте</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ОтчествоВПаспорте</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ВидПаспорта</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.НомерПаспорта</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.СрокДействияПаспорта</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ФамилияЛатиницей</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ИмяЛатиницей</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ОтчествоЛатиницей</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.ДатаРождения</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.Пол</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.Гражданство</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.Телефон</content>
+  <content>Document.ЗаявкаНаКомандировку.Attribute.EMail</content>
+  <content>InformationRegister.НастройкиСистемыБронированияКомандировок</content>
+</mdclass:FunctionalOption>

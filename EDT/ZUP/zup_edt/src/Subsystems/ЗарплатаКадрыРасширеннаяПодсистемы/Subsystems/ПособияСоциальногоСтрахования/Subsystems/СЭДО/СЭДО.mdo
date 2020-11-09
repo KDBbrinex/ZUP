@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b07ed1-2afd-44b6-b0a7-84be3b3b776a">
+  <name>СЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>СЭДО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СЭДОФСС</content>
+  <content>CommonModule.СЭДОФССКлиент</content>
+  <content>EventSubscription.ОбновитьСведенияОСогласияхНаУведомленияОбЭЛНПриЗаписиУвольнений</content>
+  <content>FunctionalOption.ИспользоватьСЭДОФСС</content>
+  <content>CommonPicture.ДокументОтозван</content>
+  <content>CommonPicture.ДокументПомеченНаУдаление</content>
+  <content>CommonPicture.ДокументПроведен</content>
+  <content>CommonPicture.ОтписатьсяОтУведомленийФСС</content>
+  <content>CommonPicture.ПроцессОтложен24</content>
+  <content>CommonPicture.СостоянияПодписокНаУведомленияОбЭЛН</content>
+  <content>CommonPicture.СостоянияСогласийНаУведомленияОбЭЛН</content>
+  <content>CommonPicture.СостоянияУведомленийОбЭЛН</content>
+  <content>Document.СогласиеНаУведомлениеОбЭЛН</content>
+  <content>Enum.СостоянияСогласийНаУведомленияОбЭЛН</content>
+  <content>Role.ЧтениеСообщенийСЭДОФСС</content>
+  <content>Role.ДобавлениеИзменениеСообщенийСЭДОФСС</content>
+  <content>Role.ЧтениеСогласийНаУведомлениеОбЭЛН</content>
+  <content>Role.ДобавлениеИзменениеСогласийНаУведомлениеОбЭЛН</content>
+  <content>InformationRegister.ПодпискиНаУведомленияОбЭЛН</content>
+  <content>InformationRegister.СогласияНаУведомленияОбЭЛН</content>
+  <content>InformationRegister.СообщенияФССОбИзмененииСостоянийЭЛН</content>
+  <content>Document.ОтзывСогласияНаУведомлениеОбЭЛН</content>
+  <content>CommonPicture.СоздатьДокументБЗК</content>
+  <content>CommonPicture.СотрудникНеПланируетПодписыватьСогласие</content>
+  <content>CommonPicture.ОтменитьВсеИсправления</content>
+  <content>Catalog.ОтзывСогласияНаУведомлениеОбЭЛНПрисоединенныеФайлы</content>
+  <content>Catalog.СогласиеНаУведомлениеОбЭЛНПрисоединенныеФайлы</content>
+  <content>InformationRegister.НастройкиСЭДОФСС</content>
+  <content>Role.ДобавлениеИзменениеНастроекСЭДОФСС</content>
+  <content>Role.ЧтениеНастроекСЭДОФСС</content>
+  <content>CommonModule.СЭДОФССВызовСервера</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы.Subsystem.ПособияСоциальногоСтрахования</parentSubsystem>
+</mdclass:Subsystem>

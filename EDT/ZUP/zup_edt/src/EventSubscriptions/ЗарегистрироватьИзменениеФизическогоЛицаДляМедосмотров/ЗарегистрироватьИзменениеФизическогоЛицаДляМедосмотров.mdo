@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0acee262-666f-4144-988d-d5e2f9cb37a8">
+  <name>ЗарегистрироватьИзменениеФизическогоЛицаДляМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение физического лица для медосмотров</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.ФизическиеЛица</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МедицинскиеОсмотры.ЗарегистрироватьИзменениеФизическогоЛицаДляМедосмотровПриЗаписи</handler>
+</mdclass:EventSubscription>

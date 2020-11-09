@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ad8489-99e4-400d-a5c7-90888cbbcf88">
+  <name>ЗаписатьВторичныеДанныеИспытательногоСрокаПриОтменеПроведенияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать вторичные данные испытательного срока при отмене проведения документа</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ОснованиеИзмененияИспытательногоСрокаОбъект</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.ИспытательныйСрокСотрудниковСобытия.ЗаписатьВторичныеДанныеИспытательногоСрокаПриОтменеПроведенияДокумента</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d09cacb3-1f43-4c0e-a8a3-be91490437fe">
+  <producedTypes>
+    <refType typeId="f2f6d315-1f65-42e6-87de-0546dbab1186" valueTypeId="d84f0047-37a9-4e24-b764-26d42f8a07a3"/>
+    <listType typeId="a3022eac-5fcd-4050-8a6d-d6718ba6c15b" valueTypeId="11d424f6-e6d6-4fd0-8c3a-0ffebd8802ef"/>
+    <managerType typeId="f2dba799-ff53-4e63-a093-de47d378f10d" valueTypeId="bad54513-b823-46d3-b315-753549ddbb90"/>
+  </producedTypes>
+  <name>ИспользованиеШаблоновСообщенийПриПодбореПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование шаблонов сообщений при подборе персонала</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a6f0725-a82f-40e4-9280-8dd6489b5860">
+    <name>ОзнакомлениеСВакансией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ознакомление с вакансией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f0415ae-91c9-4065-9625-134de3e7b2dc">
+    <name>ОзнакомлениеСКандидатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ознакомление с кандидатом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7407a515-8d5c-4974-9a0b-ed85c25509a5">
+    <name>ОзнакомлениеСКандидатами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ознакомление с кандидатами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b30dfd8-fbcb-48e5-bbce-90e72d346611">
+    <name>ОдобрениеКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одобрение кандидата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6c9e289-94ec-426a-a487-51d036cd2e84">
+    <name>ОтклонениеКандидата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение кандидата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6ed02f1-58f8-4cf1-ae88-e70ce1988d44">
+    <name>ИзменениеЭтапаРаботыСКандидатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение этапа работы с кандидатом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

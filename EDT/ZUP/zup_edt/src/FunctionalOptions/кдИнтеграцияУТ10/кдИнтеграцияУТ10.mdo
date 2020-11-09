@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="673c82b9-e7e7-4eb4-8302-727ca032e0e8">
+  <name>кдИнтеграцияУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>(КД) Интеграция уУТ10</value>
+  </synonym>
+  <location>Constant.кдИнтеграцияУТ10</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.кдИнтеграцияЗУП_УТ</content>
+  <content>Catalog.кдРезультаты</content>
+  <content>Catalog.кдФайлы</content>
+  <content>Enum.кдСтатусДокумента</content>
+  <content>CommonCommand.кд_СоздатьЗРДС</content>
+  <content>ExchangePlan.ИнтеграцияЗУП_УТ</content>
+</mdclass:FunctionalOption>

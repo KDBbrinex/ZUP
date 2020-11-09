@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9125267-0419-484b-afea-fb08fadedfe3">
+  <producedTypes>
+    <selectionType typeId="88a48c7a-a7ba-458c-9840-ddccd7c6e15e" valueTypeId="5c3f9bb5-742a-425e-b7e1-177ed59213e5"/>
+    <listType typeId="3f586236-e91e-4b18-9d63-3394ca8bf36f" valueTypeId="2c24ac9e-1b75-4be8-8341-c97bdf0f8064"/>
+    <managerType typeId="a11d7221-1cd7-4890-8c78-c9db96da9f94" valueTypeId="71a10516-7b31-4387-8ea8-8f7ca456974b"/>
+    <recordSetType typeId="73427dc8-7ca6-4805-83da-039a2c16ac12" valueTypeId="d0490c85-2f17-4035-b6db-e7f5779446b4"/>
+    <recordKeyType typeId="cecc678e-e113-4dd1-afc8-a669f8fa6258" valueTypeId="503733a0-3358-4308-a2cd-7a20633a4d24"/>
+    <recordType typeId="fbbd2159-b29b-48ab-9717-7544fd9a6af8" valueTypeId="611fd5ea-b2a1-4453-a8fd-c4fb08234d73"/>
+    <recordManagerType typeId="c506c73c-6483-4369-bad5-45c57939f2fc" valueTypeId="a1e689de-ee82-4c01-b685-53d1acf7a6b3"/>
+  </producedTypes>
+  <name>ОбновлениеПериодическихМедицинскихОсмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление периодических медицинских осмотров</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="956078f3-869b-458b-96e5-a9d920f11b36">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="76b991e2-dadb-4b19-bca5-f87eb2e9b1aa">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

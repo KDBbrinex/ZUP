@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fafcecd-d3e7-457b-aa8b-1a94ae40c2f8">
+  <producedTypes>
+    <selectionType typeId="859dada4-61cd-4dee-8b79-4c3827efa6c3" valueTypeId="1a73b0e7-7ac9-4d1b-8099-3c0897771386"/>
+    <listType typeId="208430f8-39d1-4853-b03e-91f92c5d720c" valueTypeId="f806291e-efbe-4ef5-ad54-00aa458db9e9"/>
+    <managerType typeId="20b87cc0-8595-4d9d-bc47-dcbc3ee6fecb" valueTypeId="5f2bfab4-2cf6-401a-8075-e677a5898b19"/>
+    <recordSetType typeId="9b3034c8-7258-44d3-9b18-5d0c5f720646" valueTypeId="1741a57e-074d-426a-a6c6-25de394814ae"/>
+    <recordKeyType typeId="8890945d-597e-4045-87ae-b454a8c4a050" valueTypeId="4e5beb73-2476-4f9f-a054-cfb5b6475380"/>
+    <recordType typeId="50294782-f2ff-44f0-bcd6-cd90819909bf" valueTypeId="21dfea3f-3353-4e9f-9e0f-abd322e30840"/>
+    <recordManagerType typeId="17216431-28e3-407e-9426-b3c516fb77b0" valueTypeId="7893da33-82fd-41f1-a92d-16a990cf70b1"/>
+  </producedTypes>
+  <name>АрхивФизическихЛицДокументыУдостоверяющиеЛичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Архив физических лиц документы удостоверяющие личность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8faac3bf-5f5c-424e-b798-090e80b49ee9">
+    <name>ПредставлениеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="75be89cd-e1e2-4a22-84a4-d44088cfc438">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b14ee85d-4a5c-4c69-b0af-c31c8d419131">
+    <name>ДокументВид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДокументовФизическихЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,5327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4062674a-4a81-494d-82bc-4984cd7c7903">
+  <producedTypes>
+    <objectType typeId="db719ff3-91c0-4d23-8d18-afa5fc3221cf" valueTypeId="1b87e869-2347-4964-b9e8-ff93eca2444f"/>
+    <refType typeId="f6b1de62-9422-4ed0-8d1c-7a9ec4ab1ffe" valueTypeId="323205dc-757e-4135-b06d-d53b33a06a73"/>
+    <selectionType typeId="b1ee6d3e-76e5-418b-a48c-16b6e63a54c7" valueTypeId="69c3e919-1f11-432e-aa88-b6e7f84d1478"/>
+    <listType typeId="c1afec59-cdf1-4fb3-bfc2-9fd8a1ff32d6" valueTypeId="023002fa-6793-4fb0-8db4-180a81794dfc"/>
+    <managerType typeId="d6212e33-a4c3-4be1-ab62-ce29d9f78ada" valueTypeId="6154d83c-c2b9-4489-9654-6b5582d382b3"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы объектов метаданных</value>
+  </synonym>
+  <comment>АПК:304 - №697.1.2 Обновление предопределенных данных вместо Авто требуется установить Не обновлять автоматически, так как предопределенные элементы сопоставляются с данными программно</comment>
+  <inputByString>Catalog.ИдентификаторыОбъектовМетаданных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на объект метаданных в информационной базе</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа объектов</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа объектов метаданных.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ИдентификаторыОбъектовМетаданных.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохраняемое представление идентификатора объекта метаданных</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Идентификатор объекта метаданных</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Идентификаторы объектов метаданных для использования в информационной базе.</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="11f4f8a3-e2c3-4d4f-b7e2-a0bfaa1f0194">
+      <name>РегистрСведенийНастройкиВариантовОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f48c326-12f8-4b88-a79b-bdb9afebcdb5">
+      <name>РегистрСведенийДанныеБизнесПроцессов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="eca991f5-cbc7-4eaf-b7e9-04e65369c25c">
+      <name>РегистрСведенийДополнительныеСведения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="be5c1ebb-eafe-4294-aa88-91b181f4e9de">
+      <name>РегистрСведенийИсполнителиЗадач</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="59edb0b6-aebb-4b30-99fd-60134db1affb">
+      <name>РегистрСведенийНапоминанияПользователя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d8a38942-8a25-40ae-8832-e08416c8f5c1">
+      <name>РегистрСведенийНастройкиУчетныхЗаписейЭлектроннойПочты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="911a6de4-2849-4b14-80e2-2bef5cad025c">
+      <name>РегистрСведенийПредметыПапкиВзаимодействий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c785f5be-7123-4332-871f-7d8855444a6b">
+      <name>РегистрСведенийИсторияРегистрацийВОрганеПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27562823-83dd-473a-8437-f88740e9ad6e">
+      <name>РегистрСведенийФайлыСведенийСпецоператоры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3f29a39c-c8f3-4237-8514-0a806b99cc11">
+      <name>РегистрНакопленияПособияПоУходуЗаРебенком</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="28394bf9-37d0-4459-931e-1f82a5e81296">
+      <name>РегистрСведенийИсторияРегистрацийВНалоговомОргане</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bac859ef-24ad-4204-a592-d99dff6afd0c">
+      <name>РегистрНакопленияСведенияОДоходахНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7dc0716f-8ee4-489b-ba1c-181e0dea393b">
+      <name>РегистрСведенийФИОФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8faf2ef4-775e-4fc3-b0ed-532b49338146">
+      <name>РегистрСведенийВложенияНеформализованныхДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f86cb627-1e81-4a74-83c4-87d406a056e7">
+      <name>РегистрНакопленияАвансовыеПлатежиИностранцевПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e36323f0-48ca-44ab-94b2-8624f2adfc3e">
+      <name>РегистрСведенийТекущиеКадровыеДанныеСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="183b907d-1302-4aff-b180-6fe38404613b">
+      <name>РегистрСведенийСтатусыЗастрахованныхФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ae494ba8-c547-4858-9d44-a8d7187f1e20">
+      <name>РегистрСведенийДоходыПредыдущегоМестаРаботыНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c4590a7a-9d84-4ed2-890f-75e2bfbad059">
+      <name>РегистрСведенийОплатаВедомостейНаВыплатуЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dfe61bba-fa8e-4341-b1c0-2fa98b657700">
+      <name>РегистрСведенийНастройкиУчетаСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="becaaa7f-5f8b-4a68-9e22-9c35ad82f7e2">
+      <name>РегистрСведенийНастройкиИнтеграцииСоСпринтером</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6c1985a7-baf7-47e0-8c28-5d0c49f07985">
+      <name>РегистрСведенийКадроваяИсторияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0c529ee7-d2d7-4bf0-8347-8ef5a8ed1697">
+      <name>РегистрСведенийБухучетЗарплатыОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c679494a-0f27-4660-86f6-c0a5655f5a48">
+      <name>РегистрСведенийЖурналОтправокВКонтролирующиеОрганы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="19f54352-4620-488d-ba0f-a20812b8eb7b">
+      <name>РегистрСведенийСведенияОбИнвалидностиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="769119c1-ffb3-4971-abe2-d943cd077ff0">
+      <name>РегистрСведенийЗарплатаКадрыДолиСписанияКосвенныхРасходов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="99c23e76-bda8-4087-9da2-271ef156660a">
+      <name>РегистрНакопленияЗарплатаКВыплате</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="80038da0-8c61-46eb-a982-557b192377d8">
+      <name>РегистрСведенийТекущаяТарифнаяСтавкаСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="00c71a65-7e5c-4621-93f0-7b1a14098a34">
+      <name>РегистрНакопленияИмущественныеВычетыНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dce58677-2c45-4111-a330-ad02211ab1a9">
+      <name>РегистрСведенийФайлыСведенийРОКИ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8a8e2c2c-7b39-424f-9767-60595e687253">
+      <name>РегистрСведенийКадроваяИсторияСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27a47fdf-2a05-4bc4-874c-413faded2ce2">
+      <name>РегистрСведенийСтавкаВзносаНаСтрахованиеОтНесчастныхСлучаев</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7628886e-3502-4f29-bacf-9330db02d625">
+      <name>РегистрСведенийНастройкиОбменаФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9524be9c-fb1c-4bf5-a34b-cf5b141178ae">
+      <name>РегистрСведенийСтандартныеВычетыПоНДФЛВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2da4763a-541f-47da-84ac-6c97d00258aa">
+      <name>РегистрСведенийСостоянияДокументовЗачисленияЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="37420fe0-109f-4db9-991c-bbadc1b4a238">
+      <name>РегистрНакопленияПособияПоСоциальномуСтрахованию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b906a364-18ea-4e12-8284-99b5d2473264">
+      <name>РегистрСведенийСостоянияДокументовОткрытияЛицевыхСчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9044112f-2c12-46d9-9fb8-a3f5ede6306d">
+      <name>РегистрСведенийРасчетРезерваОтпусков</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="97b24f57-60cb-45de-963c-a0d3ced10409">
+      <name>РегистрСведенийПлановыеНачисления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c730799-1c81-477a-9c4b-80475966c699">
+      <name>РегистрСведенийПодразделенияЗаПределамиРФ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9ec94772-cf7b-4beb-953b-8b6259eb0cfb">
+      <name>РегистрСведенийПлановыеАвансыИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="db7c8a81-1e88-4559-9017-9a44f8d12848">
+      <name>РегистрСведенийСобытияКалендаряБухгалтера</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="50f0e604-ecad-451c-8cd7-a7a713a9e5a6">
+      <name>РегистрСведенийОсновныеСотрудникиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="277036eb-8c47-47e1-90f9-d5034791a0f0">
+      <name>РегистрНакопленияИсчисленныеСтраховыеВзносы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="93e3f93b-0dd7-4f10-860c-f30a01e7951c">
+      <name>РегистрНакопленияРасчетыСФондамиПоСтраховымВзносам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dcd17d24-8550-4024-902e-c01e8b20e22b">
+      <name>РегистрСведенийПлановыеУдержания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f62cf6a9-75c7-41a0-bcaa-e593f4e977fe">
+      <name>РегистрСведенийУсловияУдержанияПоИсполнительномуДокументу</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5eae1434-23ff-48f6-b4ec-d950ffebb55f">
+      <name>РегистрНакопленияСтраховыеВзносыПереданныеВПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a99d2736-1e27-4080-a40c-402db4ca4f5d">
+      <name>РегистрСведенийНумераторПачекПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="995eafb5-9db0-4d85-a884-b7de738d7ae3">
+      <name>РегистрСведенийСведенияОВзносахВПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b90447ee-e969-4a56-9e66-9ba5abf03d4c">
+      <name>РегистрНакопленияВзаиморасчетыСДепонентами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="95f11307-8aef-432e-8266-30cdacb99b9c">
+      <name>РегистрНакопленияСведенияОДоходахСтраховыеВзносы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="589aea91-07dd-494b-9ed1-58c5bf9322e6">
+      <name>РегистрСведенийСвойстваТранспортныхСообщений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aae81620-5297-4354-8d2c-68a43c2031e3">
+      <name>РегистрСведенийНастройкиРасчетаРезервовОтпусков</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="78107ddd-7f06-461d-a007-42a63ae95600">
+      <name>РегистрСведенийСтатусФизическихЛицКакНалогоплательщиковНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="41752e45-f92e-4e2b-9e41-992bc1142b37">
+      <name>РегистрСведенийСтатусыОтправки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b21a7c19-fd9c-4825-924b-edd4d2921fad">
+      <name>РегистрСведенийСтандартныеВычетыФизическихЛицНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="982fad77-5925-41a3-b06c-8ffbdc2453cd">
+      <name>РегистрНакопленияВзаиморасчетыССотрудниками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0627c0a6-1251-437b-ab41-45a5378bfbb9">
+      <name>РегистрСведенийОтветыНаЗапросыИОС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="970333e7-0ef4-4140-901f-139839dd8163">
+      <name>РегистрНакопленияПредоставленныеСтандартныеИСоциальныеВычетыНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d695c153-20be-48b9-8591-a14f925caea2">
+      <name>РегистрСведенийТерриториальныеУсловияПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="09304efb-9831-4107-9fed-ba6f06e33585">
+      <name>РегистрСведенийСчетчикиВыгрузок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fde5a016-3d2e-4ad6-9984-fe6c25c852a0">
+      <name>РегистрСведенийПлановыеАвансы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d42c46d4-72e8-4afa-96fe-9b1dbc08e351">
+      <name>РегистрСведенийОтложенноеОткрытиеЛицевыхСчетовСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b36f9473-a62e-4068-888f-441850de7e6c">
+      <name>РегистрСведенийГражданствоФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="417f94a6-8ac6-4fe6-8516-2561f5a2598f">
+      <name>РегистрСведенийАрхивДанныхРегламентированнойОтчетности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2b3aa057-37af-4d60-9b93-0f5c09fe0ddc">
+      <name>РегистрНакопленияОценочныеОбязательства</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="34e4bd9d-78c9-4d5a-8473-0133be415ae8">
+      <name>РегистрНакопленияОценочныеОбязательстваПоСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa597496-5f7a-4f0f-a4bc-885234cb9274">
+      <name>РегистрСведенийФайлыДокументовРеализацииПолномочийНалоговыхОрганов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="adebbcdd-c548-4b8c-889d-629abd4b350e">
+      <name>РегистрНакопленияРасчетыНалоговыхАгентовСБюджетомПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="69312333-3990-48c2-b434-e33634b822ce">
+      <name>РегистрНакопленияНачисленияУдержанияПоСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a2245e66-9bf9-4139-9214-199c2ed7ac63">
+      <name>РегистрСведенийЛицевыеСчетаСотрудниковПоЗарплатнымПроектам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="76c548fe-d6d3-4f5c-89bd-7a41aa020a26">
+      <name>РегистрСведенийИсторияРегистрацийВНалоговомОрганеВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a01c664f-0ad5-474e-b635-8836d1b1ab1c">
+      <name>РегистрСведенийВидыЗанятостиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ad665f3d-de7d-43df-b600-1144ca76e409">
+      <name>РегистрСведенийВидыЗанятостиСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="17100a84-91c4-430a-b324-948fcfff52e1">
+      <name>РегистрСведенийЖурналОтчетовСтатусы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a761d3d7-00c4-4d83-9329-f60f34f053f1">
+      <name>РегистрНакопленияУплатаНДФЛНалоговымиАгентамиКРаспределению</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="470654f0-dd10-425e-be1d-03c7a63c5e66">
+      <name>РегистрНакопленияСтраховыеВзносыПоФизическимЛицам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="71615dfb-78cb-4758-8ce8-04f425c72b6f">
+      <name>РегистрСведенийСтандартныеВычетыНаДетейНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a9e0856d-63f4-4509-b086-a2ac04c10c36">
+      <name>РегистрСведенийПрименениеСтандартныхВычетовПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f86e436-e48d-48a0-bc07-1ace34187460">
+      <name>РегистрСведенийПрименениеСтандартныхВычетовПоНДФЛВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2b768958-f432-4494-98e7-78c277a318ad">
+      <name>РегистрСведенийНастройкиОбменаФСРАР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4c88cbe2-6f1e-4c58-8606-675bd8dffe8e">
+      <name>РегистрСведенийТранспортныеКонтейнеры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fd87baae-5143-4b30-aa71-bf2b529da553">
+      <name>РегистрНакопленияРасчетыНалогоплательщиковСБюджетомПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="132af042-f7c4-44b8-a309-fb7f25803f09">
+      <name>РегистрНакопленияБухгалтерскиеВзаиморасчетыССотрудниками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bf1989a9-ea10-42fd-a8f7-b077feec0541">
+      <name>РегистрСведенийДокументыПоТребованиюФНС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ca1ed58d-9a81-4cba-8b66-48ad369d8520">
+      <name>РегистрСведенийСтатусФизическихЛицКакНалогоплательщиковНДФЛВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0cdc9656-43ed-4df4-93b4-2663df73b98d">
+      <name>РегистрСведенийЖурналНовыхСобытий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="78355f66-0d26-4f47-a435-94dc7a7a889f">
+      <name>РегистрНакопленияОтработанноеВремяПоСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a3616abf-f12b-4f99-a3f8-9d6665366fb4">
+      <name>РегистрСведенийНастройкиОбменаРПН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a95a42a6-86eb-430a-a843-9f1ed823246b">
+      <name>РегистрСведенийОтражениеВРегламентированномУчетеНастройкиОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="70566b9d-7263-4eaa-b169-c18523001fd3">
+      <name>РегистрСведенийНастройкиЗарплатаКадры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1a6bb61f-f480-444d-bb88-83da0a18daea">
+      <name>РегистрСведенийНастройкиОбменаФТС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4e3a6109-ae96-4cfa-b6b4-981d32bdcf11">
+      <name>РегистрСведенийПроцентЕНВДДляУчетаЗатратНаЗарплату</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b2e3b3b1-3450-4e31-9c7d-3177465fa4c7">
+      <name>РегистрНакопленияЗарплатаКВыплатеАвансом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="70d62331-036a-4f1a-9a79-cf5da74615d6">
+      <name>РегистрСведенийОтветыНаЗапросыВыпискиИзЕГРЮЛ_ЕГРИП</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2fcf1f01-7306-46b5-9017-3361eeb0f801">
+      <name>РегистрСведенийОтветыНаЗапросыИОН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="31befbe3-38e4-486d-8676-1a789cf7bbfc">
+      <name>РегистрСведенийХранилищеЭлектронныхПредставленийРегламентированныхОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="73ceee30-7dd7-4303-a7c4-37747db7c52a">
+      <name>РегистрСведенийСодержимоеТранспортныхКонтейнеров</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0322b88f-231a-4497-98f8-bc3afcf139f4">
+      <name>РегистрСведенийПользователиУчетныхЗаписейДокументооборота</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c36902b8-0e9d-4fae-8d81-307cc4002431">
+      <name>РегистрСведенийНастройкиИспользованияСтраховыхВзносовПоКлассамУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dbc3c056-a9c1-42a8-b243-739f718dd42a">
+      <name>РегистрСведенийДокументыФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="664b5ce8-ca4b-4a89-b28a-fb0b0179f380">
+      <name>РегистрСведенийПлановыеНачисленияИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="101b3df6-5d27-4bb4-ae3a-edfe02785a53">
+      <name>РегистрСведенийВременноПребывающиеПринятыеПоДолгосрочнымДоговорам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="66e5b672-a2b6-428f-83cc-3a1674a272c5">
+      <name>РегистрСведенийОснованияПолномочийОтветственныхЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82800eff-4d8c-4e19-a063-9978c12999ab">
+      <name>РегистрСведенийСубъектыДляСкрытияПерсональныхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7fbb324d-b98f-4d89-a19f-06dd6f8e7724">
+      <name>РегистрСведенийСогласияНаОбработкуПерсональныхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="feafbeba-7183-4a25-92be-87624fb8347c">
+      <name>РегистрНакопленияНДФЛПеречисленный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a788cdc0-b4ca-4a8d-8183-ba9450f20b63">
+      <name>РегистрНакопленияНДФЛКПеречислению</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6ff45bf3-e8bc-4704-b3f4-d95fbe06ec64">
+      <name>РегистрСведенийСведенияОбЭЛН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6e81ed4-a509-4728-bf64-9e9565525d05">
+      <name>РегистрСведенийВычетыПредыдущегоМестаРаботыНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7e7865d6-319b-417b-a0e7-d1f88e21f922">
+      <name>РегистрСведенийЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="883ad977-4b52-40c0-bfae-b58a60749b66">
+      <name>РегистрСведенийПерерасчетЛьгот</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="77bc208a-5165-46a2-9c04-62fa7ceb3524">
+      <name>РегистрСведенийСведенияОЛьготахФизическихЛицПострадавшихВАварииЧАЭС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ef9a5980-a6d8-4096-b1f4-145a854169c0">
+      <name>РегистрСведенийСтроковыеСведенияФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d30e8c2f-374d-4b5c-bf36-6fe590738f08">
+      <name>РегистрСведенийПлановыеДатыСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87bb988f-d0ea-40bb-9102-d0a7137573b2">
+      <name>РегистрСведенийСтавкаКомпенсацииЗаЗадержкуЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="24c7f9e1-664b-40aa-a618-fbdd5db8ae5f">
+      <name>РегистрНакопленияДниЧасыОтгулов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cbd42a41-9197-4873-8467-19db3f667a62">
+      <name>РегистрСведенийПроцентыСевернойНадбавкиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="da1db23d-c538-4e75-b148-7b3907e26239">
+      <name>РегистрРасчетаНачисления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96b84705-a2bf-4b97-be83-cd8a22c36c6b">
+      <name>РегистрСведенийРолиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="76d9fdda-2c72-47eb-a032-24a0c78bd64a">
+      <name>РегистрСведенийПерерасчетЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="40de3e24-8161-43db-934b-44688c7c6274">
+      <name>РегистрСведенийИсторияИспользованияШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a70e376b-9630-4c3a-847f-3848b1f6831b">
+      <name>РегистрСведенийНастройкиРабочегоКалендаря</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6f0fcbd9-5145-4c40-b84c-b4ce7d85614d">
+      <name>РегистрСведенийТрудоваяДеятельностьФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d29fa43a-2022-49e4-ab88-c255df90294b">
+      <name>РегистрРасчетаУдержания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9ca44044-1541-475f-b1ac-7caa880276f5">
+      <name>РегистрСведенийСпециальностиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fcf2e53e-d552-456e-9bc7-2a00d16677c7">
+      <name>РегистрНакопленияБухучетНачисленияУдержанияПоСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bffae0af-2564-43c0-8e44-86c5df76122d">
+      <name>РегистрНакопленияОтработанноеВремяПоСотрудникамКорректировка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="da57d6d2-09ba-4710-85ad-fab7ab5d6912">
+      <name>РегистрСведенийПрофессииФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7339934a-38f8-41b3-b81d-14c97859ef3e">
+      <name>РегистрСведенийПериодыДействияДоговоровГражданскоПравовогоХарактера</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="beda05ef-458f-43a9-b291-19ad97a7d229">
+      <name>РегистрСведенийПлановыеНачисленияПоДоговорам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e9f58e9c-8f73-461f-be7b-9bc10995baad">
+      <name>РегистрСведенийИсторияНастроекРасчетаУправленческойЗарплатыПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72d2047f-8ebd-4551-b243-80eb4973d04c">
+      <name>РегистрСведенийПодчиненностьПодразделенийОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a74ead6f-1ff5-4ddf-a775-c6afc676297f">
+      <name>РегистрСведенийПлановыйФОТ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="74046e14-8344-4ffa-b82d-bc6d7c7fcf32">
+      <name>РегистрНакопленияОтработанноеВремяПоСотрудникамАвансом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="45948ec9-c222-4f4a-987a-55de1617cf77">
+      <name>РегистрСведенийЗнаниеЯзыковФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d0dbfb31-f573-41b7-b300-a537f2b22ccb">
+      <name>РегистрСведенийПерерасчетУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="88d9ecdc-33b3-40f2-ac80-eba9cb2e9b62">
+      <name>РегистрСведенийУченыеЗванияФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0d23af34-ef76-4765-a20f-29e80f7bfbb1">
+      <name>РегистрСведенийГрафикРаботыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e0aded0c-9659-4536-9466-6c08acbdfe80">
+      <name>РегистрСведенийНастройкиЗарплатаКадрыРасширенная</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="50cd5b71-20e6-461e-ae02-00e336a34d4f">
+      <name>РегистрСведенийДанныеОбОплатеТрудаДляПодбораСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bfcb1d4d-1271-4316-bb99-ac3c1b7166e7">
+      <name>РегистрСведенийУченыеСтепениФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7e43af5c-ae7f-4557-9438-32ebb3e1c825">
+      <name>РегистрСведенийПричиныУвольненияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c37bc856-0b24-40fa-aade-438e22378c64">
+      <name>РегистрСведенийСостоянияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cac7c7af-9c5f-40ad-b76f-ae03fcbfff61">
+      <name>РегистрСведенийВыданныеНаправленияНаМедицинскийОсмотр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2b35e2c-469d-481f-9fc6-8e7cab85dfb8">
+      <name>РегистрСведенийКомментарииКандидатов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8baccddf-4b0b-42fd-b199-0681dcc2f642">
+      <name>РегистрСведенийДатыВыплатыДоходов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="905b2520-f482-4aa7-bdb0-430928f40464">
+      <name>РегистрСведенийСведенияОбОтветственныхЛицах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0118d9f6-ab41-456f-bdf2-9ad800191f89">
+      <name>РегистрНакопленияБухучетНачисленияУдержанияПоСотрудникамАвансом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ecf3de64-9d9d-4e1c-a67b-476b77ab7e78">
+      <name>РегистрСведенийМестаВыплатыЗарплатыОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bde4dea3-bcf5-4f87-abb1-fe7fc33caaa1">
+      <name>РегистрНакопленияНачисленияУдержанияПоСотрудникамАвансом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="48f2ae2d-484f-4562-911b-5561bab6a170">
+      <name>РегистрСведенийНастройкиОтображенияЗаписейРабочегоКалендаря</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d3a6c36e-f5ce-490c-bf7a-211a55c1c95e">
+      <name>РегистрСведенийУсловияДоговораГПХ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4c07ee5f-8b89-420b-8f49-d5a5358e7a81">
+      <name>РегистрНакопленияДанныеОНачисленияхДляРасчетаСреднегоЗаработкаОбщий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="50f04b55-4d08-4b2f-9021-894f116dd057">
+      <name>РегистрСведенийПредоставлениеСоциальныхВычетовУРаботодателя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="16b2d99e-24cf-4c88-be71-a6ce2f47ff43">
+      <name>РегистрСведенийЗначенияПериодическихПоказателейРасчетаЗарплатыОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c4b3b34d-6222-403e-904d-f6f064ec1584">
+      <name>РегистрСведенийПротоколыОтправкиСообщенийКандидатам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="52428860-5d79-461b-b4c0-fe6b66f5856f">
+      <name>РегистрСведенийПлановыеПрочиеДоходы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9889a55d-19b0-4509-a029-24d468f7fefe">
+      <name>РегистрСведенийИспытательныйСрокСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="af746988-487f-48e7-834f-70ace7777b73">
+      <name>РегистрСведенийРезультатыСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="533f6825-9674-409c-b479-a9019fa41d55">
+      <name>РегистрСведенийСоставГруппСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e4534b2c-80c5-4c68-8dd7-e6a4c02ad61e">
+      <name>РегистрСведенийИсторияНачисленийПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d20ff157-d3ff-497c-b21e-e763853b762d">
+      <name>РегистрСведенийСведенияОНачисленияхДляРасчетаСреднегоЗаработкаОбщий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6dd3987-36e8-43e8-933d-58bc56aecff0">
+      <name>РегистрСведенийМедицинскиеОсмотры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="308d3d02-8ef1-4850-b432-8b050fce3ab4">
+      <name>РегистрНакопленияЗначенияОперативныхПоказателейРасчетаЗарплатыОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e2dfb7a8-0d81-454e-980e-9a6223f8b08a">
+      <name>РегистрСведенийИсторияЕжегодныхОтпусковПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="13459eae-2521-49ab-a656-553ae2ad0851">
+      <name>РегистрНакопленияДанныеОНачисленияхДляРасчетаСреднегоЗаработкаФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="51f83871-aad4-4a0a-a771-2df928203116">
+      <name>РегистрНакопленияБухучетНачисленияУдержанияПоКонтрагентамАкционерам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5826826d-0b5c-4bb1-9544-2641a4e0965e">
+      <name>РегистрСведенийУсловияОплатыОтпускаПоУходуЗаРебенком</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9778abc1-dcbc-4217-8554-3850c6ad65e6">
+      <name>РегистрСведенийСтажиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f4fd955-021c-4cc3-b4b8-dfd8532c2fc1">
+      <name>РегистрСведенийИсторияПоказателейПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cfa406e7-f2ac-42c5-8eeb-18c6f752b941">
+      <name>РегистрСведенийТерриторииСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e600ad7a-2df6-46e0-b8db-604e9d1f0688">
+      <name>РегистрСведенийПлановыеЕжегодныеОтпуска</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9cfb7d25-8592-4299-8a7e-772d1155efd5">
+      <name>РегистрСведенийЗначенияПоказателейДоплатыЗаРаботуВНочноеВечернееВремя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e4ac4a9d-ef5a-479d-8f48-9ba9319daa53">
+      <name>РегистрСведенийПериодичностьМедицинскихОсмотровПозицииШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="640bccdf-0cd0-4d54-b06d-96eb1a76e5cb">
+      <name>РегистрНакопленияПериодыУходаЗаБольнымиРодственниками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9807de3d-abb0-489e-8051-cb3d48089458">
+      <name>РегистрСведенийФотографииФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d607facc-3697-4bbe-81a0-435c730678dd">
+      <name>РегистрСведенийДанныеСостоянийСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d9f56274-3b39-4e83-915c-865a89669d65">
+      <name>РегистрСведенийЗначенияРазовыхПоказателейРасчетаЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2b14fb39-e8db-44b5-bda9-9e93bed90b28">
+      <name>РегистрСведенийПлановыйФОТИтоги</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aa1a8154-286c-43d9-baaa-dd99537c18bc">
+      <name>РегистрНакопленияНачисленияПоДоговорамГПХ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f26650ea-f541-44b1-aa78-d5559b59882f">
+      <name>РегистрСведенийПрограммыМедицинскогоСтрахованияПоУмолчанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f93e705b-25df-4f12-89f9-c68f52ca4041">
+      <name>РегистрСведенийПерерасчетСреднегоЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c83796c5-08ef-491a-b093-fb56441a3818">
+      <name>РегистрСведенийВидыРаботМедицинскихОсмотровПозицииШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="06507d18-daf4-41e1-beba-b041385aaf9e">
+      <name>РегистрСведенийСведенияКонтрактаДоговораСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a988a7e5-f601-49ec-9b0f-c9c37ddd7a6e">
+      <name>РегистрНакопленияДанныеСтрахователейДляРасчетаСреднегоЗаработкаФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0a81b516-3245-4407-8235-ec6e7c933ce7">
+      <name>РегистрСведенийНаградыФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="08054b1c-25a1-4d42-b7c2-a32ef61e32a8">
+      <name>РегистрСведенийРеестрОтпусков</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e39fc112-1c60-4580-8a8c-e4c6b2e3f43d">
+      <name>РегистрСведенийСтажиФизическихЛицКПересчету</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a874e45b-9759-478a-b466-a4205f18e1e2">
+      <name>РегистрСведенийМедицинскиеОсмотрыПоВреднымФакторам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9c59a49b-ab8e-4892-8a1d-b831bea7c26a">
+      <name>РегистрСведенийЗначенияРазовыхПоказателейРасчетаЗарплатыОрганизаций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="11ecb95e-fa6f-475d-8689-0013bb6eba1b">
+      <name>РегистрСведенийСведенияОНачисленияхДляРасчетаСреднегоЗаработкаФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2d467e09-49c7-4aba-97d2-79ebbc5ec0fa">
+      <name>РегистрНакопленияНачисленияУдержанияПоКонтрагентамАкционерам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="69ba2bc5-bb4d-4817-8c38-795040d36994">
+      <name>РегистрСведенийПредельныеСуммыУдержанийСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d3f2aca0-47c4-4e95-bcc8-f486f91cee81">
+      <name>РегистрСведенийЗначенияРазовыхПоказателейРасчетаЗарплатыПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18427591-efe7-4167-9cf1-6b1a3642972b">
+      <name>РегистрСведенийНакопленныеСтажиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="94e48c89-f296-47e4-b7cd-ee583fe5ef3e">
+      <name>РегистрСведенийПериодическиеМедицинскиеОсмотры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1bbf4253-2c34-4383-bdef-4ecc4c8bafdc">
+      <name>РегистрСведенийРасширенияПрограммМедицинскогоСтрахованияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c731b7ee-7cdd-451a-ad7b-39c2bd5624c3">
+      <name>РегистрСведенийЗначенияПериодическихПоказателейРасчетаЗарплатыПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="74b2f3b4-0f3b-4d94-8b56-9e418aab40c7">
+      <name>РегистрСведенийАналогичныеРабочиеМестаСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b156e23a-f0e4-4bdc-85c7-04274ee49c01">
+      <name>РегистрСведенийРеестрКадровыхПриказовИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="df01a5e4-07c2-433a-a9c7-f066af6d79ff">
+      <name>РегистрСведенийЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e3925770-6060-4c70-a21c-25491083b518">
+      <name>РегистрСведенийОсновныеДанныеКонтрактаДоговораСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a278ae17-6609-4a46-bf6d-07ead834bbc8">
+      <name>РегистрСведенийРолиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b1106ac3-d356-442a-b36f-dfe42f1f3e96">
+      <name>РегистрНакопленияУдержанияДоПределаПоСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="554c0173-0edf-47b4-872c-edc653a57cfd">
+      <name>РегистрСведенийОплаченныеДоговоры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="97da1281-0ac4-48c1-afa5-9ee9f2164e17">
+      <name>РегистрСведенийПараметрыИсчисленияПроцентаСевернойНадбавкиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="22a156c2-23d9-4286-a414-8c3c79f0e0dc">
+      <name>РегистрСведенийИсторияУправленческихПоказателейПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c2cc7746-2f3f-421a-9309-ace4dcba4812">
+      <name>РегистрСведенийМедицинскиеОсмотрыПоВидамРабот</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4706cec9-7bb2-4b45-8f1f-e5b0fcbb5e9a">
+      <name>РегистрНакопленияЗначенияОперативныхПоказателейРасчетаЗарплатыПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7b7d98b2-4a5f-42a6-8c4e-3542703138dd">
+      <name>РегистрСведенийГрафикРаботыСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e3dc7357-dbcc-4c33-b1bb-ea3a08337187">
+      <name>РегистрНакопленияЗадолженностьПоУдержаниямФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0a758281-95e0-43b2-aee5-78eb863ebfd8">
+      <name>РегистрСведенийВозрастныеКоэффициентыСтраховыхКомпаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cf79b3fd-4943-43ea-a2ee-b9a0ed28ccae">
+      <name>РегистрНакопленияВзаиморасчетыПоЗаймамСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82fb01bf-0009-4325-a769-0996f61f584b">
+      <name>РегистрСведенийВредныеФакторыПозицииШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="017cab6e-422e-49e8-ac70-043246982cc0">
+      <name>РегистрСведенийАдресаОтправкиУведомленийСтраховыхКомпаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe0f4b6d-be98-4fef-b379-ba08c586eb97">
+      <name>РегистрСведенийНомераРабочихМестСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4ab9732d-c3f6-4c25-b59b-d8780b38386f">
+      <name>РегистрСведенийУсловияМедицинскогоСтрахования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ea568b1d-82fb-4c93-93cf-28b0bec63e38">
+      <name>РегистрСведенийИнструктажиПоОхранеТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c9684dd7-a417-4a6a-82c9-695809ad2c80">
+      <name>РегистрНакопленияЗначенияОперативныхПоказателейРасчетаЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ced2a7b7-770d-428c-980e-014734f81ce2">
+      <name>РегистрСведенийИсторияСпециальностейПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="37cea640-3bd6-4caa-a0ff-23f3777ef960">
+      <name>РегистрСведенийОплатаПубликацийВакансий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fc11faea-224e-478b-9785-8ef6394624ca">
+      <name>РегистрСведенийПрименениеДополнительныхПериодическихПоказателейРасчетаЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="463e0e2a-154a-4458-91ce-10c94ae290ae">
+      <name>РегистрСведенийПредставленияРабочихМест</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a7625299-1e3f-4f18-a422-c28f8983fab7">
+      <name>РегистрСведенийИсторияУправленческихНачисленийПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7b4c2894-dbe3-4f1b-9baf-36b083336932">
+      <name>РегистрНакопленияРасходыНаИсточникиИнформацииОКандидатах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2bee76e6-c83f-482e-9326-0e1f2b090550">
+      <name>РегистрСведенийДанныеИспытательногоСрокаСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="11856fba-90f0-4452-ae2a-8997512fb2f1">
+      <name>РегистрСведенийВоинскийУчет</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b917864d-d6ed-444f-927d-6da0a073bc41">
+      <name>РегистрСведенийСостоянияВБракеФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0e0f6e0c-3bc1-4dc4-9c1b-1ea9f7f05ddf">
+      <name>РегистрСведенийОтстранениеОтРаботыПоРезультатамМедицинскогоОсмотра</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2997b0e9-b847-4d07-83c8-627ab0bcff1c">
+      <name>РегистрСведенийПрограммыМедицинскогоСтрахованияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c484c4d-3f78-4e3f-967b-f8bbf45348a4">
+      <name>РегистрСведенийРеестрКадровыхПриказов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="25e2e0c3-17dc-4ae2-95c8-96dca44ab21d">
+      <name>РегистрНакопленияУдержанияПоИсполнительнымДокументам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2fe02551-9c85-4ae4-bc15-c0b0e06a1bcc">
+      <name>РегистрСведенийОтложенноеМедицинскоеСтрахованиеСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b758d358-3fa8-458f-a9f7-c816e4934589">
+      <name>РегистрСведенийАрхивФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="10f8bf6c-c808-4d2b-a518-e008e4180234">
+      <name>РегистрСведенийАрхивФизическихЛицКонтактнаяИнформация</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b35b6aa8-6d6d-4951-92a2-56a6fa349d97">
+      <name>РегистрСведенийАрхивФизическихЛицДокументыУдостоверяющиеЛичность</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0baad7b-7b1b-4ef1-b92f-89f05e225abc">
+      <name>РегистрСведенийУчетнаяПолитикаПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a8f2b6d9-bb90-48bc-8016-eafe477e40aa">
+      <name>РегистрСведенийНастройкиУчетаПособийСоциальногоСтрахования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e1e58aaf-e613-4c4e-9d20-0a884dba2bc3">
+      <name>РегистрСведенийКомандировкиВСистемеБронирования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="299c3780-23df-45fd-a9aa-9f7a81557c5d">
+      <name>РегистрСведенийТерриторииСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c350aa48-78be-4c74-a052-bc74f0510d67">
+      <name>РегистрСведенийИсходныеДанныеПерерасчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="530d4103-0a46-47c0-a1bf-0346bfa6a28a">
+      <name>РегистрНакопленияДополнениеРасчетнойБазыУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c63d9d7d-8599-458d-8fcf-172e0ad9aff9">
+      <name>РегистрСведенийНастройкиСистемыНалогообложения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="97b50dd6-3d93-4a0e-a0b7-242414cd1698">
+      <name>РегистрСведенийЗанятостьПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1680e3c2-3f97-42c9-9a9a-29a7280e80b8">
+      <name>РегистрСведенийЗанятостьПозицийШтатногоРасписанияИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="90d7cabf-bcfc-420d-9ff9-d00da234ee36">
+      <name>РегистрНакопленияРасчетыСБюджетомПоНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="df1bd81a-2970-4d82-9e18-3c7f733b95db">
+      <name>РегистрСведенийСпособОтраженияДляЗаменыУстаревшейАналитикиВБухучете</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="41fca860-ae79-427c-98b5-3048d7f6b5b3">
+      <name>РегистрСведенийСтатьяФинансированияДляЗаменыУстаревшейАналитикиВБухучете</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f3d56b7-f769-468b-8eff-40c43ce77762">
+      <name>РегистрНакопленияОтражениеВБухучетеНачисленнаяЗарплатаИВзносы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c10e02ff-40ed-4e23-b7e0-a30d8ad93665">
+      <name>РегистрНакопленияОтражениеВБухучетеНачисленныйНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cb4266f4-2d55-4167-8e74-dad1c83613b6">
+      <name>РегистрНакопленияОтражениеВБухучетеУдержаннаяЗарплата</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a178654a-ebb2-4ed2-b744-08a48b4e6248">
+      <name>РегистрНакопленияОтражениеВБухучетеВыплатаОтпусковЗаСчетРезерва</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3683ddef-dfc3-42ac-9736-cc0dab9809eb">
+      <name>РегистрНакопленияВзаиморасчетыСКонтрагентамиАкционерами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c0c7d0c5-63bd-4ad9-a23a-82a375d053bb">
+      <name>РегистрНакопленияВытесняемоеПлановоеВремяСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0e0c5889-b62a-4232-8ea6-4635820403cd">
+      <name>РегистрНакопленияДанныеИндивидуальныхГрафиковСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5e571dc0-af06-4ef1-9265-eb3966ccfb8d">
+      <name>РегистрНакопленияДанныеОВремениДляРасчетаСреднегоОбщий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1685dff0-03c5-4cdc-b4d0-f172fe4dccd2">
+      <name>РегистрНакопленияДанныеОперативногоУчетаРабочегоВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="af2da26b-eb3b-43e0-9cc1-4da961315285">
+      <name>РегистрНакопленияДанныеСводногоУчетаРабочегоВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a5bf40a4-9164-4a71-876f-0beee22b5a9c">
+      <name>РегистрНакопленияДанныеТабельногоУчетаРабочегоВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="336badea-bd81-45bf-9e6e-99f511f39f6c">
+      <name>РегистрНакопленияФактическиеЗначенияПоказателейЭффективностиПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d8e13f7-7118-4563-ab08-110898bca851">
+      <name>РегистрНакопленияФактическиеЗначенияПоказателейЭффективностиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cc9497fd-6bbd-4bee-a5f9-2c854181473e">
+      <name>РегистрНакопленияФактическиеОтпуска</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0d4b89e6-c0a5-47c4-984a-a939fb84bef9">
+      <name>РегистрСведенийАвтоматическиОбновляемыеГрафикиРаботыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1185a471-cf61-454c-a1be-0622baed153d">
+      <name>РегистрСведенийАдресныеОбъекты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aded812d-76eb-4a58-a7de-73790f8987f4">
+      <name>РегистрСведенийАктивированныеАгентыРезервногоКопирования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2a92681-f0d4-45c6-b9e8-e8a721722a63">
+      <name>РегистрСведенийАнкетыКандидатов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b6e2cf45-784d-4c5a-8d8f-9896fbb3d132">
+      <name>РегистрСведенийБезопасноеХранилищеДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8e90031a-1bbe-42be-82d5-2e9bf71596b8">
+      <name>РегистрСведенийБезопасноеХранилищеДанныхОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="71980028-8efa-4125-81d4-12aee00374e5">
+      <name>РегистрСведенийБлокировкиСеансовОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="88683906-96fb-46ba-b908-3a8e5401125e">
+      <name>РегистрСведенийБронированиеКомандировок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bfe5c4d4-97a9-44d6-83d8-452a18b47214">
+      <name>РегистрСведенийБронированиеСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="85681a57-ffbd-4d99-984b-940634d223b4">
+      <name>РегистрСведенийБуферОперацийСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d8f403da-24cd-4be0-9d0e-6b54ffa4566b">
+      <name>РегистрСведенийБухучетЗарплатыПервичныхДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="532cf1d8-8e4d-4784-8b82-37a7ae622cb6">
+      <name>РегистрСведенийБухучетЗарплатыПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0419c634-b658-44ee-9872-791f3d3c4819">
+      <name>РегистрСведенийБухучетЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="332ccf6e-9bd8-4bd9-8a13-62006457e4a0">
+      <name>РегистрСведенийБухучетЗарплатыСотрудниковИсправления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="75e0ff2b-c1b8-4dfe-875f-de29b71efd8c">
+      <name>РегистрСведенийБухучетЗарплатыТерриторийВыполненияРабот</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="755daed8-d3a8-49f3-8874-7c9ce308bc69">
+      <name>РегистрСведенийБухучетПлановыхНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0faef46d-3117-472e-81e5-b27f8133c0ca">
+      <name>РегистрСведенийБухучетПлановыхУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72750687-a589-4ad5-930e-0a6f085e8200">
+      <name>РегистрСведенийБухучетРаботСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d1698cd3-0a27-44b9-8ea9-662bb4ad8b62">
+      <name>РегистрСведенийБухучетРабочегоВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="78a3d44f-7d17-4c2d-847a-8de0cdb3b223">
+      <name>РегистрСведенийБухучетРаспределениеОсновногоЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="98286e8d-27fe-4280-ae50-7e16f0a51346">
+      <name>РегистрСведенийВакансииЧатботов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="14535ec6-110c-45be-9562-482256e0c9b1">
+      <name>РегистрСведенийВеличинаПрожиточногоМинимума</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="63a475a7-395f-473d-8ec8-7df93577747a">
+      <name>РегистрСведенийВерсииКлассификаторов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c47b2e4e-697d-4954-964a-cd3530068b02">
+      <name>РегистрСведенийВерсииКлассификаторовОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="417b2730-aa37-4c7c-b01b-95831e851349">
+      <name>РегистрСведенийВерсииОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3766b4f0-da3d-46e5-92bf-d7cd0212bf63">
+      <name>РегистрСведенийВерсииПодсистем</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="168a2353-70d1-4c9c-8796-24fdee74d733">
+      <name>РегистрСведенийВерсииПодсистемОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f45ad249-a751-465e-b3c5-3bcdc8a2392b">
+      <name>РегистрСведенийВерсияЗаказаБронированияКомандировки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a78b881e-1afa-4bd2-a19e-977c80798a82">
+      <name>РегистрСведенийВидыВремениДляВыявленияНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="04e51da0-80ec-4e99-b51c-57e2e37daafe">
+      <name>РегистрСведенийВидыЗанятостиСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e4d1d07e-a860-4fa6-b246-1b1731d1668a">
+      <name>РегистрСведенийВидыСтажаТрудовойДеятельностиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="25f67e6a-ec97-446e-80d4-ad5602f2de8d">
+      <name>РегистрСведенийВнеочередныеАттестацииСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aa2bb669-78e3-4a89-b54c-854ccc8b4ea5">
+      <name>РегистрСведенийВопросыДляСобеседованияВопросовШаблоновАнкет</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e7829e40-6a1a-480b-8fbc-63b246d3bc95">
+      <name>РегистрСведенийВопросыОценкиХарактеристикПерсонала</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c2fe3f3c-df94-44c9-8c04-c558d2d5852b">
+      <name>РегистрСведенийВременныеИдентификаторыЗапросов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f30beb62-25ec-47e0-a1e6-e3b1817ecece">
+      <name>РегистрСведенийВремяРегистрацииДокументовПлановыхНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2a25e325-5173-4465-9fff-6759e373f75b">
+      <name>РегистрСведенийВсеОбновленияНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e0c5e460-4195-4c1c-9e2f-2c527836cd9b">
+      <name>РегистрСведенийВсеОбновленияОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e52b8ed3-0d83-4b9b-9423-5d31777553aa">
+      <name>РегистрСведенийВыбранныеВариантыОтветовЭлектронныхВопросов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87a7f138-6c6a-4c56-9579-550c5a9878a7">
+      <name>РегистрСведенийВычетыПоДоходамНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d1b6fa0-3429-48d9-82f9-b186df115671">
+      <name>РегистрСведенийГрафикиРаботыПоВидамВремени</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ed9e9057-0fbc-4780-8fbf-fdff8e773a67">
+      <name>РегистрСведенийГрафикРаботыСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3d1b9e96-f803-4656-b656-04398dd43e3c">
+      <name>РегистрСведенийГрейдыПозиций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b3bc3395-b1a9-4dda-8748-dcca1d2a060b">
+      <name>РегистрСведенийГрейдыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b1af2dc3-ea6b-4cbf-b100-cbccd2a3adbf">
+      <name>РегистрСведенийГрейдыСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b87b739a-ca48-44bf-8945-70f1bb5c3cbb">
+      <name>РегистрСведенийГруппыДоступаБезОграниченийНаКоличествоСеансов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9b6109ea-f388-4920-870c-1cf4f553b89a">
+      <name>РегистрСведенийГруппыДоступаБезОграниченияПродолжительностиСеанса</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="13303ff7-747c-46ce-9583-d1b7b5f89bcb">
+      <name>РегистрСведенийГруппыЗначенийДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f002d40f-f5cf-4c50-9b5f-6b6fd00b27e3">
+      <name>РегистрСведенийГруппыЭлементовЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b4911676-c1cc-4bdd-b976-a5766815214a">
+      <name>РегистрСведенийДампыПлатформы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e02e51d6-3991-403e-ba54-b83246378c43">
+      <name>РегистрСведенийДанныеДляПодбораСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="836077c5-8286-4833-aab6-2abc740f7a2a">
+      <name>РегистрСведенийДанныеИспытательногоСрокаСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fdc38a65-209c-4fbe-b9c5-5dc123006017">
+      <name>РегистрСведенийДанныеОбработанныеВЦентральномУзлеРИБ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f6ee90de-1ad0-45d8-a3c3-6aea2db6d6fb">
+      <name>РегистрСведенийДанныеОбъектовДляРегистрацииВОбменах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27332f39-d728-4690-be3c-d1ae73816792">
+      <name>РегистрСведенийДанныеОВремениДляРасчетаСреднегоОбщийКорректировка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9aebe1d1-692b-4279-bbf9-098bd1955d67">
+      <name>РегистрСведенийДанныеОВремениДляРасчетаСреднегоФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3705f581-ac0d-415d-9e16-90c03644ee7d">
+      <name>РегистрСведенийДанныеОВремениДляРасчетаСреднегоФССИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0169faa9-f7ca-4f2e-862b-6033c668ee09">
+      <name>РегистрСведенийДанныеПоМотивацииВАнкетахДополнительно</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="09a488d7-f817-4f95-80e8-2638fa3c6d7a">
+      <name>РегистрСведенийДанныеПроизводственногоКалендаря</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1539afb7-16f3-4b18-87e0-626f277d6732">
+      <name>РегистрСведенийДанныеПроизводственногоКалендаряПомесячно</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cede4c9a-8b8b-4831-a0da-5ab7b4004fcd">
+      <name>РегистрСведенийДанныеПубликацииВакансий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7895a38f-f43f-448a-8049-3fadcbc8d50b">
+      <name>РегистрСведенийДанныеПубликацииРезюме</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4558e5ee-17c2-400e-95eb-7fea73b2c5fc">
+      <name>РегистрСведенийДанныеСостоянийСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83880668-b63f-429e-904a-410c1d06364d">
+      <name>РегистрСведенийДанныеЭлектронныхКурсовДляПолнотекстовогоПоиска</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="12126d0b-9cf5-45a3-a4d0-1339c9477b86">
+      <name>РегистрСведенийДатыЗагрузкиПоследнихНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6521879e-cfe7-4be9-8206-8b442c61d358">
+      <name>РегистрСведенийДатыЗапретаИзменения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4b7d0e8d-9b11-48ee-b532-13de7b367b56">
+      <name>РегистрСведенийДатыОбновленияСтандартныхСписковНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="035c73ac-969f-428c-9615-34f83e3d3ad2">
+      <name>РегистрСведенийДатыОтправкиСообщенийСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cd348099-3ba9-4653-b903-1e9ead147a2a">
+      <name>РегистрСведенийДатыПоследнейЗагрузкиПочтовыхСообщений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5c69b367-14d5-47e0-8d6e-c7150064c9f3">
+      <name>РегистрСведенийДвоичныеДанныеФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9b970561-261b-4b6b-8d35-9af6962480a2">
+      <name>РегистрСведенийДействияПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b861e94c-5018-44bb-b5b1-a562f8ef4644">
+      <name>РегистрСведенийДобавленныеПопыткиЭлектронногоТестирования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e83851d5-673b-4b1e-9643-b3c5daca1166">
+      <name>РегистрСведенийДокументыОплаченныеБезУдержанияНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ff3d0451-2e51-4ad2-91e6-00be419b0b91">
+      <name>РегистрСведенийДокументыСреднегоЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1067e21e-2c08-49fa-abdb-5f6400dcf5a5">
+      <name>РегистрСведенийДокументыУчтенныеПриРасчетеНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="074c8c9e-9168-4781-99f8-f4110c687f40">
+      <name>РегистрСведенийДолжностиПодключаемыеХарактеристики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="66871b93-7d39-4ce5-b278-6ce61160d24a">
+      <name>РегистрСведенийДомаЗданияСтроения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b33d3f43-d695-4066-9e23-d2d15fa57c9a">
+      <name>РегистрСведенийДополнительныеАдресныеСведения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d9d4fe4e-3c6c-438d-a822-c1b40d306b07">
+      <name>РегистрСведенийДополнительныеНастройкиЗарплатаКадры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e0387a18-fad9-4492-95fc-449d87c5e603">
+      <name>РегистрСведенийДополнительныеРеквизитыУчетнойЗаписи</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="28873b32-7c6f-44e7-974b-e7e0ad03cce4">
+      <name>РегистрСведенийДополнительныеРеквизитыУчетнойЗаписиПолучатели</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3ec33244-7c71-4b18-b91d-dea65b85f2c8">
+      <name>РегистрСведенийДополнительныеФайлыРегламентированныхОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4c72939f-8c57-4f8c-9458-cc7da62c26f6">
+      <name>РегистрСведенийДопустимыеСочетанияКодовГруппСтажа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f6bf7a1-bf57-49cb-9f06-5c421fb64a65">
+      <name>РегистрСведенийДоступноеВремяПользователя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aeaeee34-db15-4338-a85d-dacf9381c3c6">
+      <name>РегистрСведенийДоступныеВерсииАгентаКопированияОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="140a9410-50be-43f0-8749-95c31582b4e0">
+      <name>РегистрСведенийДоступныеЛицензии</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="154332a1-c86a-46e9-afac-ee9ba1c7df36">
+      <name>РегистрСведенийЖурналРегистрацииАгентаКопированияОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bf399a79-3ddb-48b3-9bb8-a610ee62e865">
+      <name>РегистрСведенийЖурналСобытийОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d64fbe4b-22ee-4f95-b8e4-50125ee8c7e6">
+      <name>РегистрСведенийЗаблокированныеДляПолученияУчетныеЗаписи</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7b53cdd6-7b5f-4ff3-98f2-e2f566b2b817">
+      <name>РегистрСведенийЗависимостиНачисленийПоФПД</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8e21b9ad-43b9-450b-9b5c-692e275745c2">
+      <name>РегистрСведенийЗависимостиПравДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6c129af1-468b-434d-8c89-e1877535eca4">
+      <name>РегистрСведенийЗагруженныеВерсииАдресныхСведений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="64b11426-b53c-495e-a718-dbe24901c594">
+      <name>РегистрСведенийЗаданияАдаптацииУвольнения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ff9db576-d61d-413c-9bd6-85c6c37e1521">
+      <name>РегистрСведенийЗамерыВремени</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="79417214-5f16-4a72-97eb-fa7a887a911b">
+      <name>РегистрСведенийЗамерыВремениТехнологические</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5d88256f-bacf-40e0-ad8c-a433bd8d4199">
+      <name>РегистрСведенийЗамерыКомментарииСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="645fc99b-a216-4bdf-b525-0b1546afbdfc">
+      <name>РегистрСведенийЗамерыОбластиСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="074371f9-1e7d-4d19-9c19-57f9d735bfd0">
+      <name>РегистрСведенийЗамерыОперацииСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="65c7d7b2-781c-470c-b626-73e6cbe72e79">
+      <name>РегистрСведенийЗамерыСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="97bc5be1-545f-481f-8c8e-13345ca0c094">
+      <name>РегистрСведенийЗанятостьПозицийШтатногоРасписанияИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e1b5779e-ff60-4699-ac6c-80c5f9a17d7d">
+      <name>РегистрСведенийЗанятостьПользователя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="662b1c93-7538-41b8-9fd6-b12e427deb73">
+      <name>РегистрСведенийЗанятыеЛицензии</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b25c7045-2afc-4b57-b489-d7a0cb5cf382">
+      <name>РегистрСведенийЗаписиОСтажеДоНачалаЭксплуатации</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="674b5471-379c-4225-9453-3c1ec4f2a620">
+      <name>РегистрСведенийЗаписиОСтажеСведенияОСтраховомСтажеЗастрахованныхЛицСЗВ_СТАЖ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5bf50d74-d4b2-4e7b-8133-4527b3255c27">
+      <name>РегистрСведенийЗаписиСинхронизацииКалендарей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="03deea3d-c04d-4ed7-ac0e-5b390d73737c">
+      <name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="36e4bde0-2835-42f4-bc72-55b8c81ac494">
+      <name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d9dc0ae2-80e4-4f3e-80fa-a4d5f80485d6">
+      <name>РегистрСведенийЗапросыРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="313cae1f-8635-4f8f-a9e0-8422d77e232b">
+      <name>РегистрСведенийЗаработанныеПраваНаОтпуска</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bd081cc0-dcf8-4d21-a8e5-5223ced00c25">
+      <name>РегистрСведенийЗемельныеУчастки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="979add2e-417c-41dd-90d5-343911e9b668">
+      <name>РегистрСведенийЗначенияБазовыхТарифов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7e2f56fb-259d-47fd-9f11-b1563aa88d18">
+      <name>РегистрСведенийЗначенияГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7282b18a-4c60-4d15-97bf-589d0443df96">
+      <name>РегистрСведенийЗначенияГруппДоступаПоУмолчанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3e0930a6-66ec-4cef-b2d7-912a7dff15ff">
+      <name>РегистрСведенийЗначенияКатегорийДляОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="de52fa9c-d4d6-45c9-9249-fcc6336f3545">
+      <name>РегистрСведенийЗначенияКатегорийОбщие</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1f47f80e-96ab-46ec-b4cf-bc8b3474910a">
+      <name>РегистрСведенийЗначенияКатегорийПользовательские</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6896066a-d48a-469a-920b-d6d27202169f">
+      <name>РегистрСведенийЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="45304df3-4a37-4e17-b2a1-934462b2ea7e">
+      <name>РегистрСведенийЗначенияПоказателейЛьготСотрудникамПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="24081b47-2f27-4225-b826-49762d6c90a5">
+      <name>РегистрСведенийЗначенияПоказателейНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="828b257b-b543-4dbf-bbef-131498df9b66">
+      <name>РегистрСведенийЗначенияПоказателейРасчетаЗарплатыГрейдов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dfdd32bf-f511-45a3-b22e-f4b356b71876">
+      <name>РегистрСведенийЗначенияПоказателейУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4f725260-be8a-4501-8824-dfae4a25077f">
+      <name>РегистрСведенийЗначенияРазовыхПоказателейРасчетаЗарплатыСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="095da742-98dd-484c-b8cd-03859790c3c2">
+      <name>РегистрСведенийЗначенияСтроковыхРеквизитов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0fae9ca2-18b1-48ff-bf8b-3726b8dc1c1c">
+      <name>РегистрСведенийЗначенияТарифов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="751b5b0c-e078-4489-a6a4-9161862427cd">
+      <name>РегистрСведенийИдентификаторыEStaff</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b890c6f6-3987-4fd4-83e5-81aabc8f00cc">
+      <name>РегистрСведенийИдентификаторыОбъектовВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5f0e60c8-638f-40dd-b66f-df4a033aef94">
+      <name>РегистрСведенийИдентификаторыПолученныхЭлектронныхПисем</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="03201115-8bca-42a8-adb0-eac2b3f3ad1e">
+      <name>РегистрСведенийИзменениеСведенийФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="789d5272-af4a-4675-a0b2-725b8e0d7e51">
+      <name>РегистрСведенийИзмененияОбщихДанныхУзлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="63ec781c-05ba-4e71-87de-a021d06f5b53">
+      <name>РегистрСведенийИзмененныеЭлектронныеКурсы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4881dc2a-de7c-4578-bd33-44f67525c391">
+      <name>РегистрСведенийИзученныеЭлектронныеКурсы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b0be7eb0-1f1b-465f-bbd6-a1ff63ca0ad2">
+      <name>РегистрСведенийИзученныеЭлементыЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2f7d4b94-47b1-486b-84af-63c5f2afac3b">
+      <name>РегистрСведенийИмпортированныеЭлементыПакетаSCORM</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4d7adf45-324c-4155-b452-91629418742e">
+      <name>РегистрСведенийИндивидуальныеЛьготыФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7f992b22-e8b7-48a4-a032-456e0334c8cd">
+      <name>РегистрСведенийИнцидентыОткрытые</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bdc55afc-d564-4610-9386-09ad6a396ddb">
+      <name>РегистрСведенийИнцидентыОтложенныеПроверки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c01fe1f1-c23e-463c-bf31-03f5050bb9ce">
+      <name>РегистрСведенийИсключенныеИзОбработкиСертификаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2d27e37f-7c6f-4540-9bba-3acdf5b693f1">
+      <name>РегистрСведенийИсключенныеИзОбработкиТранспортныеСообщения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="39809ba0-ba51-4e3a-ba8d-4cf0d280d611">
+      <name>РегистрСведенийИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="262460c9-653c-4d91-a53c-25277904074f">
+      <name>РегистрСведенийИспользованиеНачисленийПоказателейГрейдов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="88369771-a93e-494d-bb18-4903c1897789">
+      <name>РегистрСведенийИспользованиеОбменаЗарплата3Бухгалтерия3ПоОрганизациям</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30b7d1de-661e-4a43-8292-d05d59bed372">
+      <name>РегистрСведенийИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="273f6e1e-d56d-4598-b92d-88e562185901">
+      <name>РегистрСведенийИспользованиеПоставляемыхРасширенийВОбластяхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="05dc7109-3ed9-4fdb-9713-69a9b579554c">
+      <name>РегистрСведенийИсторияАдресныхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a5726805-0f1b-4244-9ee6-d1325e171093">
+      <name>РегистрСведенийИсторияКадровогоРезерва</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="37104d99-fc21-493f-837b-6eb147033ea4">
+      <name>РегистрСведенийКадроваяИсторияСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bbd34417-1695-452f-a94a-7cf03be2184e">
+      <name>РегистрСведенийКадровыйРезерв</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b1b64dab-261f-428d-a6c0-9b31c6927d08">
+      <name>РегистрСведенийКатегорииНовостейИнтервалыВерсий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a59a60c6-e4f4-471b-be93-c0d2a818607b">
+      <name>РегистрСведенийКатегорииНовостейИнтервалыВерсийНеобработанные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="07ca0ee4-37af-443a-b820-b2d03f9c8144">
+      <name>РегистрСведенийКатегорииНовостейПростые</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2a18c87e-3999-44db-a461-60041de25271">
+      <name>РегистрСведенийКатегорииНовостейПростыеНеобработанные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dc77243c-4da6-465e-9017-6ec86f0a3da9">
+      <name>РегистрСведенийКлассыУсловийТрудаПоДолжностям</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cbb37f88-a697-4c6b-a13b-970405a2ec09">
+      <name>РегистрСведенийКлючиДоступаВнешнихПользователей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fb9a57a8-8897-4c91-b2d4-00f63ddd0120">
+      <name>РегистрСведенийКлючиДоступаГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="78598bfb-1956-4288-86e0-b73f861f4435">
+      <name>РегистрСведенийКлючиДоступаКОбъектам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="723b910c-cca1-469f-8a7d-6faa9e6cdeef">
+      <name>РегистрСведенийКлючиДоступаКРегистрам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c53552d-e69f-4960-be73-a1804bce8bd4">
+      <name>РегистрСведенийКлючиДоступаКРегиструРезультатыПроверкиУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="feff1a6f-b076-48bf-9334-a8ae07b969e0">
+      <name>РегистрСведенийКлючиДоступаНаборовГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c972a7c-fb4a-4ac5-bd63-96d3644ebd34">
+      <name>РегистрСведенийКлючиДоступаПользователей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="31b2a363-d856-4acc-967b-52e6de731923">
+      <name>РегистрСведенийКодировкиФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4c8f7e5d-2b28-4f74-8d62-579a630f31c3">
+      <name>РегистрСведенийКоличествоОдновременныхСеансовГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8976aa9f-1a8f-4690-bf6a-6d28d3518be9">
+      <name>РегистрСведенийКомандировкаОснования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ce754895-b855-48f4-9787-5e80c669e4dd">
+      <name>РегистрСведенийКомандировкиСотрудниковОснования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6f3967c9-9e10-40d9-a4d0-0af9a17070f9">
+      <name>РегистрСведенийКомментарииОперацииСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ee2f00bc-f20a-4c30-818f-b0950eb59ad4">
+      <name>РегистрСведенийКомментарииСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="faa883d1-5baa-44a7-ab59-610716419f2b">
+      <name>РегистрСведенийКонтактыВзаимодействий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2e82edc1-d4b5-4877-be71-2f21091fd46b">
+      <name>РегистрСведенийКорректирующиеФормыРСВ_1</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cc0c5b04-4781-4ed0-9702-d4b15635bfe5">
+      <name>РегистрСведенийКоэффициентИндексацииЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fcecefe4-cd0e-4890-a89d-a4b28d4e0cb3">
+      <name>РегистрСведенийКоэффициентыРаспределенияСреднегоЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="693bcd67-496c-4de0-a593-fcd198e8d88b">
+      <name>РегистрСведенийКурсыВалют</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6d7a9957-27cc-436e-a809-001037d4a428">
+      <name>РегистрСведенийКэшДанныхКлассификаторов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2f19e61b-321e-4983-a494-3a4f56860447">
+      <name>РегистрСведенийКэшПрограммныхИнтерфейсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e9cf1f77-9215-4fed-a237-900ba85b1d91">
+      <name>РегистрСведенийЛимитыЛьготСотрудникамПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="897bf431-75a8-440b-9f9d-045cd9e75994">
+      <name>РегистрСведенийМакетыКомпоновкиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3e3ce2e7-7e5b-4639-b59d-b6663a52fb6f">
+      <name>РегистрСведенийМакетыЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="477af7d9-4887-49c2-8866-dcd218a802b3">
+      <name>РегистрСведенийМаксимальныйРазмерЕжемесячнойСтраховойВыплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7c044d7f-adf7-4a25-814c-562d93273946">
+      <name>РегистрСведенийМероприятияАдаптацииУвольненияПоДокументу</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="746b154f-459e-4495-836d-858946fcab5d">
+      <name>РегистрСведенийМестаВыплатыЗарплатыПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2144d42c-e128-4552-ad8a-17c6ad2795fe">
+      <name>РегистрСведенийМестаВыплатыЗарплатыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="483264b8-e2a6-46c9-b468-ee5001790f15">
+      <name>РегистрСведенийМестоПозицииШтатногоРасписанияВСтруктуреПредприятия</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9b4cb29a-0cf5-4dbc-8bc4-90fd1a0871f1">
+      <name>РегистрСведенийМиграцияПриложенийОчередьЗагрузки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="15866c72-dad2-4cce-abed-644b9b966b39">
+      <name>РегистрСведенийМиграцияПриложенийСостояниеВыгрузки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="864ddfe5-f0c0-4b26-8b34-caa74547eeaf">
+      <name>РегистрСведенийМиграцияПриложенийСостояниеЗагрузки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="545b2d28-55ff-46a3-9d04-86c6cce8071c">
+      <name>РегистрСведенийМинимальнаяОплатаТрудаРФ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5161387a-8e0b-4062-af18-e37bf6c9e160">
+      <name>РегистрСведенийМотиваторыВАнкетах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d45b54a-070c-43ff-b468-8329dd590930">
+      <name>РегистрСведенийНаборыЗначенийДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe93b862-65c2-4335-a1a6-64efede182a6">
+      <name>РегистрСведенийНазначениеДополнительныхОбработок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="db0e780c-bfda-43e2-a2c1-cb4b8797ed98">
+      <name>РегистрСведенийНаличиеФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="917aa71d-5d2d-4b8d-8930-1db1a01e0478">
+      <name>РегистрСведенийНаследованиеНастроекПравОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dfa2b7bb-2a2d-4207-9dd0-bab254155ac5">
+      <name>РегистрСведенийНастройкаВопросовДляСобеседования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="14edf1d0-354d-4077-8d26-f3e141f6b7ff">
+      <name>РегистрСведенийНастройкиАвторизацииВ1СДокументообороте</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0af3aad6-df13-4ca2-b972-43c3fb799f08">
+      <name>РегистрСведенийНастройкиВерсионированияОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f17b4de6-e322-45eb-a538-e184e8a6cfd8">
+      <name>РегистрСведенийНастройкиВзаимодействияСРекрутинговымиСайтами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="52fc9b32-7f37-41b1-bf31-1e7d15f7a523">
+      <name>РегистрСведенийНастройкиВзаиморасчетовПоПрочимДоходам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b39fbfbf-60eb-4390-b07f-cdf399bee003">
+      <name>РегистрСведенийНастройкиВзаиморасчетовССотрудниками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="277f37a0-50c7-4d6a-bd42-aeb939ecc5db">
+      <name>РегистрСведенийНастройкиВоинскогоУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f08d060e-43f9-41cc-9a64-93682ee337d5">
+      <name>РегистрСведенийНастройкиГрейдов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ecdc5345-0f2b-45db-a62a-70a7741f6d93">
+      <name>РегистрСведенийНастройкиДействийХарактеристикШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b86c90f5-ed90-480f-bbd9-ca036dce8699">
+      <name>РегистрСведенийНастройкиЗаймовСотрудникам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="45c438a3-4f01-4fe9-b575-502346384348">
+      <name>РегистрСведенийНастройкиИнтеграцииРекрутинговыхСайтов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9bba3c76-55f8-4798-97e5-dd5f7475899c">
+      <name>РегистрСведенийНастройкиКадровогоРезерва</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="39672411-f735-46be-8f10-5d4799edbe70">
+      <name>РегистрСведенийНастройкиКадровогоУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e95ba12c-2162-4511-a997-20d2a1538dac">
+      <name>РегистрСведенийНастройкиКлючевыхПоказателейЭффективности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="239e08d2-04d5-42af-ba78-6952406d0dc0">
+      <name>РегистрСведенийНастройкиКомандПечати</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fb70dcae-87b4-4bb2-8965-9b96167a9b3d">
+      <name>РегистрСведенийНастройкиЛьготСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3a442eed-0673-4331-a2e4-b05b16c0cb4c">
+      <name>РегистрСведенийНастройкиМногопотоковогоЗаполненияДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="427f5171-16d1-4424-a79f-6f813ad78ef9">
+      <name>РегистрСведенийНастройкиНесчастныхСлучаевНаПроизводстве</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="597dc993-aab4-4ee4-a80d-865c2e68df0e">
+      <name>РегистрСведенийНастройкиОблачногоАрхиваНаЛокальномКомпьютере</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="22a13a3b-91b5-4318-89ab-a30adc28f0e2">
+      <name>РегистрСведенийНастройкиОбменаДаннымиXDTO</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="eab868db-2b45-480b-a90c-9305c0620405">
+      <name>РегистрСведенийНастройкиОбученияРазвития</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="56e33a99-6564-46ab-a2c9-ef887640d9d3">
+      <name>РегистрСведенийНастройкиОтправителя</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b073c43b-1b73-4fd9-b193-a86079279127">
+      <name>РегистрСведенийНастройкиОтраженияДокументовВУчетеСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e86b6adf-680a-45a0-afee-627257145034">
+      <name>РегистрСведенийНастройкиОценкиПерсонала</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="967130cb-4ddb-4540-b02a-e5b0a3e92238">
+      <name>РегистрСведенийНастройкиОчисткиФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7fcd2e68-9f79-430f-9465-c577faee789b">
+      <name>РегистрСведенийНастройкиПлановыхПрочихДоходов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c4af09b6-3831-483a-8ec0-7c14938fa353">
+      <name>РегистрСведенийНастройкиПодбораПерсонала</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72b497eb-d791-448d-b1cc-f9f28ca9b349">
+      <name>РегистрСведенийНастройкиПользователейБИП</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6426158d-7908-4fbd-a845-8cc7bc2387e5">
+      <name>РегистрСведенийНастройкиПравОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30c8513d-1b8d-45d2-bb96-c7d0bd88ab24">
+      <name>РегистрСведенийНастройкиПроверкиОтчетностиПерсУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="94107cce-875b-426e-843a-5bc0690a019c">
+      <name>РегистрСведенийНастройкиПрограммОбученияПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2681091-8378-4b03-b07f-cdf7936d532b">
+      <name>РегистрСведенийНастройкиРасчетаЗарплатыРасширенный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="546a20d0-32dd-4deb-b648-c7f6c048da11">
+      <name>РегистрСведенийНастройкиРасчетаСреднегоЗаработка</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27738832-379e-451e-911b-330fc454a8ef">
+      <name>РегистрСведенийНастройкиРасчетаУправленческойЗарплатыПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="21c7301e-4acf-49f4-a14e-7f04a1c1c207">
+      <name>РегистрСведенийНастройкиСамообслуживанияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="af59828c-dde8-4d19-b33d-c0c98732257e">
+      <name>РегистрСведенийНастройкиСинхронизацииDAV</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa1ae9f6-bbed-483d-9dfc-4b4c45eb41c3">
+      <name>РегистрСведенийНастройкиСинхронизацииGoogle</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="55c9d170-5c7d-45c4-848e-011fba274d9b">
+      <name>РегистрСведенийНастройкиСинхронизацииФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fccb8b6a-4ee1-4e83-a9a7-b6b4c11c7c4c">
+      <name>РегистрСведенийНастройкиСистемыУведомлений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dca31431-96d3-46c5-a7a2-fefb6c14b09e">
+      <name>РегистрСведенийНастройкиСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b3ca14cb-1375-48f3-97af-a66691d062f9">
+      <name>РегистрСведенийНастройкиСтатистикиПерсонала</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3faae1d1-e41b-410c-bbb1-88d4bbcdce8f">
+      <name>РегистрСведенийНастройкиТранспортаОбменаДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f407aae5-1b00-4847-88ae-8f223aea93bb">
+      <name>РегистрСведенийНастройкиТранспортаОбменаОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bdde30b4-e66d-49f8-8a47-538a1a94c27b">
+      <name>РегистрСведенийНастройкиТранспортаОбменаОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6d6e6d05-767a-4a85-9876-78878bb3c37c">
+      <name>РегистрСведенийНастройкиТранспортаОбменаСообщениями</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cf859ca4-0e24-4d88-a5e6-bc9544ef3ffe">
+      <name>РегистрСведенийНастройкиУчетаВремени</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="13e33313-ca56-4bd9-8d34-c09e4add122d">
+      <name>РегистрСведенийНастройкиШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="750998c5-6510-440a-9928-20f81ddde970">
+      <name>РегистрСведенийНастройкиЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6b055db3-9cf0-455a-9202-02a33bb98ada">
+      <name>РегистрСведенийНачальныеОстаткиОтпусков</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c9d65264-569b-4bd2-ac6a-4c8051b230d5">
+      <name>РегистрСведенийНачисленияПодключаемыеХарактеристики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7b62a0f3-b253-49ee-9508-2fdad08dc9b9">
+      <name>РегистрСведенийНеобрабатываемыеТранспортныеСообщения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d67249f4-265a-4d1f-a4ac-c4271d9f2cf4">
+      <name>РегистрСведенийНеобходимыеКорректировкиСтажаПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ff2d7983-5960-4c82-b81e-e18c9626a2b1">
+      <name>РегистрСведенийНепринятыеКОбработкеПочтовымСерверомИсходящиеПисьма</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5dd9f405-37a1-46fa-8fbc-7b9dea7e8881">
+      <name>РегистрСведенийНеразделенныеПользователи</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d2c4f952-0857-493e-8c62-32aac3c580a5">
+      <name>РегистрСведенийНомераОтсканированныхФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="41c9350e-afaf-4245-9c23-d33fdc6c63c6">
+      <name>РегистрСведенийОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="99b2dfc1-e937-4352-9d24-a3d1e0874f7f">
+      <name>РегистрСведенийОбластиПерсональныхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6a3cebba-2b9d-4745-a27d-fd54e174b5c5">
+      <name>РегистрСведенийОбластиСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f922a1fa-d543-4fc9-99ab-9e30898b36e0">
+      <name>РегистрСведенийОбластиТребующиеОбработкиПоставляемыхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9211ce92-675f-4b9e-a4ce-761b762ade3c">
+      <name>РегистрСведенийОбновлениеЗаданийАдаптацииУвольнения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="660c8673-9eec-4ac6-8d01-6fd0e550590c">
+      <name>РегистрСведенийОбновлениеКлючейДоступаКДанным</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="685e59c1-5b04-45bc-b523-c1cdb0ca7f8f">
+      <name>РегистрСведенийОбновлениеКлючейДоступаПользователей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c3b8f799-02c8-49ca-95d2-21fa7fd0c359">
+      <name>РегистрСведенийОбновлениеКлючейДоступаТекущиеЗадания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe0ac2de-e2dc-4599-9b77-bb11e5b563c2">
+      <name>РегистрСведенийОбновлениеПериодическихМедицинскихОсмотров</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="eabae79b-427f-4222-a894-85fa90a5974e">
+      <name>РегистрСведенийОбработчикиСобытийСинхронизацииДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6c62d158-6d5b-46fa-b0d4-c20298730dc6">
+      <name>РегистрСведенийОбразованиеФизическихЛицОснования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1e5cc7e9-c71b-4f77-99cf-5dd8facbde13">
+      <name>РегистрСведенийОбучениеСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9a362635-bb61-455d-9b70-7c5ee473c5af">
+      <name>РегистрСведенийОбщиеНастройкиУзловИнформационныхБаз</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="df97e03b-77c7-4f66-a5ec-4d0d7b71e690">
+      <name>РегистрСведенийОбщиеНастройкиЭлектронногоОбучения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="23bfef4b-8b1b-4c55-98e5-226090d4184b">
+      <name>РегистрСведенийОбъектыИнтегрированныеС1СДокументооборотом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d85e3e9b-ab0c-47e0-8a3b-3e8565cf4903">
+      <name>РегистрСведенийОграничениеСкоростиОтсылкиИнцидентов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b2ce1984-5e8a-4ab1-be91-35a806c3c2a6">
+      <name>РегистрСведенийОграничениеФОТГрейдов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b39eaa37-7869-4113-a5e1-f3586ccc7afd">
+      <name>РегистрСведенийОграниченныеДокументы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0a8ee833-6c49-43e0-9235-34f21d0c2c13">
+      <name>РегистрСведенийОперативныеПоказателиДляВыявленияНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1ea286b2-96d9-4541-929a-403a6da65979">
+      <name>РегистрСведенийОперативныеПоказателиДляВыявленияУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cbc9af24-337e-4457-b163-758bfe3f319f">
+      <name>РегистрСведенийОперацииРасчетаЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe1e6e58-1800-48c5-b496-1158f2357998">
+      <name>РегистрСведенийОперацииСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="24ecdd75-e150-4918-bff8-b03678a168ef">
+      <name>РегистрСведенийОрганизацииВКоторыхРаботалиСотрудники</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1617e949-3ccf-4315-9cb9-ccfd1238bc75">
+      <name>РегистрСведенийОриентирыАдресныхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="03b64fff-1b3d-4b44-8702-d8961e69feb8">
+      <name>РегистрСведенийОсновныеДанныеКонтрактаДоговораСотрудникаИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="61e16423-fce6-41c2-a7e9-31112c5fa88e">
+      <name>РегистрСведенийОтборыНазначенияМероприятийАдаптацииУвольнения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="732cb909-edf3-4a00-85f0-9efa325735fb">
+      <name>РегистрСведенийОтборыПоЛентамНовостейДляОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bec08b4a-e7da-48ae-a6ef-9cda927c46f1">
+      <name>РегистрСведенийОтборыПоЛентамНовостейОбщие</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="048585a3-dd84-48fb-ab80-52a4b96c980b">
+      <name>РегистрСведенийОтборыПоЛентамНовостейПользовательские</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2ea2fb9f-3550-4b28-9eb8-4aa092b111d7">
+      <name>РегистрСведенийОтветыНаВопросыАнкет</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96733374-dfbc-494a-bac0-a44b0f3f4408">
+      <name>РегистрСведенийОтветыНаТестовыеВопросы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b483519f-0687-44fa-88ed-726113ebe7cb">
+      <name>РегистрСведенийОткликиКандидатов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b630c5d1-218a-4118-9fcc-e3e1bf395f01">
+      <name>РегистрСведенийОткликиНаПубликациюМероприятияОбученияРазвития</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cc9eb53b-4254-476e-be77-051031848a6d">
+      <name>РегистрСведенийОтключенныеЛентыНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c8ac88c5-6246-4762-9558-86f4d33ff700">
+      <name>РегистрСведенийОтключенныеЛентыНовостейДляОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="01f96887-af7c-4a62-8720-d0d75bdd9f2d">
+      <name>РегистрСведенийОтключенныеПанелиКонтекстныхНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="240fdc62-c186-4fdd-9554-3e7ccba6d3f8">
+      <name>РегистрСведенийОтправкиОтчетностиКОбработке</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="604eb58b-e80c-4877-9180-5bbedd376e15">
+      <name>РегистрСведенийОтправленныеСообщенияЧатботов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c1656d4c-dec8-4809-a077-016e118159a2">
+      <name>РегистрСведенийОтпускаСотрудниковОснования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="19f04400-927b-44c9-a005-1c824b66eef6">
+      <name>РегистрСведенийОтпускОснования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a75a0381-64ee-42a6-b9b5-98b41ddcb796">
+      <name>РегистрСведенийОтражениеДокументовВУчетеСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1c1ef58a-5a2e-4ec3-aa29-a329f121cf11">
+      <name>РегистрСведенийОтсутствияСдвигающиеРабочийГод</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e5d1ee4c-2faf-4e97-9107-b9f1e297fc5f">
+      <name>РегистрСведенийОценкаПозицийШтатногоРасписанияПоКритериям</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d36607c4-c1b1-480f-9b55-fa5abfa385b2">
+      <name>РегистрСведенийОценкиВариантовОтвета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d308dcbd-f2c0-47cb-9f94-dc6532cccc2c">
+      <name>РегистрСведенийОценкиКандидатовПоХарактеристикам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ceb6aefe-215f-4d0d-94c4-573a04057660">
+      <name>РегистрСведенийОценкиОтветовНаВопросыАнкет</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b8089d54-bcc5-4f38-8b5a-7d41cf8d8fda">
+      <name>РегистрСведенийОчередьИзвлеченияТекста</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="51abb27a-8ea7-4cde-bb3c-c3299e527c46">
+      <name>РегистрСведенийОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="90a2d43d-8b48-44c1-b7d0-135c6877e32f">
+      <name>РегистрСведенийОчередьИнсталляцииПоставляемыхРасширенийВОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="42fdc88d-00ae-4f51-8395-1b25d3b76fa9">
+      <name>РегистрСведенийОчередьОбновляемыхПоставляемыхРасширенийВОбластяхДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fc92da37-cb15-4e81-92dc-1918b123cafc">
+      <name>РегистрСведенийОчередьРасширенийДляОповещений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0f77a59c-4dde-44cd-adcc-bd7d0e9e4bec">
+      <name>РегистрСведенийОчередьСообщенийВ1СДокументооборот</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="85f1984c-87f2-4fea-9d33-42d09a780b25">
+      <name>РегистрСведенийПакетыДляОтправки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="51bfeb8c-1612-4fbe-bc0e-17ecabf7d7d1">
+      <name>РегистрСведенийПакетыИнформацииПриЗапуске</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4fac453d-9d09-4d0a-8914-7161abd833d6">
+      <name>РегистрСведенийПакетыЛьготСотрудникамПоШтатномуРасписанию</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7f0f7f7b-e54d-45bd-ab7c-f6aaa8e51c1c">
+      <name>РегистрСведенийПакетыОтчетности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="48b0423b-bc35-40d0-b9f7-8a9d90362936">
+      <name>РегистрСведенийПараметрыЗапретаДоступаУволеннымСотрудникамИсключаемыеФизическиеЛица</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7f45af52-77f9-43fb-a11d-1a6132c4580b">
+      <name>РегистрСведенийПараметрыЗарегистрированныхДанныхУчетаВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="11560ea9-b865-49bd-ba31-881cc502a49d">
+      <name>РегистрСведенийПараметрыОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a54eb6e6-f23f-4cc4-89d5-4fbdbc59918e">
+      <name>РегистрСведенийПараметрыОграниченияДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="06a4bf43-59fa-45fe-9ab4-0b60b2d23266">
+      <name>РегистрСведенийПараметрыПериодовСтажаПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d9009396-f3c8-4a3f-aebd-443716bcc8c9">
+      <name>РегистрСведенийПараметрыПериодовСтажаПФРИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c7c2a798-4194-4eb9-b9fb-2c1a6f6e910f">
+      <name>РегистрСведенийПараметрыРаботыВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82fd2879-21bb-47cd-a3e0-a0fc3ba27f4f">
+      <name>РегистрСведенийПараметрыРаботыПрограммы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f90a785-e9d9-4d6f-9749-b06afe6ba5fa">
+      <name>РегистрСведенийПараметрыСозданияПользователейФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="921e6a99-1246-4552-ba3e-e1c43c556827">
+      <name>РегистрСведенийПараметрыСозданияПользователейФизическихЛицГруппыДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0179cf4b-4f74-4cb3-8c16-752ebfcb835d">
+      <name>РегистрСведенийПериодическиеСвойстваНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cad334b1-7cf7-49e2-aaa8-756a6bc2ebcb">
+      <name>РегистрСведенийПериодыБолезниУходаЗаДетьми</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b2d4f0f6-461f-48a9-9579-93758c967c70">
+      <name>РегистрСведенийПериодыОтсутствияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f3b6bba3-63d9-462c-9ab9-8995a0d01663">
+      <name>РегистрСведенийПериодыСтажаПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="63652ea0-5c99-46da-b1d4-006aecdd77aa">
+      <name>РегистрСведенийПечатныеБланкиРегламентированныхОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a35c62c4-7a93-4cd3-8843-4e8d274b875b">
+      <name>РегистрСведенийПКУСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="931d489d-906e-479b-869c-7fbc7cd9b37a">
+      <name>РегистрСведенийПКУСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cb793b05-9a94-4f92-8732-3633aded39fb">
+      <name>РегистрСведенийПланОбученияПоМероприятиям</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ce9a2a4d-a5d5-477e-bb23-9d5682a81319">
+      <name>РегистрСведенийПланОбученияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c6b1fbd8-af04-4c35-9f7d-a9c7000f00c7">
+      <name>РегистрСведенийПлановыеАвансыИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="80889978-471c-486d-a767-f802df1882de">
+      <name>РегистрСведенийПлановыеЗначенияПоказателейЭффективностиПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5bc68965-8a88-4053-878b-7822de0db7c5">
+      <name>РегистрСведенийПлановыеЗначенияПоказателейЭффективностиПозиций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d5325de9-746e-4c88-a63b-815b127149cb">
+      <name>РегистрСведенийПлановыеЗначенияПоказателейЭффективностиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f61593d2-0762-4f1e-9731-56923a5cf713">
+      <name>РегистрСведенийПлановыеНачисленияИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c72fc22f-962e-45dd-9a1d-e955b0a46b9c">
+      <name>РегистрСведенийПлановыеУдержанияИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b3cdbe33-e2e3-4113-991c-771818da1f84">
+      <name>РегистрСведенийПлатежныеДокументыПеречисленияЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f3ade03a-fb1b-45b6-b6a0-7a1198d623f3">
+      <name>РегистрСведенийПодпискиПолучателей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d58b2a38-ca06-450c-ab38-c80734971957">
+      <name>РегистрСведенийПодписываемыеВидыЭД</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7dbccb35-3485-4ab1-9560-55f777f79d20">
+      <name>РегистрСведенийПодразделенияВводаЗначенийПоказателейЭффективности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2517f8d5-8a1a-4d89-b48c-71999b8fa802">
+      <name>РегистрСведенийПодчиненностьСтруктурныхЕдиниц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0582c389-3d22-46e3-8cf6-a2c011fc4be9">
+      <name>РегистрСведенийПозицииВводаЗначенийПоказателейЭффективности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f0892809-ae23-4d6d-b99f-00a9fcb56f76">
+      <name>РегистрСведенийПозицииРуководителейПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0dbcf9e3-0af9-4f0f-8a6f-d306bb25c1cd">
+      <name>РегистрСведенийПоказателиСовокупнойТарифнойСтавкиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2d09dac6-8755-4480-b354-aeced00d72c3">
+      <name>РегистрСведенийПоказателиЭффективностиПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="546fef98-c42d-4e83-ae4f-e6e05fc53f03">
+      <name>РегистрСведенийПоказателиЭффективностиПозиций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="35f87a18-11a9-4e42-973f-4edcb680a28b">
+      <name>РегистрСведенийПоложенныеВидыЕжегодныхОтпусков</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="da25c1d7-846f-4655-882a-dd47efbf9b36">
+      <name>РегистрСведенийПоложенныеВидыЕжегодныхОтпусковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a1220e45-169d-4e48-a5e0-24786cc35762">
+      <name>РегистрСведенийПолучателиУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="98871be7-ca71-4daf-b67d-9e7122676e64">
+      <name>РегистрСведенийПользовательскиеМакетыПечати</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="be7e230b-27e2-4c76-869c-43087cf6b0f3">
+      <name>РегистрСведенийПользовательскиеНастройкиДоступаКОбработкам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ba77198d-31e4-4c88-a9b9-c5efcdcf1dad">
+      <name>РегистрСведенийПопыткиИзученияЭлементовЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1f2b050a-defd-492d-889d-5a012afb891a">
+      <name>РегистрСведенийПорядокВыплатыДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e235cf1d-6c20-43f8-8e48-fcc8814d21c1">
+      <name>РегистрСведенийПорядокРасчетаСтоимостиЕдиницыВремениСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2941af07-e634-4a9a-ac75-4f723bbe26fb">
+      <name>РегистрСведенийПорядокРасчетаСтоимостиЕдиницыВремениСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cd332dc9-c414-4b13-a8a8-8cf1ab5ab972">
+      <name>РегистрСведенийПоследняяПопыткаРасшифровкиТранспортногоСообщения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9932b5d6-7a98-4cf3-b5ed-9740d64ffc4e">
+      <name>РегистрСведенийПоставляемыеДанныеТребующиеОбработки</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c67227d1-ce35-40d7-84e2-aaccde5a72df">
+      <name>РегистрСведенийПоставляемыеМакетыПечати</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="60e4875e-e42c-45e6-b9e2-6f59cd8a4f18">
+      <name>РегистрСведенийПотребностьВСпециалистахНаПериодМобилизации</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f60067d7-c6ea-44a0-a2f6-759b585b24da">
+      <name>РегистрСведенийПраваРолей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bf5d3594-0f59-404d-9e2f-39e287ab2ddd">
+      <name>РегистрСведенийПравилаДляОбменаДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="12013a41-ff56-4dc3-95b1-91b88e1ca022">
+      <name>РегистрСведенийПравилаОтправкиОтчетностиПоФизЛицам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="53ed7e40-e71b-4b4e-a865-d42f2b00293c">
+      <name>РегистрСведенийПредварительныеПерерасчеты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a60e8e32-127c-4e42-a3e8-011a46c7e4d6">
+      <name>РегистрСведенийПредельнаяВеличинаБазыСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5f786d3b-ab10-48f7-a789-c71e0aab56a8">
+      <name>РегистрСведенийПредметыУведомленийОбИзменениях</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4be26b96-1cd3-4593-a52c-8947fdfe298c">
+      <name>РегистрСведенийПредопределенныеВариантыОтчетовВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bbd4da9f-810c-44e5-bc34-ae186bc3e653">
+      <name>РегистрСведенийПредставленияОснованийУвольнения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="297de121-00e3-464d-ac75-10f0fcdc542b">
+      <name>РегистрСведенийПривязкаНовостейКМетаданным</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1e0bef41-31df-47ea-83c1-f0d19a14b617">
+      <name>РегистрСведенийПризнакиАрхивированияФайловДОСКонтролирующимиОрганами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="cd40a6d1-6015-4168-a5f2-49b3b7bbd38e">
+      <name>РегистрСведенийПрименениеДополнительныхПериодическихПоказателейРасчетаЗарплатыСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ed4f7a92-ec1c-4ca5-9f1b-c95f7e1d5096">
+      <name>РегистрСведенийПрименениеПлановыхНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3c2e700d-50d2-4a4c-8fd1-dbf92e5ea5ea">
+      <name>РегистрСведенийПрименениеПлановыхНачисленийИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96c80c67-89b8-429c-84e1-97f6391388c6">
+      <name>РегистрСведенийПрименениеРазрешенийНаИспользованиеВнешнихРесурсовВМоделиСервиса</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ecbc19f8-ac12-4e7b-a132-f13a15ac4f8f">
+      <name>РегистрСведенийПрименениеРазрешенийНаИспользованиеВнешнихРесурсовОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c11babaf-fffb-4bfd-b1e0-30b8fd2353e7">
+      <name>РегистрСведенийПрименениеСтандартныхВычетовПоНДФЛИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9f9298a9-b1c5-4f56-9fa7-2868346f534e">
+      <name>РегистрСведенийПрименяемыеТарифыСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5f3d9791-2d6a-4ae1-b9a0-14a7a2c072c9">
+      <name>РегистрСведенийПринятыеСведенияЧатботами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1eff30ba-b6f1-404f-9ba6-ace8aff7f95b">
+      <name>РегистрСведенийПринятыеСообщенияЧатботов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="200e2b81-6cb8-45dd-aec9-22b8b49dfe5a">
+      <name>РегистрСведенийПричиныИзмененияАдресныхСведений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9d409c08-821a-4c38-8033-be9d3dcf17cf">
+      <name>РегистрСведенийПрограммыОбученияПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9658c6d9-1007-431f-80c3-d9099d5d464c">
+      <name>РегистрСведенийПродолжительностьСеансаГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="eb46c027-7346-4b04-abd0-3ece7a0618c3">
+      <name>РегистрСведенийПросмотренныеДанныеИнформационногоЦентра</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5a520bcc-4684-457d-8085-03a368cfd391">
+      <name>РегистрСведенийПротоколыОтправкиСообщенийОценкиПерсонала</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="009817a0-c881-4a21-8f55-edde49917729">
+      <name>РегистрСведенийПроцессыДляЗапуска</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="351b0dc7-3e69-478e-8900-98902ddd1728">
+      <name>РегистрСведенийПсевдонимыПредопределенныхУзлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="400dc3c6-11eb-4e33-aa24-dd4d4a3bfca0">
+      <name>РегистрСведенийПубликацииЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bb25b331-c233-47f4-b738-651b515a20a7">
+      <name>РегистрСведенийПубликацияВакансий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="93fe4b18-38c4-4ec1-9c2e-0169a16616b9">
+      <name>РегистрСведенийПубличныеИдентификаторыСинхронизируемыхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e738078b-b0bb-47f0-930c-6df60639a592">
+      <name>РегистрСведенийПутиКПрограммамЭлектроннойПодписиИШифрованияНаСерверахLinux</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fe00ff2f-e78d-4f0d-8ce9-61c34d5bc8e3">
+      <name>РегистрСведенийРаботаСКандидатами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18037e16-a374-4763-bac1-1b3dece9eb60">
+      <name>РегистрСведенийРабочиеКаталогиФайлов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="282545ac-8244-48f5-a10e-fc6265319976">
+      <name>РегистрСведенийРабочиеМестаУдержаний</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="17cdcce7-6fd4-4d10-a23a-61639d1c631d">
+      <name>РегистрСведенийРазмерВычетовНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="381c9c8f-1131-4975-9fbb-5ba7d603e418">
+      <name>РегистрСведенийРазмерВычетовНДФЛВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="262ec260-f638-497f-8ecb-6a97867a1e1b">
+      <name>РегистрСведенийРазмерыГосударственныхПособий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2c9d365a-cd67-4c28-b39a-29e270a39a27">
+      <name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ad16997c-983b-4018-bcde-525d7cf61941">
+      <name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсовВМоделиСервиса</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="30e88e99-21c4-43d1-9bb0-e72493d7b0cf">
+      <name>РегистрСведенийРазрешенияНаИспользованиеВнешнихРесурсовОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0dc2bce-e18d-4240-91ac-e79b1b0cd5a8">
+      <name>РегистрСведенийРазрешенныеДляРедактированияЛентыНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="916fc22a-04bc-4092-9186-7f0a343ab4b3">
+      <name>РегистрСведенийРазрядыКатегорииСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="af943747-3e5c-4dcb-b0d2-c4b970c03b1f">
+      <name>РегистрСведенийРазрядыКатегорииСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ec5645ed-283f-4c65-a0ed-f9ec2be6fa9f">
+      <name>РегистрСведенийРаспределениеПоТерриториямУсловиямТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4718c962-c9e9-4961-8f5b-e953f228fcb0">
+      <name>РегистрСведенийРаспределениеРезультатовНачислений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="77898b2e-d931-42ff-97ba-38b74491e536">
+      <name>РегистрСведенийРассчитанныеОтборыПоНовостям_ДляОбластиДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="687f1787-b7d3-40a5-8e79-eade9ce52f6d">
+      <name>РегистрСведенийРассчитанныеОтборыПоНовостям_Общие</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ba2e0959-a7b9-4be6-8dee-e178b7fc29fe">
+      <name>РегистрСведенийРассчитанныеОтборыПоНовостям_Пользовательские</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f53ed38c-a098-4199-9c86-6d5e5958ef07">
+      <name>РегистрСведенийРассчитанныеОтборыПоНовостям_РедкоМеняющиеся</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dc939679-2db4-4c83-9aef-d246780276d5">
+      <name>РегистрСведенийРасценкиРаботСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="812f698f-deeb-45ab-bc01-9d11acf88fde">
+      <name>РегистрСведенийРедактируемыеРеквизитыКодаДоходаНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="71cd6181-7c82-4554-afe5-115c3f41ac1e">
+      <name>РегистрСведенийРежимыПодключенияВнешнихМодулей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fd8f4e9b-cc30-4e84-aefd-4bcca107a800">
+      <name>РегистрСведенийРежимыПодключенияВнешнихМодулейВМоделиСервиса</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d5704876-015a-4458-b774-a12d5a84a09e">
+      <name>РегистрСведенийРежимыПодключенияВнешнихМодулейОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9a8fbc2e-b7e8-422f-9bc4-3e029d45bb26">
+      <name>РегистрСведенийРезервныеКопииОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4aeab4c1-c968-485b-b37a-a02586656287">
+      <name>РегистрСведенийРезультатыАттестацийСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="77709bd0-f371-434e-a2ea-f5cb05843a82">
+      <name>РегистрСведенийРезультатыОбменаДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="04f70e04-a8ae-4402-bb23-f7dea3a2638a">
+      <name>РегистрСведенийРезультатыОценкиВПроизвольнойФорме</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6e4994eb-137c-4671-b940-54576bb5ee15">
+      <name>РегистрСведенийРезультатыОценкиРеспондентами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b0665ca8-1c92-426f-9848-468e41efd0bc">
+      <name>РегистрСведенийРезультатыОценкиСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1cfb7e16-426e-4e7a-8793-910199b4ef56">
+      <name>РегистрСведенийРезультатыПроверкиУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96e26fc9-cc99-4c85-841d-2f7ecd7bef99">
+      <name>РегистрСведенийРейтингАктивностиОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8c2207b7-4428-433c-8a63-8aacbd007bd3">
+      <name>РегистрСведенийРеквизитыПлатежныхДокументовПеречисленияЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5ddf1877-19c9-49da-8c4a-3f5d0cde5d77">
+      <name>РегистрСведенийРеквизитыУведомленияИФНСНаЗачетАвансовыхПлатежей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83b358ff-e1e1-49c2-a2f5-cd0fd118a55e">
+      <name>РегистрСведенийРесурсыМеханизмаОнлайнСервисовРО</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9e14a784-3058-4990-8b14-0f19d83e3404">
+      <name>РегистрСведенийСведенияКонтрактаДоговораСотрудникаИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="57cb357f-45d6-44f4-8bb1-1cb803f384fd">
+      <name>РегистрСведенийСведенияОВремениДляРасчетаСреднегоОбщий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3b08f141-47ee-4696-b6b4-eef39466fdb8">
+      <name>РегистрСведенийСведенияОВремениДляРасчетаСреднегоФCC</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e8dc85d6-d2c1-40de-874c-5e0eba402175">
+      <name>РегистрСведенийСведенияОПользователях</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f963734a-0e4f-4cc7-9939-b7e21e30c5f5">
+      <name>РегистрСведенийСведенияОРежимахРаботыФормыСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d710da66-3d02-49e7-ba69-593d1d356923">
+      <name>РегистрСведенийСведенияОРежимахРаботыФормыСотрудникаРасширенный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7f06891b-643d-45f5-a081-9dd5a423ef77">
+      <name>РегистрСведенийСведенияОСертификатахОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fd681719-fac1-413c-9694-9f71fd0edbca">
+      <name>РегистрСведенийСведенияОФайлах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="59bca891-f3b9-42e9-832a-6804dbf1ca30">
+      <name>РегистрСведенийСвойстваЛокальныхКомпьютеровДляОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4ddf3530-012f-4807-a694-c5ec116a1dc0">
+      <name>РегистрСведенийСвойстваНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b75812e7-9da8-4fff-ae81-88d09cfc6af0">
+      <name>РегистрСведенийСвойстваХранилищаОблачногоАрхива</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e72e9dd8-7d6a-42b6-9bd2-a48eaf0fd880">
+      <name>РегистрСведенийСвязанныеОбъектыОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83875a3f-06ef-4dbc-ae97-cd50ef27b52b">
+      <name>РегистрСведенийСвязиАдресныхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dd1b71a5-dd17-4932-826b-27bda4df2876">
+      <name>РегистрСведенийСеансыВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="78f701db-1549-4926-b451-8c4a0e9a7bf0">
+      <name>РегистрСведенийСертификатыШифрования</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="59ac372c-5678-46a9-8d2a-1ba339f37792">
+      <name>РегистрСведенийСессииОбменаСообщениямиСистемы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="62efe2bd-c8ae-4131-934d-d1d15ca45bce">
+      <name>РегистрСведенийСклоненияПредставленийОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="584cabec-8f2b-4ce4-bb11-b00bf7a0fa2c">
+      <name>РегистрСведенийСкрытыеРегламентированныеОтчеты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="aacd7120-2630-4363-9a32-5023e045e832">
+      <name>РегистрСведенийСлужебныеАдресныеСведения</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fbf5463a-c844-438a-819e-cc8934ccdf35">
+      <name>РегистрСведенийСогласованиеВакансий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fdbae891-edf0-4677-90b6-8d6d5ffdbb7f">
+      <name>РегистрСведенийСообщенияОбменаДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="35e31f3b-e588-4a02-937e-12f3fb057b95">
+      <name>РегистрСведенийСообщенияОбменаДаннымиОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3ccd963c-b2f6-46af-933c-af34a60c5af8">
+      <name>РегистрСведенийСоответствияОбъектовИнформационныхБаз</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="214e3b81-8f6e-48fd-95b4-d42b4abfa101">
+      <name>РегистрСведенийСоставДокументовЗарплатаКадры</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="695d3ce2-2378-40cc-b020-a97ead9ca11b">
+      <name>РегистрСведенийСоставыГруппПользователей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="71056451-1a01-4cd9-85fa-ab8eac70f7b6">
+      <name>РегистрСведенийСостояниеПодписанияЭД</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="72beee3f-36e1-4135-aac0-39fca4ac113b">
+      <name>РегистрСведенийСостоянияВакансий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="50b8b539-a505-4e19-8331-2ae664b4201a">
+      <name>РегистрСведенийСостоянияКонтактовВзаимодействий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9d901a52-0385-4707-b1ee-71bbac31c947">
+      <name>РегистрСведенийСостоянияНовостей</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="277bd80d-bea4-4ca6-bc65-61952a620807">
+      <name>РегистрСведенийСостоянияОбменовДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e9cf8ac9-73f3-4b61-b02f-faf191699ab9">
+      <name>РегистрСведенийСостоянияОбменовДаннымиОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="225d1244-752d-4f1a-92b6-bc655d2a5cd8">
+      <name>РегистрСведенийСостоянияОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2419cdd-34c8-4e33-9c78-b9d887ff3500">
+      <name>РегистрСведенийСостоянияПапокПисем</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6b49ca80-de06-4152-a6d0-f5e93939941e">
+      <name>РегистрСведенийСостоянияПредметовВзаимодействий</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9b573643-7bc1-4ac8-bba6-93f9e464ab98">
+      <name>РегистрСведенийСостоянияПроверокВеденияУчета</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8daec2d8-81df-4468-9c8c-45f43c52f02a">
+      <name>РегистрСведенийСостоянияРассылокОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18916abc-c4db-46e9-a337-25c3e92646a1">
+      <name>РегистрСведенийСостоянияСогласованияВДокументообороте</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="67ce88f2-4424-45a6-b74f-5ac2742a9778">
+      <name>РегистрСведенийСостоянияУспешныхОбменовДанными</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a36c5840-4075-4488-8924-edd61a7bc13c">
+      <name>РегистрСведенийСостоянияУспешныхОбменовДаннымиОбластейДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="64733332-788a-4f71-bb46-49ce39199305">
+      <name>РегистрСведенийСостоянияЧатовЧатботов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="23adfee9-a522-48b5-8003-1802c5fc4734">
+      <name>РегистрСведенийСправкиНДФЛДляИФНССведенияОВычетах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bd470221-336b-41ef-8e81-1b858a0c2b1e">
+      <name>РегистрСведенийСправкиНДФЛДляИФНССведенияОДоходах</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="07cc12b9-453c-4293-855d-279fb6336849">
+      <name>РегистрСведенийСреднемесячныеНормыВремениГрафиковРаботыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d2201cd0-63c0-4b00-906f-cdf7079cd360">
+      <name>РегистрСведенийСтавкаРефинансированияЦБ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="33e695d9-dc1d-4831-9158-a5e512cf76a4">
+      <name>РегистрСведенийСтандартныеВычетыНаДетейНДФЛИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1fcd37bf-891d-4f1f-91ff-2445fc64cbae">
+      <name>РегистрСведенийСтандартныеВычетыФизическихЛицНДФЛИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b77e5abf-f8b3-4cb9-a425-17ad0c31120e">
+      <name>РегистрСведенийСтатистикаКонфигурации</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4a231f48-96c0-4b01-8c9c-8ddc39fc2361">
+      <name>РегистрСведенийСтатистикаЭлектронныхКурсовСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8e69ec6d-3834-4143-a4ab-2be40385af60">
+      <name>РегистрСведенийСтатусыСинхронизацииФайловСОблачнымСервисом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="df4e6949-fc06-476c-8cd6-7a55e5647a57">
+      <name>РегистрСведенийСтраховыеВзносыСкидкиКДоходам</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0873fdbd-8189-44ef-817f-62f1c2fa716a">
+      <name>РегистрСведенийСтрокиОтчетностиМониторингаРаботниковСоциальнойСферы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="57a67577-0582-487e-91a7-69042ee10f73">
+      <name>РегистрСведенийСтрокиОтчетностиРасходовИЧисленностиРаботниковГосударственныхОрганов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c40f39c0-ad97-450a-a01f-a1d1d75b40ba">
+      <name>РегистрСведенийТаблицыГруппДоступа</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="75a99b1d-b86b-41fd-ba3d-10abf12e2f3e">
+      <name>РегистрСведенийТарифыВзносовЗаЗанятыхНаРаботахСДосрочнойПенсией</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="76734293-d178-466d-a093-968967c551e0">
+      <name>РегистрСведенийТарифыВзносовПоРезультатамСпециальнойОценкиУсловийТруда</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="b14441a9-ee12-4f6e-b87c-b80685b61a39">
+      <name>РегистрСведенийТарифыСтраховыхВзносов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6ee96124-9416-403d-8ede-0862c24398fa">
+      <name>РегистрСведенийТекущиеЭтапыРаботыСКандидатами</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="347ad48b-a441-461f-8eb5-5a3a1afd5901">
+      <name>РегистрСведенийТемыЭлементовЭлектронныхКурсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5ef43b1c-be18-4be3-a123-5d8b2ca049d1">
+      <name>РегистрСведенийТерриториальныеУсловияДополнительныеПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bfac3c59-ac34-4ed3-a061-499b852ef8b7">
+      <name>РегистрСведенийТерриторииСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e74478ea-86af-4081-b988-3abdab5b59ac">
+      <name>РегистрСведенийТикетыОбменСБанками</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6391eb30-665f-4fbe-a361-22dfb77b27ba">
+      <name>РегистрСведенийТраншиЗаймаСотруднику</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="07cff8e0-2600-4a19-b66b-4f84578cf419">
+      <name>РегистрСведенийУведомления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="35896bea-aee0-4f75-b723-3f557e78c0a2">
+      <name>РегистрСведенийУведомленияОПрочтении</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f87221aa-6ff7-4c56-a3da-d44d41cc0721">
+      <name>РегистрСведенийУровниСокращенийАдресныхСведений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3120b5bd-f2d7-485a-8cde-f0f886abe1e3">
+      <name>РегистрСведенийУсловияДоговораЗаймаСотруднику</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="317c48c8-095e-4759-89fe-c03d12d3faaf">
+      <name>РегистрСведенийУсловияОплатыОтпускаПоУходуЗаРебенкомИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7ec66623-85ce-4e18-8c56-19dbef93088e">
+      <name>РегистрСведенийУсловияУченическогоДоговора</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ab3a2091-c710-447f-be0e-68496f8d78f7">
+      <name>РегистрСведенийУчастникиЭтапаРаботыСКандидатом</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dba55100-dfa9-4550-86a2-4b31ab8d860e">
+      <name>РегистрСведенийУчебныеИнформационныеБазы</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87f059b6-3fcf-4cfe-9d01-e6cf6c7c89b7">
+      <name>РегистрСведенийУчетнаяПолитикаПоНДФЛРасширенный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3792e19f-2323-4d77-b144-86d83f634083">
+      <name>РегистрСведенийФайлыВРабочемКаталоге</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="52c9f7a6-6ead-4b77-8887-989585bdae27">
+      <name>РегистрСведенийФизическиеЛицаДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="488d8a92-9004-4927-a079-cb179ba481a7">
+      <name>РегистрСведенийФорма57ТРаздел2Сотрудники</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="de0d63fe-56b4-46cc-954b-047cb5949067">
+      <name>РегистрСведенийХарактеристикиПерсоналаПозицийШтатногоРасписания</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3cfe7055-da34-431d-a3b2-24b2f5861104">
+      <name>РегистрСведенийХарактеристикиФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d4560b41-c35c-474c-8c33-1aa35712f022">
+      <name>РегистрСведенийХранилищеСертификатов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="65ac580e-f58f-4fe4-aba7-46c7de2f5d80">
+      <name>РегистрСведенийЦепочкиДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="dbf53b8d-376d-4135-9e14-62c21a8f54c2">
+      <name>РегистрСведенийШаблоныПечатиМашиночитаемыхФорм</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ba4b0a1f-ab23-49cb-8ea2-947db3b401cb">
+      <name>РегистрСведенийШаблоныЭВФОтчетовСтатистики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bac6bd40-fed8-44c6-83b8-34163048fc5a">
+      <name>РегистрСведенийШкалыПоказателиЭффективностиПодразделений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6672545b-902d-458a-978d-8b1942802753">
+      <name>РегистрСведенийШкалыПоказателиЭффективностиПозиций</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18fd630b-0393-481d-82be-a3ce1831fc35">
+      <name>РегистрСведенийШтатноеРасписаниеПодключаемыеХарактеристики</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="626f4835-1e66-4c96-bfc5-4a0e2ee72d3f">
+      <name>РегистрСведенийЭлектронныеКурсыСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fa048097-7758-4cec-b47f-dce7dd8d56ed">
+      <name>РегистрСведенийЭлектронныеПодписи</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ed0f9481-beec-4d16-a8ca-3803c50f283f">
+      <name>РегистрСведенийЭлектронныеТестыНаПроверку</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5f5d11a4-ee78-4a94-bdf2-8bfebd0fbe0d">
+      <name>РегистрСведенийДатыВступленияВСилуНА</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="165ff02a-5c6b-47a4-b0db-03c772feb57a">
+      <name>РегистрСведенийНастройкиРасчетаЗарплаты</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6a9d72e5-cf9c-493f-8b6f-744cb7f16878">
+      <name>РегистрСведенийИсторияСамостоятельныхКлассификационныхЕдиниц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="22a49c1a-4451-4fc1-9547-7edb607f2f5e">
+      <name>РегистрСведенийИсторияСамостоятельныхКлассификационныхЕдиницВторичный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4812f903-8ef0-4afd-ba88-d2b3852bc20b">
+      <name>РегистрСведенийОбщиеПоставляемыеМакетыПечати</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="074db51c-b24b-4580-874c-7a40a1986db0">
+      <name>РегистрСведенийСертификатыПереданныеПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="644c4108-b7b8-4772-86b8-1d0a06de8da2">
+      <name>РегистрСведенийСостояниеПодключенияКЭДОсПФР</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d15fa376-0d8c-46fa-ac82-18b592359748">
+      <name>РегистрСведенийИзмененияФизическихЛицБронированияКомандировок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="06a3b908-e9a2-4b22-a1fa-5309fd4a99ea">
+      <name>РегистрСведенийНастройкиСистемыБронированияКомандировок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9c15221f-9eb0-48e5-91fd-5d6b98bc5ff2">
+      <name>РегистрСведенийПодразделенияБронированияКомандировок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a7f546d4-37d3-4aa5-a1bc-df6aad721dd0">
+      <name>РегистрСведенийФизическиеЛицаБронированияКомандировок</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2383ac19-22bd-4b64-b5b9-336976383d24">
+      <name>РегистрСведенийЗаявленияОВеденииТрудовыхКнижек</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="fced1c92-cfb6-4b0c-a612-eedc38407c66">
+      <name>РегистрСведенийЗаявленияОВеденииТрудовыхКнижекОтозванные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0d52ff77-b798-4976-90f3-b5756d07b539">
+      <name>РегистрСведенийЗаявленияОВеденииТрудовыхКнижекПереданные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f64eb336-e822-4351-89ae-1dcee57d4545">
+      <name>РегистрСведенийМероприятияТрудовойДеятельности</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e585516c-c1ee-4483-9c59-f442f2a66943">
+      <name>РегистрСведенийМероприятияТрудовойДеятельностиПереданные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="2c4efa0c-f5eb-4ee7-95cb-4458d8383aff">
+      <name>РегистрСведенийМероприятияТрудовойДеятельностиПрочие</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5efd5c86-9009-49b9-84b2-3ed050a93493">
+      <name>РегистрСведенийНастройкиОрганизацийСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bd84000e-68fc-4f9f-9028-7e136efc4dc2">
+      <name>РегистрСведенийНастройкиОрганизацийФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="392fbca5-2599-4752-beeb-9366a6c289f9">
+      <name>РегистрСведенийНастройкиПодразделенийСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4375932a-550a-4e63-a6f9-5aba187c065d">
+      <name>РегистрСведенийНастройкиПодразделенийФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4662f208-62fe-4ee1-9015-640a964d0911">
+      <name>РегистрСведенийОрганизацииСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="960c173a-bb42-499a-8a7e-1a83f4fab7f7">
+      <name>РегистрСведенийОрганизацииСотрудниковУтраченные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ea548a98-2a0d-47eb-957a-131ddb29936f">
+      <name>РегистрСведенийОрганизацииФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8036c3d5-0502-4192-b9e4-5e2267511409">
+      <name>РегистрСведенийОрганизацииФизическихЛицУтраченные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="95603a1e-9c8d-4b0c-b81f-61120533e6f8">
+      <name>РегистрСведенийПодразделенияСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7dab3ff2-a00a-4e60-8a59-bf281e8a573c">
+      <name>РегистрСведенийПодразделенияСотрудниковУтраченные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bdcbf897-4878-4259-ba14-183369b88f06">
+      <name>РегистрСведенийПодразделенияФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="34f21993-c21b-40df-8e21-d64c69be44d9">
+      <name>РегистрСведенийПодразделенияФизическихЛицУтраченные</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1e4f4f21-8967-4965-9ba9-78bd1626a04a">
+      <name>РегистрСведенийКадровыеДокументыПоРешениям</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1a0c8405-c5ef-4e1c-812b-af6e3ebbb5f6">
+      <name>РегистрСведенийОтправкаРезюме</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="94816475-b608-47d1-aa37-de4b959f2f85">
+      <name>РегистрСведенийКлассификаторыРекрутинговыхСайтов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="22c5de4f-b222-4fc1-9661-3c4ff2987164">
+      <name>РегистрСведенийПериодыНерабочихДнейКалендаря</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="deedb81c-9932-415a-a7fe-69eeb036c82a">
+      <name>РегистрСведенийНачисленияНеУчитываемыеПриРасчетеДоплатыЗаСовмещение</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bd0655c2-88ac-4838-9e07-b85c63495d42">
+      <name>РегистрСведенийНастройкиЭлектронныхТрудовыхКнижек</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="3cb9b58d-1e20-44b6-886e-1771ec8cf32c">
+      <name>РегистрСведенийДанныеПоискаФизическихЛиц</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a7bb87df-ecae-4aec-b588-71ecb572c57c">
+      <name>РегистрСведенийПериодыОплатыНерабочихДней</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f2f979fb-6d57-478b-a542-ef72e9bad91f">
+      <name>РегистрСведенийВходящиеСообщенияСЭДОФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bf503c7b-2e35-460e-997e-7f02d205fb3a">
+      <name>РегистрСведенийЖурналЗапросовКСерверамФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="40e22172-dca5-471f-a5dc-d2b2b5c52f84">
+      <name>РегистрСведенийНастройкиСЭДОФСС</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f549cdfc-1373-46a9-bec5-ce21a0183361">
+      <name>РегистрСведенийПодпискиНаУведомленияОбЭЛН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4d1937fe-644f-4690-870a-a5b4a6d4de1e">
+      <name>РегистрСведенийСогласияНаУведомленияОбЭЛН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="04d06a72-110e-4216-af92-da8f297ab6a2">
+      <name>РегистрСведенийСообщенияФССОбИзмененииСостоянийЭЛН</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="030caa6c-4c26-46b0-969f-a4a4f1eebc74">
+      <name>РегистрСведенийРезультатыРассылкиДокументов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="176264df-7a71-4738-b863-75c66b9af81d">
+      <name>РегистрСведенийДистанционнаяРаботаСотрудников</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f5b15d1d-0ed5-4fdc-9c6c-113a1510f176">
+      <name>РегистрСведенийДистанционнаяРаботаСотрудниковИнтервальный</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="6a0577a1-82ee-4b5b-94c9-df210fdc8737">
+      <name>РегистрСведенийДистанционнаяРаботаСотрудниковИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="04ffca35-c9f9-4468-a4ba-33a5caeedeae">
+      <name>РегистрСведенийВерсииЗаявокКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="7d92af34-8791-49e5-a729-3fc9539d5f7e">
+      <name>РегистрСведенийИзмененияДляСервисаКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="00e64561-0d79-4143-b8dc-6b3f8d97ff95">
+      <name>РегистрСведенийНастройкиСервисаКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0203a79e-e469-4981-902d-03e6228ab599">
+      <name>РегистрСведенийОбъектыДляУдаленияИзСервисаКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="babc517e-a7b1-41f8-839d-a9bd8aa0a47d">
+      <name>РегистрСведенийОшибкиЗаполненияПубликуемыхОбъектовКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ee3d45f7-ccf2-4c6c-9f6a-b21740026add">
+      <name>РегистрСведенийПравилаПубликацииКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c26a4d31-365d-49ee-8d77-e4c1c3398601">
+      <name>РегистрСведенийПубликуемыеОбъектыКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e0e5f249-819e-48ad-8397-8e28f90eec7f">
+      <name>РегистрСведенийРасчетныеЛисткиКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="27c2fa5e-e8a3-4bee-bf7d-c44e0290a3f7">
+      <name>РегистрСведенийСостояниеОтложенногоПодключенияКСервису</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="74bd0717-bfed-4361-a4d5-e74b99521bec">
+      <name>РегистрСведенийСотрудникиДляОбновленияПубликацииПравНаОтпуск</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1814cf96-11fa-4b9f-b5be-f532de6a54ec">
+      <name>РегистрСведенийСотрудникиДляОбновленияПубликуемыхОбъектов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="90719fbc-15ab-43f4-89ff-d2887ce21ebd">
+      <name>РегистрСведенийФизическиеЛицаДляОбновленияПубликацииВычетовНДФЛ</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="d3a37ea4-7f77-4e5c-a528-683f08da61e0">
+      <name>РегистрСведенийФизическиеЛицаКабинетСотрудника</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bc4c1f1d-90ca-476d-9905-908649271edd">
+      <name>РегистрСведенийЗаявленияОВеденииТрудовыхКнижекИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="f20ea156-21d1-4d93-b846-6c15cb0dea16">
+      <name>РегистрСведенийЗаявленияОВеденииТрудовыхКнижекПереданныеИспр</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="782a8801-06ca-4d63-bf8b-63d2320766d8">
+    <name>ПорядокКоллекции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок коллекции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Порядок коллекции объекта метаданных,
+используемый для сортировки в отчетах,
+например, коллекция &quot;Справочники&quot;
+перед коллекцией &quot;Документы&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93a73123-d98c-4286-9269-7bfcedd115e8">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment>Например, &quot;ОбъектыАдресацииЗадач&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя объекта метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5985c02-1824-4ce9-b415-1621dd2ee864">
+    <name>Синоним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синоним</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Синоним объекта метаданных,
+например, &quot;Объекты адресации задач&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="993ce747-cdc9-445f-ad7d-daf53cd5f7e9">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <comment>Например, &quot;ПланВидовХарактеристик.ОбъектыАдресацииЗадач&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>430</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e819aaf6-3dfb-492a-8a4a-50a7c6854790">
+    <name>ПолныйСиноним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный синоним</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>430</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный синоним объекта метаданных,
+например, &quot;Планы видов характеристик. Объекты адресации задач&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62b95ba1-f213-42fb-90f3-a03e8094bc9e">
+    <name>БезДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без данных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект метаданных не имеет таблиц данных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="619b534d-5605-40d3-9b8c-4443a21d7795">
+    <name>ЗначениеПустойСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение пустой ссылки</value>
+    </synonym>
+    <comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и мало данных</comment>
+    <type>
+      <types>ExchangePlanRef</types>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>ChartOfCalculationTypesRef</types>
+      <types>TaskRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>ChartOfAccountsRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для ссылочных типов объектов метаданных 
+содержит пустую ссылку своего типа,
+для остальных - Неопределено
+(в форме показано представление
+типа значения пустой ссылки)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a010bbf4-d547-4576-9797-28e3096ffed3">
+    <name>КлючОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ объекта метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранилище ключа по которому определяется объект метаданных без использования полного имени</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a44c3eb2-1054-41ca-82e8-fc35336e7009">
+    <name>НоваяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется при обработке дублей идентификаторов подчиненного узла распределенной информационной базы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="01f67911-4ca7-4668-b970-62c299b98e56">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment>АПК:149 - #std702,1 Поле Ссылка используется вместо поля Наименование для динамического представления на разных языках</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20c89c94-f77f-4e14-8c97-2a70c1419ce3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

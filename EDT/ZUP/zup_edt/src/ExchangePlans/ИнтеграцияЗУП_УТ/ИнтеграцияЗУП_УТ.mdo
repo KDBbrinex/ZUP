@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bcd5825-eea6-412e-b30d-a9cdad0082d9" thisNode="6490d501-f4cd-4622-88bb-edc5ffcba368">
+  <producedTypes>
+    <objectType typeId="5352a34f-0c7a-40a4-a02d-2161661aad66" valueTypeId="73a09162-07fd-470c-8551-35cb09784d1e"/>
+    <refType typeId="6d3beedb-c349-429e-8de7-b32dbd130450" valueTypeId="757d9dad-3d86-4537-9f75-f989e97cd7a7"/>
+    <selectionType typeId="fe8dfd16-59df-4061-936f-0986d8b5841b" valueTypeId="c25822b7-9df3-487a-a019-2263c6a4b6a3"/>
+    <listType typeId="71080da9-7d23-4339-a274-e4ec09d9322d" valueTypeId="55006283-c33f-4370-9312-110b9f785ca6"/>
+    <managerType typeId="091404bc-8308-48fb-b29b-2a0f183048cf" valueTypeId="1a863aaf-3d05-4b91-abdb-0925d645b8d1"/>
+  </producedTypes>
+  <name>ИнтеграцияЗУП_УТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ЗУП УТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ИнтеграцияЗУП_УТ.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ИнтеграцияЗУП_УТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.ДокументыФизическихЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛица</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.кдРезультаты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФИОФизическихЛиц</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВедомостьНаВыплатуЗарплатыПеречислением</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВедомостьНаВыплатуЗарплатыРаздатчиком</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.кдИнтеграцияЗУП_УТ</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВедомостьНаВыплатуЗарплатыВБанк</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.ВедомостьНаВыплатуЗарплатыВКассу</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="dabc90f3-e87b-4a47-9ca4-928bd44a4d1a">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1aefafb6-9219-4e88-8326-0548307f10bf">
+    <name>ФормаНастройкиЗначенийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки значений по умолчанию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="89e3e1f6-d483-46be-b38e-9983ede1909c">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce4fc30b-c499-4727-84f5-5f0d67342353">
+    <name>ФормаНастройкиУзлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узлов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="674d6b7c-20c2-46fa-8836-464a51aba753">
+    <name>ПодробнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробная информация</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2ad8b408-d4ba-44ac-87a1-8741463ae59b">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="1495f8ba-145a-44ce-aafa-dd356ce763f5">
+    <name>ПравилаОбменаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена корреспондента</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="d0f48346-2a31-4f29-a052-cc21d461ba0f">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90ebf0f6-d95a-4aea-947e-f0d951562ae3">
+  <name>кдИнтеграцияУТ10</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция УТ10</value>
+  </synonym>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОпубликоватьФайл</picture>
+  </picture>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09097b94-f337-4f06-a768-9f4505fe61c6">
+  <name>ИнтеграцияSmartwayКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция Smartway клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

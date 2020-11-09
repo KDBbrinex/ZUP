@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e98d288f-fd91-422b-ac28-6288c6143479">
+  <name>СоздатьУведомленияПоВыборкамДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать уведомления по выборкам данных</value>
+  </synonym>
+  <methodName>CommonModule.УведомленияСобытия.СоздатьУведомленияПоВыборкамДанных</methodName>
+  <key>09fa2ffc-4472-4b83-8170-e82266858b74</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

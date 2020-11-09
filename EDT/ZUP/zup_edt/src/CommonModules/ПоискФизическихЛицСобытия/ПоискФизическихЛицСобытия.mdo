@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d441789c-bf05-498a-b4f0-a3b90cf86bfc">
+  <name>ПоискФизическихЛицСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск физических лиц события</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

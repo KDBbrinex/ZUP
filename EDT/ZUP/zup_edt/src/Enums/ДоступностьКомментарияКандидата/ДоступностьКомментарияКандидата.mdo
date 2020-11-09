@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="433178f6-1c30-451b-ae5b-64bb4461ae3b">
+  <producedTypes>
+    <refType typeId="3b132048-b291-4ad2-be55-6f3a413f01e7" valueTypeId="9e7a48e8-7b02-4684-a8e6-8c38b48c0c64"/>
+    <listType typeId="4773c08c-108f-431e-aaf9-4de962bb47e1" valueTypeId="69e5c24d-17b1-48be-9147-a6069dd9ea40"/>
+    <managerType typeId="687958dc-2e75-4dfb-b696-2a73431464d8" valueTypeId="404ec9b1-8d3f-4039-b47e-ff2bba409609"/>
+  </producedTypes>
+  <name>ДоступностьКомментарияКандидата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность комментария кандидата</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c85c644-7373-4864-9a21-845f22f4e8ee">
+    <name>Общедоступный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общедоступный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="845bbe95-0b81-467a-88e0-cc6ef3ff393d">
+    <name>ТолькоДляАвтора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только для автора</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

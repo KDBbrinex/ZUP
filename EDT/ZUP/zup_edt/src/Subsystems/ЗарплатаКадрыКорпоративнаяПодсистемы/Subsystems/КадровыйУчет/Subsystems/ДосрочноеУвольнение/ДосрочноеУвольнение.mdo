@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71a01a19-f0f4-4a6e-ba71-249d7a9082ae">
+  <name>ДосрочноеУвольнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Досрочное увольнение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ДосрочноеУвольнение</content>
+  <content>CommonModule.ДосрочноеУвольнениеКлиентСервер</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.КадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

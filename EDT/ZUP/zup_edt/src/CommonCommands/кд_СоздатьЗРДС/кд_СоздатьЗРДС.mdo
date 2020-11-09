@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcafdd8d-85ab-4cd3-9bbd-5d3bc45cdd20">
+  <name>кд_СоздатьЗРДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать заявку на расходование ДС</value>
+  </synonym>
+  <group>CommandGroup.кдИнтеграцияУТ10</group>
+  <commandParameterType>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыПеречислением</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</types>
+    <types>DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЗаявлениеНаВыпускСертификатаКлюча</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

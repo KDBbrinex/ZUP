@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e7cee2b-71e9-476e-9436-af0adafc08cc">
+  <name>ДобавлениеИзменениеГрафиковУчетаСамочувствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение графиков учета самочувствия</value>
+  </synonym>
+</mdclass:Role>

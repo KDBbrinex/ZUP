@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1589e83-79fd-4520-8595-67f01330485e">
+  <name>Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ВидыУведомлений</content>
+  <content>DefinedType.ПолучательУведомлений</content>
+  <content>Catalog.РассылкиУведомлений</content>
+  <content>InformationRegister.Уведомления</content>
+  <content>Enum.СостоянияУведомлений</content>
+  <content>CommonModule.УведомленияСервер</content>
+  <content>CommonModule.УведомленияСобытия</content>
+  <content>ScheduledJob.СоздатьУведомленияПоВыборкамДанных</content>
+  <content>ScheduledJob.ОтправитьУведомления</content>
+  <content>CommonModule.УведомленияПереопределяемый</content>
+  <content>Enum.ВидыТранспортаУведомлений</content>
+  <content>DefinedType.ПредметУведомленийСсылка</content>
+  <content>DefinedType.ПредметУведомленийОбИзмененияхОбъект</content>
+  <content>InformationRegister.ПредметыУведомленийОбИзменениях</content>
+  <content>EventSubscription.ПриЗаписиДокументаПредметаУведомленияОбИзменениях</content>
+  <content>ScheduledJob.СоздатьУведомленияПоИзменениямОбъектов</content>
+  <content>Enum.СпособыОпределенияМоментаУведомления</content>
+  <content>EventSubscription.ПередЗаписьюДокументаПредметаУведомленияОбИзменениях</content>
+  <content>DefinedType.ПредметУведомленийОбИзмененияхДокументОбъект</content>
+  <content>EventSubscription.ПередЗаписьюПредметаУведомленияОбИзменениях</content>
+  <content>EventSubscription.ПриЗаписиПредметаУведомленияОбИзменениях</content>
+  <content>FunctionalOption.ИспользоватьУведомления</content>
+  <content>Constant.ИспользоватьУведомления</content>
+  <content>InformationRegister.НастройкиСистемыУведомлений</content>
+  <content>Role.ДобавлениеИзменениеУведомлений</content>
+  <content>Role.ЧтениеУведомлений</content>
+  <content>Enum.ЕдиницыИзмеренияИнтервалаУведомлений</content>
+  <content>Enum.КатегорииВидовУведомлений</content>
+  <content>EventSubscription.УстановитьИспользованиеУведомлений</content>
+  <content>CommonPicture.ВидыТранспортаУведомлений</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

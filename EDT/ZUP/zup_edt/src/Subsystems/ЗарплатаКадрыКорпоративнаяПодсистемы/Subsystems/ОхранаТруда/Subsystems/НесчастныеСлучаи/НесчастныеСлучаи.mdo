@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7cdc367-1e6b-4368-9af6-f4aa0a566161">
+  <name>НесчастныеСлучаи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Несчастные случаи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.НесчастныйСлучайНаПроизводстве</content>
+  <content>Enum.СтепениТяжестиТравмыНаПроизводстве</content>
+  <content>Catalog.ВидыПроисшествий</content>
+  <content>Catalog.ПричиныПроисшествий</content>
+  <content>InformationRegister.НастройкиНесчастныхСлучаевНаПроизводстве</content>
+  <content>Document.ПротоколОпросаУчастникаНесчастногоСлучая</content>
+  <content>Document.ПоследствияНесчастногоСлучая</content>
+  <content>Catalog.ПоследствияНесчастныхСлучаев</content>
+  <content>Catalog.ПротоколОпросаУчастникаНесчастногоСлучаяПрисоединенныеФайлы</content>
+  <content>DocumentJournal.НесчастныеСлучаи</content>
+  <content>Role.ДобавлениеИзменениеНесчастныхСлучаев</content>
+  <content>Role.ЧтениеНесчастныхСлучаев</content>
+  <content>FunctionalOption.ИспользоватьНесчастныеСлучаиНаПроизводстве</content>
+  <content>Catalog.НесчастныйСлучайНаПроизводствеПрисоединенныеФайлы</content>
+  <content>Report.НесчастныеСлучаиНаПроизводстве</content>
+  <content>Catalog.ПоследствияНесчастногоСлучаяПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.ОхранаТруда</parentSubsystem>
+</mdclass:Subsystem>

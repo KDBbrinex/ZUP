@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b863d358-92c4-4e8a-8f39-c970011d8272">
+  <producedTypes>
+    <containerType typeId="3584acad-8a1c-44d9-bf78-bfeedc71c1c4" valueTypeId="11fe0995-31ff-4c36-a9eb-b3d7063f55e0"/>
+  </producedTypes>
+  <name>ОснованиеИзмененияИспытательногоСрокаОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание изменения испытательного срока объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.ПрогулНеявкаСписком</types>
+    <types>DocumentObject.ПеремещениеВДругоеПодразделение</types>
+    <types>DocumentObject.ВосстановлениеВДолжности</types>
+    <types>DocumentObject.ОплатаДнейУходаЗаДетьмиИнвалидами</types>
+    <types>DocumentObject.ВозвратИзОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentObject.ОплатаПоСреднемуЗаработку</types>
+    <types>DocumentObject.ПриемНаРаботуСписком</types>
+    <types>DocumentObject.НачальнаяШтатнаяРасстановка</types>
+    <types>DocumentObject.КадровыйПеревод</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплаты</types>
+    <types>DocumentObject.УвольнениеСписком</types>
+    <types>DocumentObject.ОтпускБезСохраненияОплатыСписком</types>
+    <types>DocumentObject.НазначениеПодработки</types>
+    <types>DocumentObject.ПростойСотрудников</types>
+    <types>DocumentObject.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</types>
+    <types>DocumentObject.КадровыйПереводСписком</types>
+    <types>DocumentObject.БольничныйЛист</types>
+    <types>DocumentObject.Командировка</types>
+    <types>DocumentObject.ПериодыОплаченныеДоНачалаЭксплуатации</types>
+    <types>DocumentObject.Отгул</types>
+    <types>DocumentObject.ПрекращениеПодработки</types>
+    <types>DocumentObject.Отпуск</types>
+    <types>DocumentObject.СторнированиеНачислений</types>
+    <types>DocumentObject.ПриемНаРаботу</types>
+    <types>DocumentObject.ПереносДанных</types>
+    <types>DocumentObject.ПрогулНеявка</types>
+    <types>DocumentObject.Увольнение</types>
+    <types>DocumentObject.ОтпускПоУходуЗаРебенком</types>
+  </type>
+</mdclass:DefinedType>

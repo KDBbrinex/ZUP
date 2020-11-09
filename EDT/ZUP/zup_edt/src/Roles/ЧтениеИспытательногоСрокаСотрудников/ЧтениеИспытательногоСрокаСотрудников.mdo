@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec42be7-4bfa-4e96-9fb2-db8ea507bf5a">
+  <name>ЧтениеИспытательногоСрокаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение испытательного срока сотрудников</value>
+  </synonym>
+</mdclass:Role>

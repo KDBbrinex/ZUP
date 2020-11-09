@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3a58da0-da1a-4848-bb9c-d044135889be">
+  <name>ДобавлениеИзменениеРасчетовСБюджетомПоНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение расчетов с бюджетом по НДФЛ</value>
+  </synonym>
+</mdclass:Role>

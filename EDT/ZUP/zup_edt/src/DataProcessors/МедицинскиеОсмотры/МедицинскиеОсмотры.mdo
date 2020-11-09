@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19bfa96-e4d5-4fd9-afda-3f3311269c48">
+  <producedTypes>
+    <objectType typeId="2342502c-dd55-4b69-8227-971a0fc4fe4b" valueTypeId="2f80d030-20b0-4d39-8af2-a3deb30e8f0c"/>
+    <managerType typeId="fb71e666-e3b2-489b-9e64-7cb61ad43984" valueTypeId="6e586327-518d-4ce7-8876-9c54ca3f7c51"/>
+  </producedTypes>
+  <name>МедицинскиеОсмотры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские осмотры</value>
+  </synonym>
+  <defaultForm>DataProcessor.МедицинскиеОсмотры.Form.Форма</defaultForm>
+  <forms uuid="e50fca60-a66d-4dc8-8585-7fd3149334ba">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="166f4ae5-507f-490d-ba8c-cbd1c855138b">
+    <name>ВыборПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор позиции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="076e0023-4cb2-42fc-81ae-fd2724f8c605">
+    <name>ЗаполнениеНаправлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение направлений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d60f13e4-bc74-4111-abed-b04d49ee4faa">
+    <name>ЗаполнениеЗаключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение заключений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="0cb5e67b-eee7-473f-ab5d-ea6123676e7a">
+    <name>МедицинскиеОсмотры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинские осмотры</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

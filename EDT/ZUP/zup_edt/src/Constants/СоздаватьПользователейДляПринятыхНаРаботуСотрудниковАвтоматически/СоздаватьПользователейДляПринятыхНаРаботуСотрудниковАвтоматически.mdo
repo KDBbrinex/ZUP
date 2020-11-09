@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db69439-76dc-4d6d-9808-21b05747e577">
+  <producedTypes>
+    <managerType typeId="63a0c4df-f2b9-4f15-9c28-d068eb5d23e2" valueTypeId="95284099-4db8-4c9d-9b00-0030c49feee1"/>
+    <valueManagerType typeId="ff3a383b-56ab-43f3-af9d-9a3f362ef9df" valueTypeId="a5dab142-2ebf-4b28-8665-ebd7090bf293"/>
+    <valueKeyType typeId="2f185a0d-657e-5c3f-bef0-f79edfb7be35" valueTypeId="21f5fdf8-d155-5388-879a-d5ba3fd34f22"/>
+  </producedTypes>
+  <name>СоздаватьПользователейДляПринятыхНаРаботуСотрудниковАвтоматически</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создавать пользователей для принятых на работу сотрудников автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

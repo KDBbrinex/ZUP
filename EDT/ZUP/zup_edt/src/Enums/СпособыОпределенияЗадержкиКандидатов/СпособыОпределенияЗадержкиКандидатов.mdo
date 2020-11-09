@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63ed179d-6ead-41b8-9773-ab42adce573b">
+  <producedTypes>
+    <refType typeId="97623bda-d085-4461-83dd-ee4d12479c54" valueTypeId="fe1cba64-0a01-4214-8adc-931ec85d9a68"/>
+    <listType typeId="558edd30-96ee-4216-85d2-d3764cb33370" valueTypeId="586d6b8c-a6b0-4bf0-99e6-87281cedbbe8"/>
+    <managerType typeId="ec9f22a4-87d0-485e-903a-ba6f541621dd" valueTypeId="58f052d7-6a53-42a9-9147-a332465b1510"/>
+  </producedTypes>
+  <name>СпособыОпределенияЗадержкиКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы определения задержки кандидатов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7101a3f1-02de-449a-ba17-743a57f63eaa">
+    <name>КакЗаданоВНастройках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Как задано в настройках</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f72619af-63e8-44cd-989b-45a3c0b96422">
+    <name>КакЗаданоВЭтапе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Как задано в этапе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

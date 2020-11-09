@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf9003c6-c6b8-4edc-a3e4-a0612cc18b58">
+  <name>ПФ_MXL_РасчетныйЛистокДляСервисаКабинетСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетный листок для сервиса 1С:Кабинет сотрудника</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="655f2a7f-5c84-4e75-9840-d6e9b2e13414">
+  <name>ЗарегистрироватьИзменениеКадровойИсторииДляМедосмотров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать изменение кадровой истории для медосмотров</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.КадроваяИсторияСотрудников</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.МедицинскиеОсмотры.ЗарегистрироватьИзменениеКадровойИсторииДляМедосмотровПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9958627c-29cd-4a09-9701-c4f2ab6e93fd">
+  <producedTypes>
+    <objectType typeId="17705281-31c1-4826-81d3-c1c20323b8cc" valueTypeId="5677c9d9-f803-46b2-a4e4-14d6a68a517a"/>
+    <managerType typeId="68b367c8-ce7b-4bfc-8de0-dcfc725a1a16" valueTypeId="13e3014a-0df8-4837-b680-dc664ec45c37"/>
+  </producedTypes>
+  <name>РасчетыСБюджетомПоНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с бюджетом по НДФЛ</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.РасчетыСБюджетомПоНДФЛ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="38cdf51f-03eb-4d77-a34f-7bb65d659d9c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

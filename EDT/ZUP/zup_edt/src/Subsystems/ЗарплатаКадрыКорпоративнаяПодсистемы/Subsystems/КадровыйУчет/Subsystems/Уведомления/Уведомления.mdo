@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79bc73f3-edd8-4830-acf1-a17429ca4dd7">
+  <name>Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.КадровыйУчетУведомления</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыКорпоративнаяПодсистемы.Subsystem.КадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

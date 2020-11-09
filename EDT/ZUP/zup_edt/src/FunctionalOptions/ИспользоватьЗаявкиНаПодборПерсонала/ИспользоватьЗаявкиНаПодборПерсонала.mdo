@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4c37faf-653c-448b-9cbb-f41733136aa0">
+  <name>ИспользоватьЗаявкиНаПодборПерсонала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заявки на подбор персонала</value>
+  </synonym>
+  <location>InformationRegister.НастройкиПодбораПерсонала.Resource.ИспользоватьЗаявкиНаПодборПерсонала</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗаявкаНаПодборПерсонала</content>
+  <content>Catalog.Вакансии.Attribute.Основание</content>
+</mdclass:FunctionalOption>

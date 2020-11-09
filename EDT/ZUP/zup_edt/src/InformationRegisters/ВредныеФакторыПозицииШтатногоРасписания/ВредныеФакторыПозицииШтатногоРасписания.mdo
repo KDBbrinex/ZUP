@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb4e6226-1961-4a78-89e2-79e9d920fccb">
+  <producedTypes>
+    <selectionType typeId="c2361eaf-9429-4593-aeef-815dbe8a221a" valueTypeId="17f67e53-8aee-4fa2-b447-e082c553b35f"/>
+    <listType typeId="acba34c8-caf0-461f-9a7c-58505cfc33e8" valueTypeId="1b78bef4-7610-4b61-a848-ed8f45589bc0"/>
+    <managerType typeId="f5b20546-0cc9-4e1f-a890-33f1d6f69b8e" valueTypeId="77f9e7bc-cc34-4ff4-bbb6-0d26bea3569d"/>
+    <recordSetType typeId="b55ebdb5-efb6-4691-87eb-379f13353669" valueTypeId="9624f23c-95e7-4d16-8012-5ffb8c0bc4e8"/>
+    <recordKeyType typeId="260eb308-7bf6-4c3b-a278-9c39b34c3486" valueTypeId="481b81fa-c33b-4de2-90a3-04daf3affe57"/>
+    <recordType typeId="ecc86bfa-8004-4133-9adc-dc3e2d38d4e6" valueTypeId="67cf4c22-fa03-4a1b-ba2b-9492daf2f073"/>
+    <recordManagerType typeId="f9e4c656-1723-431e-9425-392cb659d7b3" valueTypeId="11365d65-032f-4ff1-9b91-32ed0fdcfb7a"/>
+  </producedTypes>
+  <name>ВредныеФакторыПозицииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вредные факторы позиции штатного расписания</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2ef2b41a-f8a4-4cf5-b9ac-a048c9278d33">
+    <name>Позиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Позиция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШтатноеРасписание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7517efe2-1d7d-4be6-af66-15d303de4d32">
+    <name>ВредныйФактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВредныеОпасныеПроизводственныеФакторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

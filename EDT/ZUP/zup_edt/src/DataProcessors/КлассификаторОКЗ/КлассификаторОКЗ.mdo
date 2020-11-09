@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28868b33-026c-438a-9d61-4de03c300877">
+  <producedTypes>
+    <objectType typeId="e116de62-0f67-4f21-9568-781f4bbfb250" valueTypeId="5e8f491c-a61f-40c7-acd8-ed21a6af2868"/>
+    <managerType typeId="90e378c5-c748-43c1-8b72-8ca670cca2df" valueTypeId="5f8b3f95-6e72-4bd1-97f8-1ee9ad50733e"/>
+  </producedTypes>
+  <name>КлассификаторОКЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор ОКЗ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КлассификаторОКЗ.Form.ВыборОКЗ</defaultForm>
+  <forms uuid="d8d88bb2-ac47-4bf3-9400-e4ffa9c1347b">
+    <name>ВыборОКЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор ОКЗ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b0ed5e25-a89c-437e-858a-2e0557f294e9">
+    <name>КлассификаторОКЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общероссийский классификатор занятий</value>
+    </synonym>
+    <comment>АПК:58 официальное название классификатора</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

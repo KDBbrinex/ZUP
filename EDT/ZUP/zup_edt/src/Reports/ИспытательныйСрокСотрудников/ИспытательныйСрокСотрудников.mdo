@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="164271ae-48d3-4313-8a6f-6c6a91917fce">
+  <producedTypes>
+    <objectType typeId="b67a38fa-1168-426e-9b79-52f9e818afc0" valueTypeId="f29b01e0-22d5-4860-855e-0644592b1cf2"/>
+    <managerType typeId="84e78901-771e-45f1-8156-a2e322fe7783" valueTypeId="b7140f1e-9af4-4396-9795-7239c4396e68"/>
+  </producedTypes>
+  <name>ИспытательныйСрокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытательный срок сотрудников</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИспытательныйСрокСотрудников.Template.ИспытательныйСрокСотрудников</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="7b67d94c-dc6a-40ef-8acc-22c1fb9167cf">
+    <name>ИспытательныйСрокСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испытательный срок сотрудников</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

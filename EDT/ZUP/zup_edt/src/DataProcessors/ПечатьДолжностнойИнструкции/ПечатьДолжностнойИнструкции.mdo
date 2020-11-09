@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ceeee8e-09d0-42a0-baba-8761678bfde4">
+  <producedTypes>
+    <objectType typeId="d82cee84-fac7-4f6f-b254-6ecac75d2eb1" valueTypeId="ba085e0e-be4a-436a-b970-427a8ff5824e"/>
+    <managerType typeId="a3f3850c-9c25-4516-889a-78d7362c4a49" valueTypeId="b76b8609-5e19-476b-9c58-a2d60cd6ffed"/>
+  </producedTypes>
+  <name>ПечатьДолжностнойИнструкции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать должностной инструкции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="841833fe-3fb9-4df8-9114-2ff476c1dc52">
+    <name>ПФ_MXL_ДолжностнаяИнструкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должностная инструкция</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed777611-4345-48a4-8771-4c87762bc657">
+    <name>ПФ_DOC_ДолжностнаяИнструкция_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должностная инструкция (документ Office Open XML)</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="370ee379-2dc5-4c51-9841-2cd9c3d8cae4">
+  <producedTypes>
+    <selectionType typeId="50264a1f-221b-4202-873d-11e6be20b297" valueTypeId="ab7318cc-3486-44fe-9f42-ef99798a17b2"/>
+    <listType typeId="31e59a4b-78b6-4afa-8d8a-6c4598f36421" valueTypeId="f54e1039-0200-4107-9395-3d105cad5b88"/>
+    <managerType typeId="fa6b4c5b-bbae-4ca0-96fb-21dd251ab126" valueTypeId="0027b2fb-0edb-47ae-88c9-c2c61c40f97f"/>
+    <recordSetType typeId="8ef490f3-f630-4c8d-b4fc-93b539a2edbc" valueTypeId="23551211-1145-4526-817f-a7368a55a77c"/>
+    <recordKeyType typeId="c9dec0d8-cdc1-4078-9337-e46e29065233" valueTypeId="0b0223a2-d78b-493f-a04f-31ecdcfc882d"/>
+    <recordType typeId="877a4970-4852-4e0a-b321-c5338b775cd8" valueTypeId="b99d5a61-e5c9-4501-b8b9-0ec697873ba9"/>
+    <recordManagerType typeId="564183b5-7a4c-4745-b265-bcfbf2f710f8" valueTypeId="9245673b-ccff-453e-84f4-c29155473d14"/>
+  </producedTypes>
+  <name>МедицинскиеОсмотрыПоВреднымФакторам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Медицинские осмотры по вредным факторам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e0f8a05-73c0-4f78-bbea-ffb706eceac4">
+    <name>РезультатОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатыМедицинскогоОсмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bdabc04d-06b9-49d7-9d5e-54acc5838809">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.НаправлениеНаМедицинскийОсмотр</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b085d259-1626-4551-b10b-f89ad3ecf853">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d8d87b2-a60d-4659-9cc9-700ae80c1fe5">
+    <name>ГоловнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Головная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fa9cd0de-3685-421d-8f5d-ef6846bf09ff">
+    <name>ВредныйФактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вредный фактор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВредныеОпасныеПроизводственныеФакторы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

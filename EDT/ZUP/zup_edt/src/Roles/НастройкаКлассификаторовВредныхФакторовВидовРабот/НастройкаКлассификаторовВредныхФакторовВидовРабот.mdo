@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f057213-5696-47a7-8678-8a62adb02231">
+  <name>НастройкаКлассификаторовВредныхФакторовВидовРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка классификаторов вредных факторов и видов работ</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27a1fb45-8512-4c96-a073-00c1c00ddd75">
+  <producedTypes>
+    <managerType typeId="961f39f4-348c-4811-a993-49034153a6a9" valueTypeId="ee4d57ac-5cd0-4742-adaf-d7a0260db9be"/>
+    <valueManagerType typeId="1109b344-d37d-451b-9b0e-abf4e0a78687" valueTypeId="c1e11ddf-a54a-494c-a736-94228f696a26"/>
+    <valueKeyType typeId="de071d4f-d1b6-5c92-afb7-484bb4617d35" valueTypeId="18c7c5ff-8c9d-5fd5-bb41-4225247bdbc0"/>
+  </producedTypes>
+  <name>ИспользоватьМедицинскиеОсмотры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать медицинские осмотры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

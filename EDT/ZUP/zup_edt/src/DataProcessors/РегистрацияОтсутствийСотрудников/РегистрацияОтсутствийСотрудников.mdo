@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5af8e589-d41a-41b2-ba4b-98dfae0d5600">
+  <producedTypes>
+    <objectType typeId="6a730597-6621-4c21-a6ba-388875742ae8" valueTypeId="e942415f-b8d9-42ef-9ba8-cb53b69bb048"/>
+    <managerType typeId="cbeeea5f-043a-4855-88aa-21ec97faa239" valueTypeId="88eec21f-2b2f-43d4-b002-16cfa2fa36d3"/>
+  </producedTypes>
+  <name>РегистрацияОтсутствийСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация отсутствий сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегистрацияОтсутствийСотрудников.Form.Форма</defaultForm>
+  <forms uuid="8b716af5-fcf7-4450-a3ab-cd2eddafa258">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e45f27b-4b72-4cd2-8c69-436b0185b0c8">
+    <name>ФормаСозданияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

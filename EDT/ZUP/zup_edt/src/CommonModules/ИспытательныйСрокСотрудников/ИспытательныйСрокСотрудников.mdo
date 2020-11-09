@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e72ebd18-9a17-4dd8-b9a1-87f5f5a60e65">
+  <name>ИспытательныйСрокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытательный срок сотрудников</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

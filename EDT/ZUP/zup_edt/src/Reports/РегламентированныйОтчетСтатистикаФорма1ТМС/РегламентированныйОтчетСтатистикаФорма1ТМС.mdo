@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c78ec100-f86b-41d4-a1a4-69de0161bf02">
+  <producedTypes>
+    <objectType typeId="3246b4f6-381e-4d04-8746-54483abee89c" valueTypeId="18d07402-483b-4476-8b33-c36a80d72df0"/>
+    <managerType typeId="4e5f4fcc-46d7-47d5-a062-8381e735392e" valueTypeId="1ac780ef-a06c-45ad-98d8-131c1a64653a"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетСтатистикаФорма1ТМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма 1-Т (МС) &quot;Сведения о численности и фонде заработной платы, дополнительном профессиональном образовании муниципальных служащих&quot;</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетСтатистикаФорма1ТМС.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="340a30a2-f1d8-4af0-9f2f-82352f884da7">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика: Форма 1-Т (МС)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ad87c3f8-4de1-46f7-b104-1c586bbf5ada">
+    <name>ФормаОтчета2020Кв1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 1-Т (МС)</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c50a8771-71cc-400c-aeba-9877d6aac012">
+    <name>ФормаОтчета2020Кв1_ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета2020 кв1 форма отчета</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

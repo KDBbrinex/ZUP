@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0595dfed-9024-46a4-b504-e9b7b4a8c3c1">
+  <name>ОтклонятьКандидатовЗадержавшихсяНаОдномЭтапе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонять кандидатов задержавшихся на одном этапе</value>
+  </synonym>
+  <location>Constant.ОтклонятьКандидатовЗадержавшихсяНаОдномЭтапе</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ЭтапыРаботыСКандидатами.Attribute.ДнейДоОтклонения</content>
+  <content>Catalog.ЭтапыРаботыСКандидатами.Attribute.ОтклонятьЗадержавшихсяКандидатов</content>
+  <content>Enum.СпособыОпределенияЗадержкиКандидатов</content>
+</mdclass:FunctionalOption>

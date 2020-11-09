@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Показатель</dataPath>
+			<field>Показатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показатель</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Горизонт</dataPath>
+			<field>Горизонт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Горизонт</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:EnumRef.Периодичность</v8:Type>
+			</valueType>
+			<availableValue>
+				<value xsi:type="dcscor:DesignTimeValue">Перечисление.Периодичность.Месяц</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Месяц</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="dcscor:DesignTimeValue">Перечисление.Периодичность.Квартал</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Квартал</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="dcscor:DesignTimeValue">Перечисление.Периодичность.Полугодие</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Полугодие</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="dcscor:DesignTimeValue">Перечисление.Периодичность.Год</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Год</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Позиция</dataPath>
+			<field>Позиция</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Позиция</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Факт</dataPath>
+			<field>Факт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>План</dataPath>
+			<field>План</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2; ЧН=0,00</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистратор</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ПоказателиЭффективностиПозицийСрезПоследних.Горизонт КАК Горизонт,
+	ПоказателиЭффективностиПозицийСрезПоследних.Позиция КАК Позиция,
+	ПоказателиЭффективностиПозицийСрезПоследних.Показатель КАК Показатель
+ПОМЕСТИТЬ ВТНазначенныеПоказатели
+ИЗ
+	РегистрСведений.ПоказателиЭффективностиПозиций.СрезПоследних({(&amp;ДатаОкончания)}, ) КАК ПоказателиЭффективностиПозицийСрезПоследних
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Сотрудники.Ссылка КАК Сотрудник,
+	&amp;ДатаНачала КАК НачалоПериода,
+	&amp;ДатаОкончания КАК ОкончаниеПериода
+ПОМЕСТИТЬ ВТСотрудникиПериоды
+ИЗ
+	Справочник.Сотрудники КАК Сотрудники
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ДАТАВРЕМЯ(1, 1, 1) КАК Период,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	ЗНАЧЕНИЕ(Справочник.ШтатноеРасписание.ПустаяСсылка) КАК ДолжностьПоШтатномуРасписанию,
+	ЗНАЧЕНИЕ(Перечисление.ВидыКадровыхСобытий.ПустаяСсылка) КАК ВидСобытия
+ПОМЕСТИТЬ Представления_РабочиеМестаСотрудников
+ИЗ
+	ВТСотрудникиПериоды КАК ВТСотрудникиПериоды
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Представления_РабочиеМестаСотрудников.Сотрудник КАК Сотрудник,
+	Представления_РабочиеМестаСотрудников.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
+	МестоПозицииШтатногоРасписанияВСтруктуреПредприятия.Подразделение КАК МестоВСтруктуреПредприятия
+ПОМЕСТИТЬ ВТМестаРаботыСотрудников
+ИЗ
+	Представления_РабочиеМестаСотрудников КАК Представления_РабочиеМестаСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.МестоПозицииШтатногоРасписанияВСтруктуреПредприятия КАК МестоПозицииШтатногоРасписанияВСтруктуреПредприятия
+		ПО Представления_РабочиеМестаСотрудников.ДолжностьПоШтатномуРасписанию = МестоПозицииШтатногоРасписанияВСтруктуреПредприятия.Позиция
+ГДЕ
+	Представления_РабочиеМестаСотрудников.ВидСобытия &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыКадровыхСобытий.Увольнение)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТНазначенныеПоказатели.Горизонт КАК Горизонт,
+	ВТНазначенныеПоказатели.Показатель КАК Показатель,
+	ВТМестаРаботыСотрудников.Сотрудник КАК Сотрудник,
+	ВТМестаРаботыСотрудников.МестоВСтруктуреПредприятия КАК Подразделение,
+	ВТНазначенныеПоказатели.Позиция КАК Позиция
+ПОМЕСТИТЬ ВТДействующиеПоказателиСотрудников
+ИЗ
+	ВТНазначенныеПоказатели КАК ВТНазначенныеПоказатели
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТМестаРаботыСотрудников КАК ВТМестаРаботыСотрудников
+		ПО ВТНазначенныеПоказатели.Позиция = ВТМестаРаботыСотрудников.ДолжностьПоШтатномуРасписанию
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТДействующиеПоказателиСотрудников.Горизонт КАК Горизонт,
+	ВТДействующиеПоказателиСотрудников.Показатель КАК Показатель,
+	ВТДействующиеПоказателиСотрудников.Сотрудник КАК Сотрудник,
+	ВТДействующиеПоказателиСотрудников.Позиция КАК Позиция,
+	ПлановыеЗначенияПоказателейЭффективностиСотрудников.ПериодДействия КАК Период,
+	ПлановыеЗначенияПоказателейЭффективностиСотрудников.Значение КАК План,
+	ПлановыеЗначенияПоказателейЭффективностиСотрудников.Регистратор КАК Регистратор
+ПОМЕСТИТЬ ВТВведенныеЗначенияСотрудников
+ИЗ
+	РегистрСведений.ПлановыеЗначенияПоказателейЭффективностиСотрудников КАК ПлановыеЗначенияПоказателейЭффективностиСотрудников
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТДействующиеПоказателиСотрудников КАК ВТДействующиеПоказателиСотрудников
+		ПО ПлановыеЗначенияПоказателейЭффективностиСотрудников.Горизонт = ВТДействующиеПоказателиСотрудников.Горизонт
+			И ПлановыеЗначенияПоказателейЭффективностиСотрудников.Сотрудник = ВТДействующиеПоказателиСотрудников.Сотрудник
+			И ПлановыеЗначенияПоказателейЭффективностиСотрудников.Показатель = ВТДействующиеПоказателиСотрудников.Показатель
+			И ПлановыеЗначенияПоказателейЭффективностиСотрудников.Позиция = ВТДействующиеПоказателиСотрудников.Позиция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТДействующиеПоказателиСотрудников.Горизонт КАК Горизонт,
+	ВТДействующиеПоказателиСотрудников.Показатель КАК Показатель,
+	ВТДействующиеПоказателиСотрудников.Сотрудник КАК Сотрудник,
+	ВТДействующиеПоказателиСотрудников.Позиция КАК Позиция,
+	ПлановыеЗначенияПозиций.ПериодДействия КАК Период,
+	ПлановыеЗначенияПозиций.Значение КАК План,
+	NULL КАК Факт,
+	ПлановыеЗначенияПозиций.Регистратор КАК Регистратор
+ПОМЕСТИТЬ ВТВведенныеЗначения
+ИЗ
+	ВТДействующиеПоказателиСотрудников КАК ВТДействующиеПоказателиСотрудников
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ПлановыеЗначенияПоказателейЭффективностиПозиций КАК ПлановыеЗначенияПозиций
+		ПО ВТДействующиеПоказателиСотрудников.Горизонт = ПлановыеЗначенияПозиций.Горизонт
+			И ВТДействующиеПоказателиСотрудников.Показатель = ПлановыеЗначенияПозиций.Показатель
+			И ВТДействующиеПоказателиСотрудников.Позиция = ПлановыеЗначенияПозиций.Позиция
+			И (ПлановыеЗначенияПозиций.ПериодДействия МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания)
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТВведенныеЗначенияСотрудников КАК ВТВведенныеЗначенияСотрудников
+		ПО ВТДействующиеПоказателиСотрудников.Горизонт = ВТВведенныеЗначенияСотрудников.Горизонт
+			И ВТДействующиеПоказателиСотрудников.Показатель = ВТВведенныеЗначенияСотрудников.Показатель
+			И ВТДействующиеПоказателиСотрудников.Позиция = ВТВведенныеЗначенияСотрудников.Позиция
+ГДЕ
+	ВТВведенныеЗначенияСотрудников.Сотрудник ЕСТЬ NULL
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТВведенныеЗначенияСотрудников.Горизонт,
+	ВТВведенныеЗначенияСотрудников.Показатель,
+	ВТВведенныеЗначенияСотрудников.Сотрудник,
+	ВТВведенныеЗначенияСотрудников.Позиция,
+	ВТВведенныеЗначенияСотрудников.Период,
+	ВТВведенныеЗначенияСотрудников.План,
+	NULL,
+	ВТВведенныеЗначенияСотрудников.Регистратор
+ИЗ
+	ВТВведенныеЗначенияСотрудников КАК ВТВведенныеЗначенияСотрудников
+ГДЕ
+	ВТВведенныеЗначенияСотрудников.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТДействующиеПоказателиСотрудников.Горизонт,
+	ВТДействующиеПоказателиСотрудников.Показатель,
+	ВТДействующиеПоказателиСотрудников.Сотрудник,
+	ВТДействующиеПоказателиСотрудников.Позиция,
+	ФактическиеЗначенияСотрудников.Период,
+	NULL,
+	ФактическиеЗначенияСотрудников.Значение,
+	ФактическиеЗначенияСотрудников.Регистратор
+ИЗ
+	РегистрНакопления.ФактическиеЗначенияПоказателейЭффективностиСотрудников КАК ФактическиеЗначенияСотрудников
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТДействующиеПоказателиСотрудников КАК ВТДействующиеПоказателиСотрудников
+		ПО ФактическиеЗначенияСотрудников.Горизонт = ВТДействующиеПоказателиСотрудников.Горизонт
+			И ФактическиеЗначенияСотрудников.Сотрудник = ВТДействующиеПоказателиСотрудников.Сотрудник
+			И ФактическиеЗначенияСотрудников.Показатель = ВТДействующиеПоказателиСотрудников.Показатель
+			И ФактическиеЗначенияСотрудников.Позиция = ВТДействующиеПоказателиСотрудников.Позиция
+			И (ФактическиеЗначенияСотрудников.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТДействующиеПоказателиСотрудников.Горизонт КАК Горизонт,
+	ВТДействующиеПоказателиСотрудников.Показатель КАК Показатель,
+	ВТДействующиеПоказателиСотрудников.Сотрудник КАК Сотрудник,
+	ВТДействующиеПоказателиСотрудников.Позиция КАК Позиция,
+	ВТДействующиеПоказателиСотрудников.Подразделение КАК Подразделение,
+	ВТВведенныеЗначения.Период КАК Период,
+	ВТВведенныеЗначения.План КАК План,
+	ВТВведенныеЗначения.Факт КАК Факт,
+	ВТВведенныеЗначения.Регистратор КАК Регистратор
+ИЗ
+	ВТДействующиеПоказателиСотрудников КАК ВТДействующиеПоказателиСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТВведенныеЗначения КАК ВТВведенныеЗначения
+		ПО ВТДействующиеПоказателиСотрудников.Горизонт = ВТВведенныеЗначения.Горизонт
+			И ВТДействующиеПоказателиСотрудников.Показатель = ВТВведенныеЗначения.Показатель
+			И ВТДействующиеПоказателиСотрудников.Сотрудник = ВТВведенныеЗначения.Сотрудник
+			И ВТДействующиеПоказателиСотрудников.Позиция = ВТВведенныеЗначения.Позиция</query>
+	</dataSet>
+	<totalField>
+		<dataPath>План</dataPath>
+		<expression>Сумма(План)</expression>
+		<group>Горизонт</group>
+	</totalField>
+	<totalField>
+		<dataPath>Факт</dataPath>
+		<expression>Сумма(Факт)</expression>
+		<group>Горизонт</group>
+	</totalField>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПлановыеИФактическиеЗначенияПоказателейСотрудников</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Плановые и фактические значения показателей сотрудников</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>План</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Факт</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Позиция</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>62284cbc-69cf-4442-ac01-f4bec66f4606</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>OrGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">План</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Факт</dcsset:left>
+						<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только заполненные</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только со значениями</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemGroup">
+					<dcsset:groupType>AndGroup</dcsset:groupType>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Период</dcsset:left>
+						<dcsset:comparisonType>GreaterOrEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">ПараметрыДанных.ДатаНачала</dcsset:right>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Период</dcsset:left>
+						<dcsset:comparisonType>LessOrEqual</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:Field">ПараметрыДанных.ДатаОкончания</dcsset:right>
+					</dcsset:item>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отбор по периоду</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:viewMode>Inaccessible</dcsset:viewMode>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>fc99c35a-053f-4a89-af61-7fc5baa77329</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаНачала</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДатаОкончания</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="style:TextFont" kind="StyleItem" scale="140"/>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значения показателей эффективности сотрудников</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Сотрудник</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Позиция</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:conditionalAppearance>
+					<dcsset:item>
+						<dcsset:selection/>
+						<dcsset:filter/>
+						<dcsset:appearance>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:use>false</dcscor:use>
+								<dcscor:parameter>ЦветФона</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Color">style:ToolTipBackColor</dcscor:value>
+							</dcscor:item>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:parameter>Шрифт</dcscor:parameter>
+								<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" kind="WindowsFont" scale="130"/>
+							</dcscor:item>
+						</dcsset:appearance>
+						<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+						<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+						<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+						<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+						<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+					</dcsset:item>
+				</dcsset:conditionalAppearance>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Показатель</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+							<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+							<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+							<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+							<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Горизонт</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Период</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>Регистратор</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

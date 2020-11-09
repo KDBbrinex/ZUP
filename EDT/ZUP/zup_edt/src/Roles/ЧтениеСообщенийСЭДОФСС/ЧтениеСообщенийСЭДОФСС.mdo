@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59cf369a-aad8-427e-a819-bffc1754cb50">
+  <name>ЧтениеСообщенийСЭДОФСС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение сообщений СЭДО ФСС</value>
+  </synonym>
+</mdclass:Role>

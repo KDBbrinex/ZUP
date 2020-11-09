@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c3c02be-3757-474d-8a35-dcc7ce3870c6">
+  <producedTypes>
+    <refType typeId="3f7e3bd6-8425-4c73-8c5c-5434ea336f6e" valueTypeId="e0e0db28-915a-40d9-9374-dfb01b7e2ab8"/>
+    <listType typeId="e03a15ef-7b37-4f5f-ab75-f5ddff0f87ac" valueTypeId="e59e8d02-8c24-4b0e-9652-99993466b983"/>
+    <managerType typeId="70369ed3-7393-4c24-8fb4-c05c2e533b95" valueTypeId="8fcaeec4-af43-4ea8-8fb9-750c9a0ad879"/>
+  </producedTypes>
+  <name>ТипыМедицинскогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы медицинского осмотра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b94cf57-736b-4157-958b-e7f88c08950e">
+    <name>Предварительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4131e315-b869-43ea-bd4c-7d89301aa53a">
+    <name>Периодический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a83ccd6a-e05c-45f3-9f00-077a838a3d56">
+    <name>Внеплановый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внеплановый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
