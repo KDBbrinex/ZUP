@@ -3289,6 +3289,7 @@
   <commonModules>CommonModule.ЭлектронныйДокументооборотСФСС</commonModules>
   <commonModules>CommonModule.ЭлектронныйДокументооборотСФССКлиент</commonModules>
   <commonModules>CommonModule.ЭлектронныйДокументооборотСФССПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбщийМодульНовый</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
